@@ -1,0 +1,22 @@
+.HeaderInner{
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+}
+
+.BodyInner{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    font-size: 50px;
+    background-image: url(../images/intro.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.FooterInner{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
