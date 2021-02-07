@@ -1,7 +1,8 @@
-.HeaderInner{
-    font-family: 'Montserrat', sans-serif;
-    text-align: right;
-}
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+   }
 
 .BodyInner{
     text-align: center;
@@ -13,10 +14,21 @@
     background-size: 100%;
 }
 
+.HeaderInner{
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    font-size: 35px;
+    color: white;
+}
+
 .FooterInner{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: black;
     font-size: 12px;
     font-weight: bold;
+}
+
+.ico{
+    width: 5%;
 }
