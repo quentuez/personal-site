@@ -20,14 +20,23 @@
     font-size: 25px;
 }
 
+
+.AboutMeInner{
+    height: 800px;
+}
+
+.Contacts{
+    height: 800px;
+}
+
+.ico{
+    width: 5%;
+}
+
 .FooterInner{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: black;
     font-size: 12px;
     font-weight: bold;
-}
-
-.ico{
-    width: 5%;
 }
