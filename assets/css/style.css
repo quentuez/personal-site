@@ -22,9 +22,21 @@
 
 .HeaderInner {
     font-family: 'Source Serif Pro', serif;
-    
     font-size: 25px;
     position: fixed;
+}
+
+.HeaderInner:link {
+    color: yellow;
+}
+
+
+.HeaderInner:active {
+    color: orange;
+}
+
+.HeaderInner:visited {
+    color: red;
 }
 
 .AboutMeInner {
