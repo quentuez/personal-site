@@ -22,8 +22,9 @@
 
 .HeaderInner {
     font-family: 'Source Serif Pro', serif;
-    text-align: right;
+    
     font-size: 25px;
+    position: fixed;
 }
 
 .AboutMeInner {
