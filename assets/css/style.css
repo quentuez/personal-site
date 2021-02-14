@@ -4,14 +4,20 @@
     scroll-behavior: smooth;
    }
 
-.BodyInner {
+/* .pext:not(:empty) {
+    color: red;
+} */
+
+   .BodyInner {
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
     color: black;
     font-size: 50px;
-    background-image: url(../images/intro.jpg);
-    background-repeat: no-repeat;
+    background: 
+        url(../images/intro.jpg)
+        no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 .HeaderInner {
@@ -20,9 +26,22 @@
     font-size: 25px;
 }
 
-
 .AboutMeInner {
     height: 800px;
+}
+
+div p::first-letter {
+    color: green;
+}
+
+div p::before {
+    background:
+        url(../images/small_ico/duck.png);
+    background-size: 100px 100px;
+    display: inline-block;
+    width: 100px; 
+    height: 100px;
+    content:"";
 }
 
 div p i b {
@@ -36,6 +55,9 @@ div p i b {
 .RandomStuffLink {
     text-decoration: none;
 }
+.RandomStuffLink:visited {
+    color: white;
+}
 
 .ico {
     width: 10%;
@@ -46,6 +68,8 @@ div p i b {
     border: 3px solid #f26522;
     cursor: pointer;
 }
+
+
 
 .FooterInner {
     text-align: center;
