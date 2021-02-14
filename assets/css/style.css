@@ -26,14 +26,17 @@
     position: fixed;
 }
 
+/* не работает link */
 .HeaderInner:link {
     color: yellow;
 }
 
+/* не работает active */
 .HeaderInner:active {
     color: orange;
 }
 
+/* не работает visited */
 .HeaderInner:visited {
     color: red;
 }
@@ -42,6 +45,7 @@
     height: 800px;
 }
 
+/* не работает first-letter */
 div p::first-letter {
     color: green;
 }
@@ -57,7 +61,8 @@ div p::before {
 }
 
 div p i b {
-    font-size: 150px;
+    font-size: 50px;
+    letter-spacing: 50px;
 }
 
 .Contacts {
