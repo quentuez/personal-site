@@ -4,7 +4,7 @@
     scroll-behavior: smooth;
    }
 
-.BodyInner{
+.BodyInner {
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
     color: black;
@@ -14,26 +14,40 @@
     background-size: 100%;
 }
 
-.HeaderInner{
+.HeaderInner {
     font-family: 'Source Serif Pro', serif;
     text-align: right;
     font-size: 25px;
 }
 
 
-.AboutMeInner{
+.AboutMeInner {
     height: 800px;
 }
 
-.Contacts{
+div p i b {
+    font-size: 150px;
+}
+
+.Contacts {
     height: 800px;
 }
 
-.ico{
-    width: 15%;
+.RandomStuffLink {
+    text-decoration: none;
 }
 
-.FooterInner{
+.ico {
+    width: 10%;
+    border: 3px solid #53da3f;
+}
+
+.ico:hover {
+    border: 3px solid #f26522;
+    cursor: pointer;
+}
+
+.FooterInner {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: black;
