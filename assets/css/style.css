@@ -8,21 +8,20 @@
     color: red;
 } */
 
-   .BodyInner {
+.BodyInner {
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
-    color: black;
-    font-size: 50px;
-    background: 
-        url(../images/intro.jpg)
-        no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+    color: white;
+    font-size: 10px;
+    background-image: url(..//images/background.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: black;
 }
 
 .HeaderInner {
     font-family: 'Source Serif Pro', serif;
-    font-size: 50px;
+    font-size: 10px;
     position: fixed;
 }
 
@@ -39,10 +38,6 @@
 /* не работает visited */
 .HeaderInner:visited {
     color: red;
-}
-
-.AboutMeInner {
-    height: 800px;
 }
 
 /* не работает first-letter */
@@ -65,10 +60,6 @@ div p i b {
     letter-spacing: 50px;
 }
 
-.Contacts {
-    height: 800px;
-}
-
 .RandomStuffLink {
     text-decoration: none;
 }
@@ -77,7 +68,7 @@ div p i b {
 }
 
 .ico {
-    width: 10%;
+    width: 5%;
     border: 3px solid #53da3f;
 }
 
@@ -85,8 +76,6 @@ div p i b {
     border: 3px solid #f26522;
     cursor: pointer;
 }
-
-
 
 .FooterInner {
     text-align: center;
