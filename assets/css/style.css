@@ -4,6 +4,10 @@
     scroll-behavior: smooth;
    }
 
+html, body {
+    height:100%;
+}
+
 /* .pext:not(:empty) {
     color: red;
 } */
@@ -17,6 +21,7 @@
     background-position: right;
     background-repeat: no-repeat;
     background-color: black;
+    height: 100%;
 }
 
 .HeaderInner {
