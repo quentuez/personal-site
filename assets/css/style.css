@@ -13,21 +13,25 @@ html, body {
 } */
 
 .BodyInner {
+    height: 100vh;
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
     color: white;
     font-size: 10px;
     background-image: url(..//images/background.jpg);
     background-position: right;
+    background-size: contain;
     background-repeat: no-repeat;
     background-color: black;
-    height: 100%;
+    z-index: 0; 
+    position: relative;
 }
 
 .HeaderInner {
     font-family: 'Source Serif Pro', serif;
     font-size: 10px;
     position: fixed;
+    z-index: 1;
 }
 
 /* не работает link */
