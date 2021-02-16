@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    background: linear-gradient(-45deg, black, white);
     padding: 0;
     scroll-behavior: smooth;
    }
@@ -7,10 +8,6 @@
 html, body {
     height:100%;
 }
-
-/* .pext:not(:empty) {
-    color: red;
-} */
 
 .BodyInner {
     height: 100vh;
@@ -23,6 +20,7 @@ html, body {
     background-size: contain;
     background-repeat: no-repeat;
     background-color: black;
+    
     z-index: 0; 
     position: relative;
 }
@@ -32,26 +30,11 @@ html, body {
     font-size: 10px;
     position: fixed;
     z-index: 1;
-}
-
-/* не работает link */
-.HeaderInner:link {
-    color: yellow;
-}
-
-/* не работает active */
-.HeaderInner:active {
-    color: orange;
-}
-
-/* не работает visited */
-.HeaderInner:visited {
-    color: red;
-}
-
-/* не работает first-letter */
-div p::first-letter {
-    color: green;
+    text-align: left;
+    margin-top: 50vh;
+    margin-right: 100px;
+    font-size: 50px;
+    font-family: 'Arvo', serif;
 }
 
 div p::before {
@@ -87,9 +70,10 @@ div p i b {
 }
 
 .FooterInner {
+    height: 100vh;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    background-color: black;
     font-size: 12px;
     font-weight: bold;
 }
