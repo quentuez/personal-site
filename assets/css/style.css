@@ -2,15 +2,17 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-   }
+}     
 
 html, body {
-    height:100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
 }
 
 .bodyInner {
     height: 100vh;
-    text-align: center;
     font-family: 'Shadows Into Light', cursive;
     color: white;
     font-size: 10px;
@@ -35,16 +37,16 @@ html, body {
     font-family: 'Arvo', serif;
 }
 
-div p i b {
-    font-size: 50px;
-    letter-spacing: 50px;
+.aboutMeInner {
+    height: 33.3vh;
 }
 
-.randomStuffLink {
-    text-decoration: none;
+.worksInner {
+    height: 33.3vh;
 }
-.randomStuffLink:visited {
-    color: white;
+
+.contactsInner {
+    height: 33.3vh;
 }
 
 .ico {
