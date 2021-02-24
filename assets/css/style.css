@@ -53,11 +53,10 @@ html, body {
 }
 
 .ico {
+    margin-right: 50px;
     width: 5%;
-    border: 3px solid #53da3f;
 }
 
 .ico:hover {
-    border: 3px solid #f26522;
     cursor: pointer;
 }
