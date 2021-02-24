@@ -13,40 +13,43 @@ html, body {
 
 .bodyInner {
     height: 100vh;
-    font-family: 'Shadows Into Light', cursive;
-    color: white;
-    font-size: 10px;
+    line-height: 1;
+    font-weight: bold;
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 50px;
     background-image: url(..//images/background.jpg);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: black;
     z-index: 0; 
     position: relative;
 }
 
 .headerInner {
-    font-family: 'Source Serif Pro', serif;
-    font-size: 10px;
+    font-size: 50px;
     position: fixed;
     z-index: 1;
     text-align: left;
     margin-top: 50vh;
-    margin-right: 100px;
-    font-size: 50px;
-    font-family: 'Arvo', serif;
+    margin-right: 100px; 
 }
 
 .aboutMeInner {
+    font-family: 'Special Elite', cursive;
     height: 33.3vh;
+    font-size: 35px;
 }
 
 .worksInner {
+    font-family: 'Special Elite', cursive;
     height: 33.3vh;
+    font-size: 35px;
 }
 
 .contactsInner {
+    font-family: 'Special Elite', cursive;
     height: 33.3vh;
+    font-size: 35px;
 }
 
 .ico {
