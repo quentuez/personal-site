@@ -26,6 +26,8 @@ body {
 .asideInner {
 	position: fixed;
 	text-align: left;
+	font-weight: bolder;
+	line-height: 1.5;
 }
 
 .welcomeStranger {
@@ -33,21 +35,42 @@ body {
 }
 
 .aboutMeInner {
+	background-color: white;
 	font-family: 'Special Elite', cursive;
-	height: 33.3vh;
+	height: 27.6vh;	
 	font-size: 35px;
+	color: black;
 }
 
-.worksInner {
+a, a:visited, a:hover {
+	text-decoration: none;
+	color: white;
+	text-shadow: black 0 0 3px;
+}
+
+.projectsInner {
+	background-color: white;
 	font-family: 'Special Elite', cursive;
-	height: 33.3vh;
+	height: 27.6vh;
+	color: black;
 	font-size: 35px;
 }
 
 .contactsInner {
+	background-color: white;
+	height: 12.6vh;
+	color: black;
 	font-family: 'Special Elite', cursive;
-	height: 33.3vh;
 	font-size: 35px;
+}
+
+.contactsLinks {
+	background-color: white;
+}
+
+.footerInner {
+	background-color: white;
+	color: black;
 }
 
 .ico {
@@ -57,5 +80,5 @@ body {
 
 .ico:hover {
 	cursor: pointer;
-	background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(0, 0, 0, 1) 70%);
+	background: radial-gradient(circle, rgba(137, 196, 244, 1) 0%, rgba(255, 255, 255, 1) 70%);
 }
