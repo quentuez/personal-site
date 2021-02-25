@@ -2,62 +2,60 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-}     
-
-html, body {
-    height: 100%;
-    color: white;
-    background-color: black;
-    text-align: center;
 }
 
-.bodyInner {
-    height: 100vh;
-    line-height: 1;
-    font-weight: bold;
-    font-family: 'Bungee Hairline', cursive;
-    font-size: 50px;
-    background-image: url(..//images/background.jpg);
-    background-position: right;
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 0; 
-    position: relative;
-    background-attachment: fixed;
+body {
+	height: 100%;
+	color: white;
+	background-color: black;
+	text-align: center;
 }
 
-.headerInner {
-    font-size: 50px;
-    position: fixed;
-    z-index: 1;
-    text-align: left;
-    margin-top: 50vh;
-    margin-right: 100px; 
+.mainInner {
+	height: 100vh;
+	line-height: 1;
+	font-family: 'Bungee Hairline', cursive;
+	font-size: 50px;
+	background-image: url(..//images/background.jpg);
+	background-position: right;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.asideInner {
+	position: fixed;
+	text-align: left;
+}
+
+.welcomeStranger {
+    padding-top: 40vh;
 }
 
 .aboutMeInner {
-    font-family: 'Special Elite', cursive;
-    height: 33.3vh;
-    font-size: 35px;
+	font-family: 'Special Elite', cursive;
+	height: 33.3vh;
+	font-size: 35px;
 }
 
 .worksInner {
-    font-family: 'Special Elite', cursive;
-    height: 33.3vh;
-    font-size: 35px;
+	font-family: 'Special Elite', cursive;
+	height: 33.3vh;
+	font-size: 35px;
 }
 
 .contactsInner {
-    font-family: 'Special Elite', cursive;
-    height: 33.3vh;
-    font-size: 35px;
+	font-family: 'Special Elite', cursive;
+	height: 33.3vh;
+	font-size: 35px;
 }
 
 .ico {
-    margin-right: 50px;
-    width: 5%;
+	width: 10%;
+	padding: 50px;
 }
 
 .ico:hover {
-    cursor: pointer;
+	cursor: pointer;
+	background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(0, 0, 0, 1) 70%);
 }
