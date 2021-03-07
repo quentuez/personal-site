@@ -82,8 +82,24 @@ console.log(counter2++);
    } */
 
 console.log('А' == 'а');
+console.log('а' > 'я');
 
 console.log('01' == 1);
 
+// ===/ !== - строгое неравенство
 console.log(0 == false);
 console.log(0 === false);
+
+console.log(0 !== false);
+console.log(0 != false);
+
+console.log(null === undefined);
+console.log(null == undefined);
+
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+
+console.log(undefined > 0);
+console.log(undefined < 0);
+console.log(undefined == 0);
