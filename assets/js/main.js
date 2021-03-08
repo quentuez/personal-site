@@ -13,8 +13,8 @@ typeof Math // "object"
 typeof null // "object" 
 typeof alert // "function"
 
-let name = prompt('Как тебя зовут?');
-alert(`Привет, ${name}!`);
+let name1 = prompt('Как тебя зовут?');
+alert(`Привет, ${name1}!`);
 
 let value = true;
 value = String(value);
@@ -103,3 +103,68 @@ console.log(null >= 0);
 console.log(undefined > 0);
 console.log(undefined < 0);
 console.log(undefined == 0);
+
+/* let condition = (year == 2015);
+
+if (condition) {
+  ...
+} */
+
+let age = prompt('Возраст?', 18);
+
+let message = (age < 3) ? 'Здравствуй, малыш!' :
+    (age < 18) ? 'Привет!' :
+        (age < 100) ? 'Здравствуйте!' :
+            'Какой необычный возраст!';
+console.log(message);
+
+let x1;
+false || (x1 = 1);
+console.log(x);
+
+let y1 = 1;
+(y1 > 0) && console.log('Greater than zero!');
+
+console.log(!!"non-empty string");
+console.log(!!null);
+
+let height = null;
+let width = null;
+let area = (height ?? 100) * (width ?? 50);
+console.log(area);
+
+let z = (1 && 2) ?? 3;
+console.log(z);
+
+let i = 3;
+while (i != 0) {
+    console.log(i);
+    i--;
+}
+
+let i1 = 0;
+for (; i1 < 3; i1++) {
+    console.log(i1);
+}
+
+let sum = 0;
+
+while (true) {
+    let value = +prompt("Введите число", '');
+    if (!value) break;
+    sum += value;
+}
+alert('Сумма: ' + sum);
+
+for (let i2 = 0; i < 10; i2++) {
+    if (i2 % 2 == 0) continue;
+    console.log(i2);
+}
+
+/* outer: for (let i3 = 0; i3 < 3; i3++) {
+    for (let j3 = 0; j3 < 3; j3++) {
+        let input1 = prompt(`Значение на координатах (${i3},${j3})`, '');
+        if (!input1) break outer;
+    }
+}
+console.log('Готово!'); */
