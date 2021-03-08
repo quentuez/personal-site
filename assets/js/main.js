@@ -156,10 +156,10 @@ while (true) {
 }
 alert('Сумма: ' + sum);
 
-for (let i2 = 0; i < 10; i2++) {
+/* for (let i2 = 0; i < 10; i2++) {
     if (i2 % 2 == 0) continue;
     console.log(i2);
-}
+} */
 
 /* outer: for (let i3 = 0; i3 < 3; i3++) {
     for (let j3 = 0; j3 < 3; j3++) {
@@ -168,3 +168,102 @@ for (let i2 = 0; i < 10; i2++) {
     }
 }
 console.log('Готово!'); */
+
+let a5 = "1";
+let b5 = 0;
+
+switch (+a5) {
+    case b5 + 1:
+        console.log("Выполнится, т.к. значением +a5 будет 1, что в точности равно b5+1");
+        break;
+    default:
+        console.log("Это не выполнится");
+}
+
+let a6 = 2 + 2;
+switch (a6) {
+    case 4:
+        console.log('Правильно!');
+        break;
+    case 3:
+    case 5:
+        console.log('Неправильно!');
+        break;
+    default:
+        console.log('Результат выглядит странновато. Честно.');
+}
+
+let arg = prompt("Введите число?");
+switch (arg) {
+    case '0':
+    case '1':
+        console.log('Один или ноль');
+        break;
+    case '2':
+        console.log('Два');
+        break;
+    case 3:
+        console.log('Никогда не выполнится!');
+        break;
+    default:
+        console.log('Неизвестное значение');
+}
+
+function showMessage(from, text) {
+    from = '*' + from + '*';
+    console.log(from + ': ' + text);
+}
+let from = "Иван";
+showMessage(from, "Привет");
+console.log(from);
+
+function showMessage(from, text = "текст не добавлен") {
+    console.log(from + ": " + text);
+}
+showMessage("Иван");
+
+function sum1(a, b) {
+    return a + b;
+}
+let result = sum1(1, 2);
+console.log(result);
+
+function doNothing() { /* пусто */ }
+console.log(doNothing() === undefined);
+
+function doNothing1() {
+    return;
+}
+console.log(doNothing1() === undefined);
+
+function sayHi() {
+    console.log("Привет");
+}
+let func = sayHi;
+func();
+sayHi();
+
+function ask(question, yes, no) {
+    if (confirm(question)) yes()
+    else no();
+}
+function showOk() {
+    console.log("Вы согласны.");
+}
+function showCancel() {
+    console.log("Вы отменили выполнение.");
+}
+ask("Вы согласны?", showOk, showCancel);
+
+let age1 = prompt("Сколько Вам лет?", 18);
+let welcome;
+if (age1 < 18) {
+    welcome = function () {
+        console.log("Привет!");
+    };
+} else {
+    welcome = function () {
+        console.log("Здравствуйте!");
+    };
+}
+welcome(); 
