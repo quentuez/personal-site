@@ -266,4 +266,4 @@ if (age1 < 18) {
         console.log("Здравствуйте!");
     };
 }
-welcome(); 
+welcome();
