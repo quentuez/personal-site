@@ -267,3 +267,22 @@ if (age1 < 18) {
     };
 }
 welcome();
+
+let sum3 = (a6, b6) => a6 + b6;
+console.log(sum3(1, 2));
+
+let sayHello = () => console.log("Hello!");
+sayHello();
+
+let age2 = prompt("Сколько Вам лет?", 18);
+let welcome2 = (age2 < 18) ?
+    () => console.log('Привет') :
+    () => console.log("Здравствуйте!");
+welcome2();
+
+let sum7 = (a7, b7) => {
+    let result7 = a7 + b7;
+    return result7; // при фигурных скобках для 
+    // возврата значения нужно явно вызвать return
+};
+console.log(sum7(1, 2));
