@@ -286,3 +286,70 @@ let sum7 = (a7, b7) => {
     // возврата значения нужно явно вызвать return
 };
 console.log(sum7(1, 2));
+
+let user = {
+    name: "John",
+    age: 30
+};
+let key = prompt("Что вы хотите узнать о пользователе?", "name");
+console.log(user[key]);
+
+let user1 = { name: "John", age: 30 };
+console.log("age" in user1);
+console.log("blabla" in user1);
+
+let obj1 = {
+    test: undefined
+};
+console.log(obj1.test);
+console.log("test" in obj1);
+
+let user2 = {
+    name: "John",
+    age: 30,
+    isAdmin: true
+};
+for (let key2 in user2) {
+    console.log(key2);
+    console.log(user2[key2]);
+}
+
+let codes = {
+    "+49": "Германия",
+    "+41": "Швейцария",
+    "+44": "Великобритания",
+    "+1": "США"
+};
+for (let code in codes) {
+    console.log(+code);
+}
+
+let user3 = { name: "Иван" };
+let permissions1 = { canView: true };
+let permissions2 = { canEdit: true };
+Object.assign(user3, permissions1, permissions2);
+
+
+let user4 = {
+    name: "Иван",
+    sizes: {
+        height: 182,
+        width: 50
+    }
+};
+let clone1 = Object.assign({}, user4);
+console.log(user4.sizes === clone1.sizes);
+user4.sizes.width++;
+console.log(clone1.sizes.width);
+
+let user5 = { name: "Джон" };
+let admin5 = { name: "Админ" };
+
+function sayHi() {
+    console.log(this.name);
+}
+user5.f = sayHi;
+admin5.f = sayHi;
+user5.f();
+admin5.f();
+admin5['f']();
