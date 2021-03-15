@@ -24,11 +24,38 @@ body, html {
 	background-attachment: fixed;
 }
 
+.menu ul {
+	margin: 0;
+	list-style: none;
+	padding-left: 20px;
+	display: none;
+}
+
+.menu .title {
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.menu .title::before {
+	content: '▶ ';
+	font-size: 80%;
+	color: green;
+}
+
+.menu.open .title::before {
+	content: '▼ ';
+}
+
+.menu.open ul {
+	display: block;
+}
+
 .asideInner {
 	position: fixed;
 	text-align: left;
 	font-weight: bolder;
 	line-height: 1.5;
+	font-size: 20px;
 }
 
 .welcomeUserName {
