@@ -32,6 +32,8 @@ body, html {
 }
 
 .welcomeUserName {
+	font-family: 'Amatic SC', cursive;
+	font-weight: bolder;
 	padding-top: 40vh;
 }
 
