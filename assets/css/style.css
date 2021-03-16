@@ -84,12 +84,10 @@ body, html {
 }
 
 .aboutMeText {
+	font-family: 'Bad Script', cursive;
+	letter-spacing: 0.05em;
 	margin-left: 15%;
 	margin-right: 15%;
-}
-
-p {
-	font-family: 'Poiret One', cursive;
 }
 
 a, a:visited, a:hover {
