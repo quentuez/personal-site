@@ -1,12 +1,12 @@
 function getGuestName() {
-    let name = prompt("Введите ваше имя:");
+    let guestName = prompt("Введите ваше имя:");
 
-    switch (name) {
-        case '':
-            elem1.innerHTML = 'Stranger';
-            break;
-        default:
-            elem1.innerHTML = name;
+    if (guestName == '') {
+        guest.innerHTML = 'Stranger';
+    } else if (guestName.length >= 15) {
+        guest.innerHTML = 'Stranger with long name';
+    } else {
+        guest.innerHTML = guestName;
     }
 }
 
