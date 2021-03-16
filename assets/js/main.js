@@ -7,8 +7,7 @@ function getGuestName() {
         guest.innerHTML = 'незнакомец';
     } else if (guestName.length >= 15) {
         guest.innerHTML = 'незнакомец с длинным именем';
-    }
-    else {
+    } else {
         guest.innerHTML = guestName;
     }
 }

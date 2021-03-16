@@ -62,16 +62,30 @@ body, html {
 	padding-top: 40vh;
 }
 
+.title {
+	padding-top: 35vh;
+}
+
 .aboutMeInner {
 	height: 100vh;
-	background-color: white;
-	font-family: 'Special Elite', cursive;
-	font-size: 35px;
+	background-color: #c2d2e9;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
 	color: black;
 }
 
-.title {
-	padding-top: 35vh;
+.aboutMeTitle {
+	padding-top: 15vh;
+	letter-spacing: 0.3em;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 2.5px;
+	-webkit-text-stroke-color: #87b6fc;
+	text-shadow: 6px 6px #394e7c, 18px 18px #091d36;
+}
+
+.aboutMeText {
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 p {
