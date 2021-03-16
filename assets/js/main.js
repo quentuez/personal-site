@@ -3,9 +3,12 @@ function getGuestName() {
 
     if (guestName == '') {
         guest.innerHTML = 'Stranger';
+    } else if (guestName == null) {
+        guest.innerHTML = 'Stranger';
     } else if (guestName.length >= 15) {
         guest.innerHTML = 'Stranger with long name';
-    } else {
+    }
+    else {
         guest.innerHTML = guestName;
     }
 }
