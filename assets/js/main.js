@@ -2,11 +2,11 @@ function getGuestName() {
     let guestName = prompt("Введите ваше имя:");
 
     if (guestName == '') {
-        guest.innerHTML = 'Stranger';
+        guest.innerHTML = 'незнакомец';
     } else if (guestName == null) {
-        guest.innerHTML = 'Stranger';
+        guest.innerHTML = 'незнакомец';
     } else if (guestName.length >= 15) {
-        guest.innerHTML = 'Stranger with long name';
+        guest.innerHTML = 'незнакомец с длинным именем';
     }
     else {
         guest.innerHTML = guestName;

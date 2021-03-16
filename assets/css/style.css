@@ -30,8 +30,8 @@ body, html {
 	font-weight: bolder;
 	line-height: 1.5;
 	font-size: 20px;
-	padding-top: 45vh;
-	padding-left: 30vh;
+	padding-top: 50vh;
+	padding-left: 33.3vh;
 }
 
 .menu ul {
@@ -67,9 +67,9 @@ body, html {
 }
 
 .aboutMeInner {
+	height: 100vh;
 	background-color: white;
 	font-family: 'Special Elite', cursive;
-	height: 27.6vh;
 	font-size: 35px;
 	color: black;
 }
@@ -85,16 +85,16 @@ a, a:visited, a:hover {
 }
 
 .projectsInner {
+	height: 100vh;
 	background-color: white;
 	font-family: 'Special Elite', cursive;
-	height: 27.6vh;
 	color: black;
 	font-size: 35px;
 }
 
 .contactsInner {
+	height: 100vh;
 	background-color: white;
-	height: 12.6vh;
 	color: black;
 	font-family: 'Special Elite', cursive;
 	font-size: 35px;
