@@ -45,7 +45,7 @@ body, html {
 .menu .title::before {
 	content: '▶ ';
 	font-size: 80%;
-	color: whitex;
+	color: white;
 }
 
 .menu.open .title::before {
@@ -72,6 +72,16 @@ body, html {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 50px;
 	color: black;
+}
+
+.img_wrap {
+	position: relative;
+}
+
+.img_wrap img {
+	position: absolute;
+	left: 0px;
+	width: 100%;
 }
 
 .aboutMeTitle {
