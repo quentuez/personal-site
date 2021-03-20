@@ -12,7 +12,7 @@ body, html {
 	height: 100vh;
 	line-height: 1;
 	font-family: 'Bungee Hairline', cursive;
-	font-size: 50px;
+	font-size: 80px;
 	background-image: url(..//images/background.jpg);
 	background-position: right;
 	background-size: contain;
@@ -60,7 +60,7 @@ body, html {
 .welcomeGuest {
 	font-family: 'Amatic SC', cursive;
 	font-weight: bolder;
-	padding-top: 40vh;
+	padding-top: 20vh;
 }
 
 .title {
