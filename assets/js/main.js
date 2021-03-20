@@ -1,4 +1,4 @@
-function getGuestName() {
+/* function getGuestName() {
     let guestName = prompt("Введите ваше имя:");
 
     if (guestName == '') {
@@ -12,7 +12,7 @@ function getGuestName() {
     }
 }
 
-getGuestName();
+getGuestName(); */
 
 let menuElem = document.getElementById('contentMenu');
 let titleElem = menuElem.querySelector('.title');
