@@ -19,6 +19,8 @@ body, html {
 }
 
 video {
+	object-fit: fill;
+	height: 100%;
 	width: 100%;
 }
 
@@ -208,4 +210,10 @@ a, a:visited, a:hover {
 .ico:hover {
 	cursor: pointer;
 	background: radial-gradient(circle, rgba(137, 196, 244, 1) 0%, rgba(255, 255, 255, 1) 70%);
+}
+
+@media all and (max-width: 1080px) {
+	* {
+		width: 1080px;
+	}
 }
