@@ -215,5 +215,9 @@ a, a:visited, a:hover {
 @media all and (max-width: 1080px) {
 	* {
 		width: 1080px;
+		height: 1920px;
+	}
+	.aboutMeText {
+		font-size: 17.5px;
 	}
 }
