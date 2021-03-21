@@ -1,33 +1,31 @@
-body, html {
+html {
 	scroll-behavior: smooth;
+}
+
+body {
 	margin: 0;
 }
 
 .mainInner {
-	text-align: center;
-	color: white;
+	background-attachment: fixed;
 	background-color: black;
-	height: 100vh;
-	line-height: 1;
-	font-family: 'Bungee Hairline', cursive;
-	font-size: 3vw;
 	background-image: url(..//images/background.jpg);
 	background-position: right;
-	background-size: contain;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-size: contain;
+	height: 100vh;
 }
 
-video {
-	object-fit: fill;
-	height: 100%;
-	width: 100%;
+h1 {
+	margin-block-start: 0;
+	margin-block-end: 0;
 }
 
 .menu {
+	color: white;
+	font-family: 'Bungee Hairline', cursive;
 	position: fixed;
 	z-index: 20;
-	text-align: left;
 	font-weight: bolder;
 	line-height: 1.5;
 	font-size: 20px;
@@ -61,14 +59,15 @@ video {
 	display: block;
 }
 
-.welcomeGuest {
-	font-family: 'Amatic SC', cursive;
-	font-weight: bolder;
-	padding-top: 20vh;
-}
-
 .title {
 	padding-top: 35vh;
+}
+
+.welcomeGuest {
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	padding: 50vh;
 }
 
 .aboutMeInner {
@@ -166,6 +165,12 @@ a, a:visited, a:hover {
 	z-index: 15;
 	left: 0;
 	filter: blur(4px);
+}
+
+video {
+	object-fit: fill;
+	height: 100%;
+	width: 100%;
 }
 
 .projectsTitle {
