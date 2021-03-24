@@ -60,9 +60,13 @@ h1, h2 {
 	cursor: pointer;
 }
 
-a, a:visited, a:hover {
+a, a:visited {
 	text-decoration: none;
 	color: white;
+}
+
+ul a:hover {
+	text-decoration: underline;
 }
 
 .welcomeGuest {
