@@ -102,7 +102,7 @@ ul a:hover {
 }
 
 .layer5 {
-	height: 100vh;
+	filter: blur(1px);
 }
 
 .aboutMeTitle {
@@ -111,10 +111,10 @@ ul a:hover {
 	text-align: center;
 	position: relative;
 	padding-top: 25vh;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #bb44c3;
 	-webkit-text-fill-color: transparent;
-	-webkit-text-stroke-width: 2.5px;
-	-webkit-text-stroke-color: #87b6fc;
-	text-shadow: 6px 6px #394e7c, 18px 18px #091d36;
+	text-shadow: 3px 3px #41af50, 6px 6px #0d030f;
 }
 
 .aboutMeText {
