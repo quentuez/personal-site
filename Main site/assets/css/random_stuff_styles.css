@@ -1,0 +1,13 @@
+.example-shadow-3 {
+	background: #e8e8e8;
+	text-align: center;
+}
+
+.example-shadow-3 span {
+	background: white;
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	margin: 50px;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
