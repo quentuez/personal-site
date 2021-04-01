@@ -3,7 +3,10 @@
 
 <head>
     <base href="C:\Google Drive\Саморазвитие\Программирование\personal-site\Test\assets\">
-    <link rel="stylesheet" href="css\testOfStyles.css">
+    <link media="all" rel="stylesheet" href="css\testOfStyles.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="author" content="Клименков Дмитрий Сергеевич">
+    <title>Сайт для тестирования</title>
 </head>
 
 <body>
@@ -51,9 +54,6 @@
 
     <div class="Тег audio">
         <audio src="sounds/01 - Marcin Przybylowicz - V.mp3" controls="controls" preload="auto"></audio>
-        <!-- 1.Атрибут autoplay - При наличии этого атрибута аудио начинает воспроизводиться автоматически после загрузки
-        страницы.
-        2. Атрибут loop - Зацикливает воспроизведение аудио, чтобы оно повторялось с начала после завершения. -->
     </div>
 
     <div class="Тег b" title="Подсказка при наведении на жирный текст">
@@ -106,8 +106,8 @@
     </div> -->
 
     <div class="Тег table">
-        <table border="1">
-            <col span="1" width="250px">
+        <table>
+            <col span="1" width="250">
             <caption>Таблица 1</caption>
             <tr>
                 <th></th>
@@ -191,6 +191,314 @@
         </figure>
     </div>
 
-</body> <!-- Все атрибуты тега <body> осуждаются спецификацией -->
+    <div class="Тег footer">
+        <footer>
+            <p>Подвал сайта.</p>
+        </footer>
+    </div>
+
+    <!-- <div class="Тег form">
+        <form></form>
+    </div> -->
+
+    <div class="Тег h1-h6">
+        <h1>Заголовок первого уровня</h1>
+        <h2>Заголовок второго уровня</h2>
+        <h3>Заголовок третьего уровня</h3>
+        <h4>Заголовок четвертого уровня</h4>
+        <h5>Заголовок пятого уровня</h5>
+        <h6>Заголовок шестого уровня</h6>
+    </div>
+
+    <div class="Тег header">
+        <header>Шапка сайта.</header>
+    </div>
+
+    <div class="Тег hr">
+        <hr>
+    </div>
+
+    <div class="Тег i">
+        <i>Курсивное начертание текста</i>
+    </div>
+
+    <!-- <div class="Тег iframe">
+        <iframe></iframe>
+    </div> -->
+
+    <div class="Тег img">
+        <img src="images/Киану Ривз.jpg" alt="Киану Ривз" width="150" height="210">
+    </div>
+
+    <!-- <div class="Тег input">
+        <input>
+    </div> -->
+
+    <div class="Тег ins">
+        <ins cite="https://www.google.ru/" datetime="2021">Тег предназначен для выделения текста, который был добавлен в
+            новую версию документа. Подобное форматирование позволяет отследить, какие изменения в тексте документа были
+            сделаны.</ins>
+    </div>
+
+    <div class="Тег kbd">
+        <p>Нажмите <kbd>Alt + F4</kbd>, чтобы закрыть сайт.</p>
+    </div>
+
+    <!-- <div class="Тег label">
+        <label></label>
+    </div> -->
+
+    <div class="Тег main">
+        <main>Элемент предназначен для основного содержимого документа. Содержимое должно быть уникальным и не
+            включать типовые блоки вроде шапки сайта, подвала, навигации, боковой панели, формы поиска и т. п.
+        </main>
+    </div>
+
+    <div class="Тег mark">
+        <mark>Помеченный текст</mark>
+    </div>
+
+    <div class="Тег menu">
+        <menu label="Меню" type="context">
+            <li>Первый пункт меню</li>
+            <li>Второй пункт меню</li>
+        </menu>
+    </div>
+
+    <div class="Тег meter">
+        <meter value="39" min="0" max="100" low="25" high="75" optimum="50">Процент</meter>
+    </div>
+
+    <!-- <div class="Тег nav">
+        <nav>
+        </nav>
+    </div> -->
+
+    <div class="Тег noscript">
+        <noscript>Контейнер noscript показывает свое содержимое, если браузер не поддерживает работу со скриптами или
+            их поддержка отключена пользователем. В остальных случаях браузер игнорирует этот тег и все, что
+            располагается внутри него.</noscript>
+    </div>
+
+    <!-- <div class="Тег object">
+        <object></object>
+    </div> -->
+
+    <div class="Тег ol, li, ul">
+        <ol type="I" start="10">
+            <li>Пункт 1</li>
+            <li>Пункт 2</li>
+        </ol>
+        <ul type="circle">
+            <li>Пункт 3</li>
+            <li>Пункт 4</li>
+        </ul>
+    </div>
+
+    <!-- <div class="Тег optgroup">
+        <optgroup></optgroup>
+    </div> -->
+
+    <!-- <div class="Тег option">
+        <option></option>
+    </div> -->
+
+    <div class="Тег output">
+        <output>Определяет область в которую выводится информация, преимущественно с помощью скриптов.</output>
+    </div>
+
+    <div class="Тег p">
+        <p>Текст до отбивки.</p>
+        <p>Текст после отбивки.</p>
+    </div>
+
+    <!-- <div class="Тег param">
+        <param></param>
+    </div> -->
+
+    <div class="Тег pre">
+        <pre>
+                                                 ___,------, 
+             _,--.---.                         __,--'         / 
+           ,' _,'_`._ \                    _,-'           ___,| 
+          ;--'       `^-.                ,'        __,---'   || 
+        ,'               \             ,'      _,-'          || 
+       /                  \         _,'     ,-'              || 
+      :                    .      ,'     _,'                 |: 
+      |                    :     `.    ,'                    |: 
+      |           _,-      |       `-,'                      :: 
+     ,'____ ,  ,-'  `.   , |,         `.                     : \ 
+     ,'    `-,'       ) / \/ \          \                     : : 
+     |      _\   o _,-'    '-.           `.                    \ \ 
+      `o_,-'  `-,-' ____   ,` )-.______,'  `.                   : : 
+       \-\    _,---'    `-. -'.\  `.  /     `.                  \  \ 
+        / `--'             `.   \   \:        \                  \,.\ 
+       (              ____,  \  |    \\        \                 :\ \\ 
+        )         _,-'    `   | |    | \        \                 \\_\\ 
+       /      _,-'            | |   ,'-`._      _\                 \,' 
+       `-----' |`-.           ;/   (__ ,' `-. _;-'`\           _,--' 
+     ,'        |   `._     _,' \-._/  Y    ,-'      \      _,-' 
+    /        _ |      `---'    :,-|   |    `     _,-'\_,--'   \ 
+   :          `|       \`-._   /  |   '     `.,-' `._`         \ 
+   |           _\_    _,\/ _,-'|                     `-._       \ 
+   :   ,-         `.-'_,--'    \                         `       \ 
+   | ,'           ,--'      _,--\           _,                    : 
+    )         .    \___,---'   ) `-.____,--'                      | 
+   _\    .     `    ||        :            \                      ; 
+ ,'  \    `.    )--' ;        |             `-.                  / 
+|     \     ;--^._,-'         |                `-._            _/_\ 
+\    ,'`---'                  |                    `--._____,-'_'  \ 
+ \_,'                         `._                          _,-'     ` 
+                            ,-'  `---.___           __,---' 
+                          ,'             `---------' 
+                        ,' 
+</pre>
+    </div>
+
+    <div class="Тег progress">
+        <progress value="66" max="100"></progress>
+    </div>
+
+    <div class="Тег q">
+        <q>Цитата</q>
+    </div>
+
+    <div class="Тег ruby">
+        <p lang="zh-CN">
+            <ruby>
+                汉<rt>hàn</rt>
+                字<rt>zì</rt>
+            </ruby>
+        </p>
+    </div>
+
+    <div class="Тег s">
+        <s>Перечеркнутый текст</s>
+    </div>
+
+    <div class="Тег samp">
+        <samp>
+            <pre>
+            #include <iostream>
+                #include <cstdlib> 
+                using namespace std;
+                
+                int main() 
+                { 
+                    cout << "Hello, world!" << endl;
+                    system("pause"); 
+                    return 0; 
+                }
+            </pre>
+        </samp>
+    </div>
+
+    <div class="Тег script">
+        <script type="text/javascript" src="js/TestOfScripts.js" defer></script>
+    </div>
+
+    <div class="Тег section">
+        <section>Задаёт раздел документа, может применяться для блока новостей, контактной информации, глав текста,
+            вкладок в диалоговом окне и др. Раздел обычно содержит заголовок. Допускается вкладывать один тег внутрь
+            другого.</section>
+    </div>
+
+    <!-- <div class="Тег select">
+        <select></select>
+    </div> -->
+
+    <div class="Тег small">
+        <small>Уменьшенный на единицу текст</small>
+    </div>
+
+    <div class="Тег source">
+        <video width="960" height="540" controls="controls" poster="images/Постер.jpg">
+            <source media="all" src="videos/video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+    </div>
+
+    <div class="Тег span">
+        <span>span #1</span>
+        <span>span #2</span>
+    </div>
+
+    <div class="Тег strong">
+        <strong>Акцентированный "strong" текст</strong>
+    </div>
+
+    <div class="Тег sub и sup">
+        <p>X<sub>1</sub><sup>2</sup>+Y<sub>2</sub><sup>2</sup>=Z<sub>3</sub><sup>2</sup></p>
+    </div>
+
+    <div class="Тег summary">
+        <details>
+            <summary>Информация об авторе:</summary>
+            <p>Лев Николаевич Толстой</p>
+        </details>
+    </div>
+
+    <div class="Тег tbody">
+        <table border="1">
+            <thead>
+                <tr>
+                    <td id="name">Имя</td>
+                    <td id="surname">Фамилия</td>
+                    <td id="phone">Телефон</td>
+                    <td id="address">Адрес</td>
+                    <td id="number">Номер квартиры</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td headers="name">Дмитрий</td>
+                    <td headers="surname">Клименков</td>
+                    <td headers="phone">8-800-555-35-35</td>
+                    <td headers="address">Улица Пушкина, дом Колотушкина</td>
+                    <td headers="number">1</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">
+                        <pre></pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Ячейка 1 + ячейка 2</td>
+                    <td>Ячейка 3</td>
+                    <td rowspan="2">Ячейка 4 + ячейка 9</td>
+                    <td>Ячейка 5</td>
+                </tr>
+                <tr>
+                    <td>Ячейка 6</td>
+                    <td>Ячейка 7</td>
+                    <td>Ячейка 8</td>
+                    <td>Ячейка 10</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div class="Тег textarea">
+        <textarea></textarea>
+    </div>
+
+    <div class=Тег time>
+        <p><time>1957-10-04</time> - запущен первый искусственный спутник Земли.</p>
+    </div>
+
+    <!-- <div class="Тег track">
+        <track>
+    </div> -->
+
+    <div class="Тег var">
+        <var>Тег используется для выделения переменных компьютерных программ. Браузеры обычно помечают текст в
+            контейнере курсивным начертанием.</var>
+    </div>
+
+    <div class="Тег wbr">
+        <p>Самое длинное слово из химии:</p>
+        <p>метоксихлор<wbr>диэтиламино<wbr>метил<wbr>бутил<wbr>амино<wbr>акридин</p>
+</body>
 
 </html>
