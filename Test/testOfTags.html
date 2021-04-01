@@ -190,9 +190,10 @@
         <em>Акцентированный текст</em>
     </div>
 
-    <!-- <div class="Тег embed">
-        <embed>
-    </div> -->
+    <div class="Тег embed">
+        <h1>Тег embed</h1>
+        <embed src="../Test/assets/videos/spinning_video.mp4" width="960" height="540">
+    </div>
 
     <div class="Тег fieldset">
         <h1>Тег fieldset</h1>
@@ -246,9 +247,11 @@
         <i>Курсивное начертание текста</i>
     </div>
 
-    <!-- <div class="Тег iframe">
-        <iframe></iframe>
-    </div> -->
+    <div class="Тег iframe">
+        <h1>Тег iframe</h1>
+        <iframe src="https://www.youtube.com/embed/0kkbYuYhZBw" seamless width="960" height="540">Ваш браузер не
+            поддерживает фреймы</iframe>
+    </div>
 
     <div class="Тег img">
         <h1>Тег img</h1>
@@ -300,10 +303,11 @@
         <meter value="39" min="0" max="100" low="25" high="75" optimum="50">Процент</meter>
     </div>
 
-    <!-- <div class="Тег nav">
-        <nav>
-        </nav>
-    </div> -->
+    <div class="Тег nav">
+        <h1>Тег nav</h1>
+        <nav><a href="https://www.google.ru/">Google</a> | <a href="https://yandex.ru/">Yandex</a> | <a
+                href="https://mail.ru/">Mail.ru</a></nav>
+    </div>
 
     <div class="Тег noscript">
         <h1>Тег noscript</h1>
@@ -330,10 +334,6 @@
 
     <!-- <div class="Тег optgroup">
         <optgroup></optgroup>
-    </div> -->
-
-    <!-- <div class="Тег option">
-        <option></option>
     </div> -->
 
     <div class="Тег output">
@@ -446,19 +446,26 @@
             другого.</section>
     </div>
 
-    <!-- <div class="Тег select">
-        <select></select>
-    </div> -->
+    <div class="Тег option, select">
+        <h1>Тег option, select</h1>
+        <select multiple size="3" name="paragraph">
+            <option disabled>Выберите пункт</option>
+            <option label="#1">Пункт 1</option>
+            <option label="#2">Пункт 2</option>
+        </select>
+    </div>
 
     <div class="Тег small">
         <h1>Тег small</h1>
         <small>Уменьшенный на единицу текст</small>
     </div>
 
-    <div class="Тег source">
-        <h1>Тег source</h1>
+    <div class="Тег source, track">
+        <h1>Тег source, track</h1>
         <video width="960" height="540" controls="controls" poster="../Test/assets/images/Постер.jpg">
-            <source media="all" src="../Test/assets/videos/video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source media="all" src="../Test/assets/videos/loop_video.mp4"
+                type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <track kind="subtitles" src="../Test/assets/subtitles/subtitles.srt" srclang="ru" label="Русский">
         </video>
     </div>
 
@@ -531,17 +538,13 @@
 
     <div class="Тег textarea">
         <h1>Тег textarea</h1>
-        <textarea></textarea>
+        <textarea cols="50" maxlength="100" placeholder="Введите текст" wrap="hard"></textarea>
     </div>
 
     <div class=Тег time>
         <h1>Тег time</h1>
         <p><time>1957-10-04</time> - запущен первый искусственный спутник Земли.</p>
     </div>
-
-    <!-- <div class="Тег track">
-        <track>
-    </div> -->
 
     <div class="Тег var">
         <h1>Тег var</h1>
