@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#layer {
+    float: right;
+    border: 1px solid black;
+}
