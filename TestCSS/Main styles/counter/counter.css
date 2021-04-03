@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    counter-reset: heading;
+}
+
+h2:before {
+    counter-increment: heading;
+    content: "Глава " counter(heading) ". ";
+}
+
+li {
+    list-style-type: none;
+}
+
+ol {
+    counter-reset: list1;
+}
+
+ol li:before {
+    counter-increment: list1;
+    content: counter(list1) ". ";
+}
+
+ol ol {
+    counter-reset: list2;
+}
+
+ol ol li:before {
+    counter-increment: list2;
+    content: counter(list1) "." counter(list2) ". ";
+}

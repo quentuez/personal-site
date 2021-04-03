@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    column-count: 4;
+    column-gap: 50px;
+    column-rule: 1px solid #ccc;
+    column-width: 100px;
+}
