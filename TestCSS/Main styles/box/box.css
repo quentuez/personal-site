@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.box-shadow {
+    background-color: gainsboro;
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 10px 10px rgb(255 0 0 / 50%), 15px 15px 10px rgb(0 255 0 / 50%), 20px 20px 10px rgb(0 0 255 / 50%);
+}
+
+.box1 {
+    margin-top: 50px;
+    background: yellowgreen;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+.box2 {
+    background: #fc0;
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}

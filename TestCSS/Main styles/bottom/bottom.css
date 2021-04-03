@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    position: absolute;
+    height: 100vh;
+    bottom: 100px;
+}
+
+.div_1 {
+    background-color: indigo;
+    position: relative;
+    width: 500px;
+    height: 50%;
+    bottom: -100px;
+}
+
+.div_2 {
+    background-color: darkcyan;
+    position: relative;
+    width: 500px;
+    height: 50%;
+    bottom: -100px;
+}
