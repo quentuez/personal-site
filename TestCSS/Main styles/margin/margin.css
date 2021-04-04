@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.div1 {
+    position: absolute;
+    background-color: blanchedalmond;
+    width: 800px;
+    height: 700px;
+    margin-left: 1vh;
+}
+
+.div2 {
+    position: relative;
+    background-color: coral;
+    margin-left: 40px;
+    margin-top: 15px;
+    width: 150px;
+    height: 200px;
+}
+
+.div3 {
+    position: relative;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 10px;
+}
