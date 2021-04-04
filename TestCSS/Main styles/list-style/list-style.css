@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-image: url(../list-style/ico.png);
+    list-style-position: inside;
+    width: 250px;
+}

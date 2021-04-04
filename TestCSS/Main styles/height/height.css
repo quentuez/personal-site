@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 3px solid gold;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    left: 300px;
+}
