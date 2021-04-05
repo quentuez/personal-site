@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.layer1 {
+    overflow-x: scroll;
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+    border: solid 1px black;
+    white-space: nowrap;
+}
+.layer2 {
+    width: 300px; 
+    height: 150px; 
+    padding: 5px; 
+    overflow-y: hidden;
+   }

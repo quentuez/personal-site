@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    background: #f06d06;
+    width: 400px;
+    height: 500px;
+    opacity: 0.4;
+}
