@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-indent: 40px;
+    text-align: justify;
+    width: 600px;
+    overflow: hidden;
+    height: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}

@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  position: absolute;
+  top: 400px;
+  background-color: azure;
+  width: 440px;
+  height: 200px;
+}
