@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#layer1, #layer2, #layer3, #layer4 {
+  position: relative;
+}
+
+#layer1, #layer3 {
+  font-size: 50px;
+  color: #000080;
+}
+
+#layer2, #layer4 {
+  top: -55px;
+  left: 5px;
+  color: #ffa500;
+  font-size: 70px;
+}
+
+#layer1 {
+  z-index: 2;
+}
+
+#layer2 {
+  z-index: 1;
+}
+
+#layer3 {
+  z-index: 3;
+}
+
+#layer4 {
+  z-index: 4;
+}

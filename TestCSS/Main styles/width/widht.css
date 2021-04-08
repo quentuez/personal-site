@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.layer1 {
+  width: 300px;
+  background: #fc0;
+  padding: 7px;
+  border: 1px solid #ccc;
+}
+
+.layer2 {
+  width: 400px;
+}
