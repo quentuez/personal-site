@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Селекторы атрибутов</title>
+    <style>
+        a[href$=".ru"] {
+            /* Если ссылка заканчивается на .ru */
+            background-color: red;
+            /* Добавляем фоновый рисунок */
+            padding-left: 12px;
+            /* Смещаем текст вправо */
+        }
+
+        a[href$=".com"] {
+            /* Если ссылка заканчивается на .com */
+            background-color: blue;
+            padding-left: 12px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <p><a href="http://www.yandex.com">Yandex.Com</a> |
+        <a href="http://www.yandex.ru">Yandex.Ru</a>
+    </p>
+</body>
+
+</html>
