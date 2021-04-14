@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>focus</title>
+    <style>
+        #enter .label {
+            width: 80px;
+            /* Ширина блока с текстом */
+            float: left;
+            /* Расположение в одну строку с полем */
+            text-align: right;
+            /* Выравнивание по правому краю */
+        }
+
+        #enter .form-text {
+            width: 240px;
+            /* Ширина поля */
+            margin-left: 10px;
+            /* Расстояние между полем и текстом */
+            border: 1px solid #abadb3;
+            /* Рамка вокруг текстового поля */
+            padding: 2px;
+            /* Поля вокруг текста */
+        }
+
+        #enter .form-item {
+            margin-bottom: 5px;
+            /* Отступ снизу */
+        }
+
+        #enter .form-text:focus {
+            background: rgb(14, 179, 82);
+            /* Цвет фона */
+            border: 1px solid #29B0D9;
+            /* Параметры рамки */
+        }
+
+        #enter p {
+            margin-left: 90px;
+            /* Сдвиг вправо */
+        }
+    </style>
+</head>
+
+<body>
+    <form action="login.php" method="post" id="enter">
+        <div class="form-item">
+            <span class="label">Логин:</span>
+            <span class="field"><input type="text" name="login" value="" class="form-text"></span>
+        </div>
+        <div class="form-item">
+            <span class="label">Пароль:</span>
+            <span class="field"><input type="password" name="pass" class="form-text"></span>
+        </div>
+        <p><input type="submit" value="Войти" /></p>
+    </form>
+</body>
+
+</html>

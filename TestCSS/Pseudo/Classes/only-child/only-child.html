@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>only-child</title>
+    <style>
+        div p:only-child {
+            color: red;
+        }
+
+        b:only-child {
+            background: #778899;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>This paragraph is the only child of its parent</p>
+    </div>
+    <div>
+        <p>This <b>paragraph</b> is the first child of its parent</p>
+        <p>This paragraph is the <b>second</b> child of its parent</p>
+    </div>
+</body>
+
+</html>

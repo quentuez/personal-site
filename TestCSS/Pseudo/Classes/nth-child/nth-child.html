@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>nth-child</title>
+    <style>
+        table {
+            width: 100%;
+            /* Ширина таблицы */
+            border-spacing: 0;
+            /* Расстояние между ячейками */
+        }
+
+        tr:nth-child(2n) {
+            background: #dd0606;
+            /* Цвет фона */
+        }
+
+        tr:nth-child(1) {
+            background: rgb(102, 102, 102);
+            /* Цвет фона */
+            color: #fff;
+            /* Цвет текста */
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td>&nbsp;</td>
+            <td>2134</td>
+            <td>2135</td>
+            <td>2136</td>
+            <td>2137</td>
+            <td>2138</td>
+        </tr>
+        <tr>
+            <td>Нефть</td>
+            <td>16</td>
+            <td>34</td>
+            <td>62</td>
+            <td>74</td>
+            <td>57</td>
+        </tr>
+        <tr>
+            <td>Золото</td>
+            <td>4</td>
+            <td>69</td>
+            <td>72</td>
+            <td>56</td>
+            <td>47</td>
+        </tr>
+        <tr>
+            <td>Дерево</td>
+            <td>7</td>
+            <td>73</td>
+            <td>79</td>
+            <td>34</td>
+            <td>86</td>
+        </tr>
+        <tr>
+            <td>Камни</td>
+            <td>23</td>
+            <td>34</td>
+            <td>88</td>
+            <td>53</td>
+            <td>103</td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>before</title>
+    <style>
+        li::before {
+            content: "¶ ";
+            /* Добавляем желаемый символ перед элементом списка */
+        }
+
+        li {
+            list-style: none;
+            /* Убираем исходные маркеры */
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>Альфа</li>
+        <li>Бета</li>
+        <li>Гамма</li>
+    </ul>
+</body>
+
+</html>

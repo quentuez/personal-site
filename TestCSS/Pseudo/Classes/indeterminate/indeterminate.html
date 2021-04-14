@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>indeterminate</title>
+    <style>
+        :indeterminate,
+        :indeterminate+span {
+            background: limegreen;
+        }
+
+        input,
+        span {
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <p><input type="checkbox"> <span>Этот текст станет зеленым, если чекбокс
+                находится в неопределенном состоянии.</span></p>
+    </form>
+    <script>
+        document.getElementsByTagName("input")[0].indeterminate = true;
+    </script>
+</body>
+
+</html>

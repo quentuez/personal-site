@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>:valid</title>
+    <style>
+        input:invalid {
+            background: #fdd;
+            /* Красный цвет фона */
+        }
+
+        input:valid {
+            background: #dfd;
+            /* Зеленый цвет фона */
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <p>Адрес сайта</p>
+        <p><input type="url" required></p>
+        <p>Адрес электронной почты</p>
+        <p><input type="email" required></p>
+        <p><input type="submit" value="Отправить"></p>
+    </form>
+</body>
+
+</html>
