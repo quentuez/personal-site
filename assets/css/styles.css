@@ -84,22 +84,34 @@ a {
 }
 
 .mainBlog p {
-	font-size: 15pt;
+	line-height: 25px;
+	margin-top: -22px;
+	margin-left: 10px;
+	font-size: 11pt;
 	font-weight: 400;
 	color: #aaaaaa;
 	font-family: 'Lato', sans-serif;
 }
 
-.mainblog button {
+.mainBlog button {
 	font-size: 15pt;
 	font-weight: 700;
-	color: white;
+	color: black;
 	font-family: 'Montserrat', sans-serif;
 }
 
+.mainBlog button:hover {
+	color: white;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
 .portfolioBlog h3 {
-	font-size: 52pt;
-	font-weight: 600;
+	margin-top: 60px;
+	letter-spacing: -1.25px;
+	font-size: 38pt;
+	text-align: center;
+	font-weight: 800;
 	color: black;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -109,4 +121,12 @@ a {
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
+}
+
+.aboutMeBlog {
+	margin-top: 200px;
+	clip-path: polygon(0 0, 100% 10%, 100% 91%, 0% 100%);
+	background-color: red; /* #f8f8f8; */
+	width: 100vw;
+	height: 400px;
 }
