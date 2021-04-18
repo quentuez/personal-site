@@ -3,6 +3,7 @@
 
 <head>
     <link href="../personal-site/assets/css/styles.css" media="all" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="../personal-site/assets/img/logo.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -10,11 +11,18 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
-    <title>quentuez's site</title>
+    <meta charset="utf-8">
+    <meta content="true" name="HandheldFriendly">
+    <meta content="width" name="MobileOptimized">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Персональный сайт">
+    <meta name="robots" content="index, follow">
+    <title>Персональный сайт</title>
 </head>
 
 <body>
-    <div class="mainBlog">
+    <div class="mainBlog" id="home">
         <img class="personalPhoto" src="../personal-site/assets/img/personalPhoto.png">
         <div class="container">
             <header id="header">
@@ -22,28 +30,25 @@
                 </div>
                 <nav class="headerNav">
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Page</a></li>
-                        <li><a href="">Portfolio</a></li>
-                        <li><a href="">Shortcodes</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Shop</a></li>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#projects">Портфолио</a></li>
+                        <li><a href="#aboutMe">Обо мне</a></li>
+                        <li><a href="#footer">Контакты</a></li>
                     </ul>
                 </nav>
             </header>
-            <h2>I'm John Doe, Ux/Ui Designer & Art Director</h2>
-            <h1>I love to Create</h1>
-            <p>Exercitation ullamco laboris nisi dolo rem. Quis no at with strud exe.rcitation<br>
-                ullamco. Ut enim ad minim veniam, quis no at .</p>
-            <form>
-                <button>Contact me</button>
-            </form>
+            <h2>Привет, меня зовут Дмитрий</h2>
+            <h1>Добро пожаловать на сайт</h1>
+            <p>Здесь Вы найдете мои проекты, а также информацию обо мне.</p>
+            <div class="contactMe">
+                <a href="#feedback">Связаться со мной</a>
+            </div>
         </div>
     </div>
 
-    <div class="portfolioBlog">
+    <div class="portfolioBlog" id="projects">
         <div class="container">
-            <h3>My Concepts.</h3>
+            <h3>Портфолио</h3>
             <div class="listOfProjects">
                 <div class="column1">
                     <div class="project1">
@@ -83,26 +88,49 @@
         </div>
     </div>
 
-    <div class=aboutMeBlog>
+    <div class=aboutMeBlog id="aboutMe">
         <div class="container">
-            <p></p>
+            <h3>Обо мне</h3>
+            <div class="skills">
+                <div class="HTML">
+                    <img src="../personal-site/assets/img/aboutMe/HTML.png">
+                    <h4>HTML</h4>
+                    <p>Навыки:
+                        <br>Обязательно появятся.
+                    </p>
+                </div>
+                <div class="CSS">
+                    <img src="../personal-site/assets/img/aboutMe/CSS.png">
+                    <h4>CSS</h4>
+                    <p>Навыки:
+                        <br>Когда-нибудь появятся.
+                    </p>
+                </div>
+                <div class="JS">
+                    <img src="../personal-site/assets/img/aboutMe/JS.png">
+                    <h4>JS</h4>
+                    <p>Навыки:
+                        <br>Надеюсь, что появятся.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="contactMeBlog">
+    <div class="contactMeBlog" id="feedback">
         <div class="container">
-            <h3>Get in touch.</h3>
+            <h3>Связаться со мной</h3>
             <div class="form__group field">
                 <input type="text" class="form__field" placeholder="name" id="name" name="name" required>
-                <label for="name" class="form__label">Full Name</label>
+                <label for="name" class="form__label">Полное имя</label>
             </div>
             <div class="form__group field">
                 <input type="email" class="form__field" placeholder="email" id="email" name="email" required>
-                <label for="email" class="form__label">Email Address</label>
+                <label for="email" class="form__label">Электронный адрес</label>
             </div>
             <div class="form__group field">
                 <input type="url" class="form__field" placeholder="url" id="url" name="url" required>
-                <label for="url" class="form__label">Your Website</label>
+                <label for="url" class="form__label">Ваш сайт</label>
             </div>
             <textarea cols=" 50" maxlength="100" placeholder="Введите текст" wrap="hard"></textarea>
             <form><input type="submit"></form>
@@ -111,10 +139,10 @@
 
     <footer id="footer">
         <div class="container">
-            <h3>Contact Info.</h3>
-            <div class="emailLink"><a href="mailto:dmitrij.klimenkoff7@gmail.com">example@gmail.com</a>
+            <h3>Контакты</h3>
+            <div class="emailLink"><a href="mailto:dmitrij.klimenkoff7@gmail.com">dmitrij.klimenkoff7@gmail.com</a>
             </div>
-            <div class="phoneLink"><a href="tel:+79039371294">+ 84 123 3456 678</a></div>
+            <div class="phoneLink"><a href="tel:+79039371294">+7-903-937-12-94</a></div>
             <div class="contactsLinks">
                 <a href="https://github.com/quentuez" target="_blank">
                     <img class="ico" src="../personal-site/assets/img/contactLinkIcos/github.png" alt="github_ico">
@@ -131,7 +159,7 @@
                     <img class="ico" src="../personal-site/assets/img/contactLinkIcos/vk.png" alt="vk_ico">
                 </a>
             </div>
-            <p>© 2018 Easybuilder by Lazahemes. All Rights Reserved.</p>
+            <p>© 2021 Сайт разработан мною лично.</p>
         </div>
     </footer>
 </body>
