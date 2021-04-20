@@ -83,6 +83,7 @@ a {
 .headerNav a:hover {
 	background: white;
 	color: black;
+	transition: 0.2s;
 }
 
 .mainBlog h2 {
@@ -130,12 +131,14 @@ a {
 .contactMe a:hover {
 	background-color: white;
 	color: black;
+	transition: 0.2s;
 }
 
 .mainBlog button:hover {
 	color: white;
 	text-decoration: underline;
 	background-color: transparent;
+	transition: 0.2s;
 }
 
 .portfolioBlog h3 {
@@ -267,6 +270,8 @@ a {
 	transition: 0.2s;
 	font-size: 1rem;
 	color: #999999;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .form__field:focus {
@@ -287,6 +292,7 @@ a {
 	font-size: 1rem;
 	color: black;
 	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #footer {
@@ -306,11 +312,6 @@ a {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.ico {
-	width: 30px;
-	height: 30px;
-}
-
 .emailLink, .phoneLink {
 	display: flex;
 	align-items: center;
@@ -327,9 +328,11 @@ a {
 
 .emailLink a:hover {
 	text-decoration: underline;
+	transition: 0.2s;
 }
 
 .phoneLink a:hover {
+	transition: 0.2s;
 	text-decoration: underline;
 }
 
@@ -359,4 +362,166 @@ a {
 
 textarea {
 	resize: none;
+}
+
+.form__field1 {
+	width: 100%;
+	border: 0;
+	border: 2px solid #e2e2e2;
+	outline: 0;
+	font-size: 1.3rem;
+	color: black;
+	padding: 7px 0;
+	background: transparent;
+	transition: border-color 0.2s;
+	height: 200px;
+}
+
+.form__field1::placeholder {
+	color: transparent;
+}
+
+.form__field1:placeholder-shown~.form__label1 {
+	font-size: 10pt;
+	cursor: text;
+	top: 22px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.form__field1:focus {
+	padding-bottom: 6px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13pt;
+	border-width: 2px;
+	border-color: black;
+	border-image-slice: 1;
+}
+
+.form__field1:focus~.form__label1 {
+	position: absolute;
+	top: -8px;
+	display: block;
+	transition: 0.2s;
+	font-size: 1rem;
+	color: black;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.form__label1 {
+	position: absolute;
+	top: 0;
+	display: block;
+	transition: 0.2s;
+	font-size: 1rem;
+	color: #999999;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.project2, .project3, .project5, .project6, .project8, .project9 {
+	padding-top: 20px;
+}
+
+.sendButton {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition: 0.2s;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 43%;
+	margin-top: 40px;
+}
+
+.project1 {
+	filter: blur(0.5px) grayscale(50%);
+	box-shadow: 0px 0px 10px 1px #000000;
+}
+
+.project1:hover {
+	filter: blur(0px) grayscale(0%);
+	transition: 0.5s ease 0s;
+}
+
+.sendButton:hover {
+	background-color: transparent;
+	color: black;
+	outline: 2px solid black;
+}
+
+.buttonBlog {
+	margin: 0 auto;
+}
+
+.ico_github, .ico_instagram, .ico_spotify, .ico_vk {
+	width: 30px;
+	height: 30px;
+}
+
+.ico_github:hover {
+	width: 30px;
+	height: 30px;
+	filter: invert(97%) sepia(36%) saturate(1180%) hue-rotate(303deg) brightness(100%) contrast(96%);
+}
+
+.ico_github:after {
+	width: 30px;
+	height: 30px;
+	filter: invert(97%) sepia(36%) saturate(1180%) hue-rotate(303deg) brightness(100%) contrast(96%);
+}
+
+.ico_instagram:hover {
+	width: 30px;
+	height: 30px;
+	filter: invert(33%) sepia(61%) saturate(1652%) hue-rotate(307deg) brightness(87%) contrast(91%);
+}
+
+.ico_instagram:after {
+	width: 30px;
+	height: 30px;
+	filter: invert(33%) sepia(61%) saturate(1652%) hue-rotate(307deg) brightness(87%) contrast(91%);
+}
+
+.ico_spotify:hover {
+	width: 30px;
+	height: 30px;
+	filter: invert(59%) sepia(74%) saturate(478%) hue-rotate(89deg) brightness(96%) contrast(96%);
+}
+
+.ico_spotify:after {
+	width: 30px;
+	height: 30px;
+	filter: invert(59%) sepia(74%) saturate(478%) hue-rotate(89deg) brightness(96%) contrast(96%);
+}
+
+.ico_spotify:hover {
+	width: 30px;
+	height: 30px;
+	filter: invert(59%) sepia(74%) saturate(478%) hue-rotate(89deg) brightness(96%) contrast(96%);
+}
+
+.ico_spotify:after {
+	width: 30px;
+	height: 30px;
+	filter: invert(59%) sepia(74%) saturate(478%) hue-rotate(89deg) brightness(96%) contrast(96%);
+}
+
+.ico_vk:hover {
+	width: 30px;
+	height: 30px;
+	filter: invert(38%) sepia(43%) saturate(612%) hue-rotate(173deg) brightness(85%) contrast(79%);
+}
+
+.ico_vk:after {
+	width: 30px;
+	height: 30px;
+	filter: invert(38%) sepia(43%) saturate(612%) hue-rotate(173deg) brightness(85%) contrast(79%);
 }
