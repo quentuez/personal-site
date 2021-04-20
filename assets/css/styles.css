@@ -76,8 +76,10 @@ a {
 	font-size: 14px;
 	font-weight: 500;
 	display: block;
+	padding: 7px;
 	color: white;
 	margin-left: 51px;
+	outline: 2px solid white;
 }
 
 .headerNav a:hover {
@@ -126,6 +128,8 @@ a {
 	color: white;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
+	outline: 2px solid white;
+	padding: 7px;
 }
 
 .contactMe a:hover {
@@ -439,6 +443,7 @@ textarea {
 	font-family: 'Montserrat', sans-serif;
 	margin-left: 36%;
 	margin-top: 40px;
+	cursor: pointer;
 }
 
 .project1 {
@@ -448,7 +453,7 @@ textarea {
 .project1:hover {
 	filter: blur(0px);
 	transition: 0.3s ease 0s;
-	box-shadow: 0px 0px 10px 2px #000000;
+	box-shadow: 0px 0px 12px 5px #000000;
 }
 
 .sendButton:hover {
