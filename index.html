@@ -117,23 +117,26 @@
     <div class="contactMeBlog" id="contactMe">
         <div class="container">
             <h3>Связаться со мной</h3>
-            <div class="form__group field">
-                <input type="text" class="form__field" placeholder="name" id="name" name="name" required>
-                <label for="name" class="form__label">Полное имя</label>
-            </div>
-            <div class="form__group field">
-                <input type="email" class="form__field" placeholder="email" id="email" name="email" required>
-                <label for="email" class="form__label">Электронный адрес</label>
-            </div>
-            <div class="form__group field">
-                <input type="url" class="form__field" placeholder="url" id="url" name="url" required>
-                <label for="url" class="form__label">Ваш сайт</label>
-            </div>
-            <div class="form__group field1">
-                <textarea class="form__field1" cols=" 50" maxlength="500" placeholder="Введите текст"></textarea>
-                <label for="url" class="form__label1">Введите сообщение</label>
-            </div>
-            <div class="buttonBlog"><button class="sendButton">Отправить</button></div>
+            <form method="POST" action="../personal-site/assets/form.php">
+                <div class="form__group field">
+                    <input type="text" class="form__field" placeholder="name" id="name" name="name" required>
+                    <label for="name" class="form__label">Полное имя</label>
+                </div>
+                <div class="form__group field">
+                    <input type="email" class="form__field" placeholder="email" id="email" name="email" required>
+                    <label for="email" class="form__label">Электронный адрес</label>
+                </div>
+                <div class="form__group field">
+                    <input type="url" class="form__field" placeholder="url" id="url" name="url" required>
+                    <label for="url" class="form__label">Ваш сайт</label>
+                </div>
+                <div class="form__group field1">
+                    <textarea type="text" name="message" class="form__field1" cols=" 50" maxlength="500"
+                        placeholder="Введите текст"></textarea>
+                    <label for="url" class="form__label1">Введите сообщение</label>
+                </div>
+                <div class="buttonBlog"><button type="submit" name="submit" class="sendButton">Отправить</button></div>
+            </form>
         </div>
     </div>
 
