@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<script>
+    let userName = 'Вася';
+
+    function showMessage() {
+        userName = "Петя"; // (1) изменяем значение внешней переменной
+
+        let message = 'Привет, ' + userName;
+        alert(message);
+    }
+
+    alert(userName); // Вася перед вызовом функции
+
+    showMessage();
+
+    alert(userName); // Петя, значение внешней переменной было изменено функцией
+</script>
