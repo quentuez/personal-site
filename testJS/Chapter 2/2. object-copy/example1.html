@@ -1,4 +1,10 @@
 <!DOCTYPE html>
 <script>
+  let user = { name: 'Иван' };
 
+  let admin = user;
+
+  admin.name = 'Петя'; // изменено по ссылке из переменной "admin"
+
+  alert(user.name); // 'Петя', изменения видны по ссылке из переменной "user"
 </script>
