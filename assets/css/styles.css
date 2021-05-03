@@ -559,6 +559,9 @@ textarea {
 		width: 300px;
 		z-index: 1;
 	}
+	.mainBlog {
+		height: 40vh;
+	}
 	/* Стили для устройств с шириной viewport, находящейся в диапазоне 425px - 767px */
 }
 
@@ -594,6 +597,9 @@ textarea {
 		margin-top: 70px;
 		width: 400px;
 		z-index: 1;
+	}
+	.mainBlog {
+		height: 70vh;
 	}
 	/* Стили для устройств с шириной viewport, находящейся в диапазоне 768px - 991px */
 }
@@ -632,6 +638,9 @@ textarea {
 		margin-top: 70px;
 		width: 500px;
 		z-index: 1;
+	}
+	.mainBlog {
+		height: 90vh;
 	}
 	/* Стили для устройств с шириной viewport, находящейся в диапазоне 992px - 1199px */
 }
