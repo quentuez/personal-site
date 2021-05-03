@@ -1,9 +1,0 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.rtl p {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-}

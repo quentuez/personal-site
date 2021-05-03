@@ -466,7 +466,7 @@ textarea {
 	margin: 0 auto;
 }
 
-.ico_github, .ico_instagram, .ico_spotify, .ico_vk {
+.ico_github, .ico_vk, .ico_whatsapp, .ico_telegram {
 	width: 30px;
 	height: 30px;
 }
@@ -483,42 +483,6 @@ textarea {
 	filter: invert(97%) sepia(36%) saturate(1180%) hue-rotate(303deg) brightness(100%) contrast(96%);
 }
 
-.ico_instagram:hover {
-	width: 30px;
-	height: 30px;
-	filter: invert(33%) sepia(61%) saturate(1652%) hue-rotate(307deg) brightness(87%) contrast(91%);
-}
-
-.ico_instagram:after {
-	width: 30px;
-	height: 30px;
-	filter: invert(33%) sepia(61%) saturate(1652%) hue-rotate(307deg) brightness(87%) contrast(91%);
-}
-
-.ico_spotify:hover {
-	width: 30px;
-	height: 30px;
-	filter: invert(59%) sepia(74%) saturate(478%) hue-rotate(89deg) brightness(96%) contrast(96%);
-}
-
-.ico_spotify:after {
-	width: 30px;
-	height: 30px;
-	filter: invert(59%) sepia(74%) saturate(478%) hue-rotate(89deg) brightness(96%) contrast(96%);
-}
-
-.ico_spotify:hover {
-	width: 30px;
-	height: 30px;
-	filter: invert(59%) sepia(74%) saturate(478%) hue-rotate(89deg) brightness(96%) contrast(96%);
-}
-
-.ico_spotify:after {
-	width: 30px;
-	height: 30px;
-	filter: invert(59%) sepia(74%) saturate(478%) hue-rotate(89deg) brightness(96%) contrast(96%);
-}
-
 .ico_vk:hover {
 	width: 30px;
 	height: 30px;
@@ -529,4 +493,28 @@ textarea {
 	width: 30px;
 	height: 30px;
 	filter: invert(38%) sepia(43%) saturate(612%) hue-rotate(173deg) brightness(85%) contrast(79%);
+}
+
+.ico_telegram:hover {
+	width: 30px;
+	height: 30px;
+	filter: invert(73%) sepia(57%) saturate(2745%) hue-rotate(168deg) brightness(85%) contrast(101%);
+}
+
+.ico_telegram:after {
+	width: 30px;
+	height: 30px;
+	filter: invert(73%) sepia(57%) saturate(2745%) hue-rotate(168deg) brightness(85%) contrast(101%);
+}
+
+.ico_whatsapp:hover {
+	width: 30px;
+	height: 30px;
+	filter: invert(63%) sepia(67%) saturate(518%) hue-rotate(89deg) brightness(94%) contrast(90%);
+}
+
+.ico_whatsapp:after {
+	width: 30px;
+	height: 30px;
+	filter: invert(63%) sepia(67%) saturate(518%) hue-rotate(89deg) brightness(94%) contrast(90%);
 }
