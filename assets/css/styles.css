@@ -559,9 +559,6 @@ textarea {
 		width: 300px;
 		z-index: 1;
 	}
-	.mainBlog {
-		height: 670px;
-	}
 	/* Стили для устройств с шириной viewport, находящейся в диапазоне 425px - 767px */
 }
 
@@ -597,9 +594,6 @@ textarea {
 		margin-top: 70px;
 		width: 400px;
 		z-index: 1;
-	}
-	.mainBlog {
-		height: 770px;
 	}
 	/* Стили для устройств с шириной viewport, находящейся в диапазоне 768px - 991px */
 }
@@ -639,9 +633,6 @@ textarea {
 		width: 500px;
 		z-index: 1;
 	}
-	.mainBlog {
-		height: 870px;
-	}
 	/* Стили для устройств с шириной viewport, находящейся в диапазоне 992px - 1199px */
 }
 
@@ -679,9 +670,6 @@ textarea {
 		margin-top: 70px;
 		width: 600px;
 		z-index: 1;
-	}
-	.mainBlog {
-		height: 970px;
 	}
 	/* Стили для устройств с шириной viewport >1200px */
 }
