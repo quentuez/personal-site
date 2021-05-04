@@ -83,12 +83,6 @@ a {
 	outline: 2px solid white;
 }
 
-.headerNav a:hover {
-	background: white;
-	color: black;
-	transition: 0.2s;
-}
-
 .mainBlog h2 {
 	margin-top: 270px;
 	font-weight: 600;
@@ -131,19 +125,6 @@ a {
 	font-family: 'Montserrat', sans-serif;
 	outline: 2px solid white;
 	padding: 7px;
-}
-
-.contactMe a:hover {
-	background-color: white;
-	color: black;
-	transition: 0.2s;
-}
-
-.mainBlog button:hover {
-	color: white;
-	text-decoration: underline;
-	background-color: transparent;
-	transition: 0.2s;
 }
 
 .portfolioBlog h3 {
@@ -325,6 +306,11 @@ a {
 	font-family: 'Montserrat', sans-serif;
 }
 
+#buttonBlog {
+	display: flex;
+	justify-content: center;
+}
+
 .emailLink {
 	margin-top: 100px;
 }
@@ -460,7 +446,7 @@ textarea {
 	outline: 2px solid black;
 }
 
-.buttonBlog {
+.button_slide {
 	display: flex;
 	justify-content: center;
 }
@@ -809,4 +795,44 @@ textarea {
 
 .menu__item:hover {
 	background-color: #CFD8DC;
+}
+
+.button_slide {
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	position: relative;
+	padding: 15px 30px;
+	border: 1px solid;
+	border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+	border-image-slice: 1;
+	margin: 10px 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: 2px;
+	transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+
+.button_slide:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 0;
+	width: 100%;
+	z-index: -1;
+	color: white;
+	background: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+	transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+
+.button_slide:hover {
+	background: rgba(255, 255, 255, 0);
+}
+
+.button_slide:hover:before {
+	bottom: 0%;
+	top: auto;
+	height: 100%;
 }
