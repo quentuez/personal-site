@@ -553,7 +553,7 @@ textarea {
 		display: none;
 	}
 	.contactsLinks {
-		width: 16vw;
+		width: 140px;
 	}
 	/* Стили для устройств с шириной viewport, находящейся в диапазоне 425px - 767px */
 }
@@ -601,7 +601,7 @@ textarea {
 		display: none;
 	}
 	.contactsLinks {
-		width: 16vw;
+		width: 160px;
 	}
 	/* Стили для устройств с шириной viewport, находящейся в диапазоне 768px - 991px */
 }
@@ -637,7 +637,7 @@ textarea {
 	.personalPhoto {
 		position: absolute;
 		margin-left: 750px;
-		margin-top: 70px;
+		margin-top: 100px;
 		width: 500px;
 		z-index: 1;
 	}
@@ -651,7 +651,7 @@ textarea {
 		display: block;
 	}
 	.contactsLinks {
-		width: 16vw;
+		width: 180px;
 	}
 	/* Стили для устройств с шириной viewport, находящейся в диапазоне 992px - 1199px */
 }
@@ -687,7 +687,7 @@ textarea {
 	.personalPhoto {
 		position: absolute;
 		margin-left: 1000px;
-		margin-top: 70px;
+		margin-top: 100px;
 		width: 600px;
 		z-index: 1;
 	}
@@ -701,7 +701,7 @@ textarea {
 		display: block;
 	}
 	.contactsLinks {
-		width: 16vw;
+		width: 200px;
 	}
 	/* Стили для устройств с шириной viewport >1200px */
 }
