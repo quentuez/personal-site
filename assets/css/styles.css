@@ -354,7 +354,7 @@ a {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 20%;
+	width: 16vw;
 }
 
 #footer p {
@@ -463,7 +463,8 @@ textarea {
 }
 
 .buttonBlog {
-	margin: 0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 .ico_github, .ico_vk, .ico_whatsapp, .ico_telegram {
@@ -567,6 +568,9 @@ textarea {
 	.personalPhoto {
 		display: none;
 	}
+	.contactsLinks {
+		width: 16vw;
+	}
 	/* Стили для устройств с шириной viewport, находящейся в диапазоне 425px - 767px */
 }
 
@@ -611,6 +615,9 @@ textarea {
 	}
 	.personalPhoto {
 		display: none;
+	}
+	.contactsLinks {
+		width: 16vw;
 	}
 	/* Стили для устройств с шириной viewport, находящейся в диапазоне 768px - 991px */
 }
@@ -659,6 +666,9 @@ textarea {
 	.personalPhoto {
 		display: block;
 	}
+	.contactsLinks {
+		width: 16vw;
+	}
 	/* Стили для устройств с шириной viewport, находящейся в диапазоне 992px - 1199px */
 }
 
@@ -705,6 +715,9 @@ textarea {
 	}
 	.personalPhoto {
 		display: block;
+	}
+	.contactsLinks {
+		width: 16vw;
 	}
 	/* Стили для устройств с шириной viewport >1200px */
 }
