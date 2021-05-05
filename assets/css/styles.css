@@ -1,0 +1,838 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+}
+
+.mainBlog {
+	animation: gradient 15s ease infinite;
+	background: linear-gradient( -45deg, #000000, #131111, #030204, #0b0e2b);
+	background-size: 400% 400%;
+	clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+	height: 970px;
+	width: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.personalPhoto {
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 70px;
+	width: 600px;
+	z-index: 1;
+}
+
+.container {
+	margin: 0px auto;
+	width: 1170px;
+}
+
+.logo {
+	width: 60px;
+	height: 60px;
+	background-image: url(../img/logo/60x60_logo.png);
+	margin-top: 63px;
+	margin-left: 8px;
+}
+
+nav {
+	z-index: 2;
+	margin-top: -58px;
+	display: block;
+	position: relative;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.headerNav ul {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 8.4px;
+}
+
+.headerNav a {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	display: block;
+	padding: 7px;
+	color: white;
+	margin-left: 51px;
+	outline: 2px solid white;
+}
+
+.mainBlog h2 {
+	margin-top: 270px;
+	font-weight: 600;
+	font-size: 20px;
+	margin-left: 7px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.mainBlog h1 {
+	width: 800px;
+	margin-top: -5px;
+	margin-left: 4px;
+	font-size: 51.1pt;
+	font-weight: 900;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.mainBlog p {
+	line-height: 26px;
+	margin-top: -23px;
+	margin-left: 10px;
+	font-size: 11.2pt;
+	font-weight: 500;
+	color: #aaaaaa;
+	font-family: 'Lato', sans-serif;
+}
+
+.contactMe {
+	margin-top: 49px;
+	margin-left: 42px;
+}
+
+.contactMe a {
+	font-size: 10.3pt;
+	font-weight: 600;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	outline: 2px solid white;
+	padding: 7px;
+}
+
+.portfolioBlog h3 {
+	margin-top: 60px;
+	margin-left: 17px;
+	letter-spacing: -0.5px;
+	font-size: 38pt;
+	text-align: center;
+	font-weight: 800;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.listOfProjects {
+	display: flex;
+	justify-content: space-around;
+}
+
+.listOfProjects .column1, .column2, .column3 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.aboutMeBlog {
+	margin-top: 264px;
+	background-color: #f8f8f8;
+	clip-path: polygon(0 0, 100% 14%, 100% 85%, 0% 100%);
+	width: 100%;
+	height: 640px;
+}
+
+.aboutMeBlog h3 {
+	margin-top: 100px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	letter-spacing: -1.5px;
+	font-size: 39.5pt;
+	text-align: center;
+	font-weight: 800;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.contactMeBlog h3 {
+	margin-top: 65px;
+	letter-spacing: -1.5px;
+	font-size: 39.5pt;
+	text-align: center;
+	font-weight: 800;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.skills {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.HTML, .CSS, .JS {
+	width: 330px;
+	height: 315px;
+}
+
+.skills img {
+	display: block;
+	margin: 0 auto;
+	width: 99px;
+	height: 112px;
+}
+
+.skills p {
+	margin-top: -10px;
+	text-align: center;
+	line-height: 26px;
+	color: #666666;
+	font-weight: 500;
+	font-size: 13pt;
+}
+
+.skills h4 {
+	margin-top: 25px;
+	letter-spacing: -1.5px;
+	font-size: 18pt;
+	text-align: center;
+	font-weight: 800;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.form__group {
+	position: relative;
+	padding: 15px 0 0;
+	margin: 19px auto;
+	width: 67%;
+}
+
+.form__field {
+	width: 100%;
+	border: 0;
+	border-bottom: 2px solid #e2e2e2;
+	outline: 0;
+	font-size: 1.3rem;
+	color: black;
+	padding: 7px 0;
+	background: transparent;
+	transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+	color: transparent;
+}
+
+.form__field:placeholder-shown~.form__label {
+	font-size: 10pt;
+	cursor: text;
+	top: 22px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.form__label {
+	position: absolute;
+	top: 0;
+	display: block;
+	transition: 0.2s;
+	font-size: 1rem;
+	color: #999999;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.form__field:focus {
+	padding-bottom: 6px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13pt;
+	border-width: 2px;
+	border-color: black;
+	border-image-slice: 1;
+}
+
+.form__field:focus~.form__label {
+	position: absolute;
+	top: 0;
+	display: block;
+	transition: 0.2s;
+	font-size: 1rem;
+	color: black;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#footer {
+	background-color: #f8f8f8;
+	clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+	width: 100%;
+	margin-top: 330px;
+}
+
+#footer h3 {
+	margin-top: 153px;
+	font-size: 38pt;
+	letter-spacing: -2px;
+	text-align: center;
+	font-weight: 800;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.emailLink, .phoneLink {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-size: 22pt;
+	font-weight: 800;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#buttonBlog {
+	display: flex;
+	justify-content: center;
+}
+
+.emailLink {
+	margin-top: 100px;
+}
+
+.emailLink a:hover {
+	text-decoration: underline;
+	transition: 0.2s;
+}
+
+.phoneLink a:hover {
+	transition: 0.2s;
+	text-decoration: underline;
+}
+
+.phoneLink {
+	margin-top: 55px;
+}
+
+.emailLink :link, .phoneLink :link {
+	color: black;
+}
+
+.contactsLinks {
+	margin: 52px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 16vw;
+}
+
+#footer p {
+	margin-top: 100px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10pt;
+	font-weight: 500;
+}
+
+textarea {
+	resize: none;
+}
+
+.form__field1 {
+	width: 100%;
+	border: 0;
+	border: 2px solid #e2e2e2;
+	outline: 0;
+	font-size: 1.3rem;
+	color: black;
+	padding: 7px 0;
+	background: transparent;
+	transition: border-color 0.2s;
+	height: 200px;
+}
+
+.form__field1::placeholder {
+	color: transparent;
+}
+
+.form__field1:placeholder-shown~.form__label1 {
+	font-size: 10pt;
+	cursor: text;
+	top: 22px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.form__field1:focus {
+	padding-bottom: 6px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13pt;
+	border-width: 2px;
+	border-color: black;
+	border-image-slice: 1;
+}
+
+.form__field1:focus~.form__label1 {
+	position: absolute;
+	top: -8px;
+	display: block;
+	transition: 0.2s;
+	font-size: 1rem;
+	color: black;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.form__label1 {
+	position: absolute;
+	top: 0;
+	display: block;
+	transition: 0.2s;
+	font-size: 1rem;
+	color: #999999;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.project2, .project3, .project5, .project6, .project8, .project9 {
+	padding-top: 20px;
+}
+
+.sendButton {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition: 0.2s;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 40px;
+	cursor: pointer;
+}
+
+.project1 {
+	filter: blur(2px);
+}
+
+.project1:hover {
+	filter: blur(0px);
+	transition: 0.3s ease 0s;
+	box-shadow: 0px 0px 12px 5px #000000;
+}
+
+.sendButton:hover {
+	background-color: transparent;
+	color: black;
+	outline: 2px solid black;
+}
+
+.button_slide {
+	display: flex;
+	justify-content: center;
+}
+
+.ico_github, .ico_vk, .ico_whatsapp, .ico_telegram {
+	width: 30px;
+	height: 30px;
+}
+
+.ico_github:hover {
+	width: 30px;
+	height: 30px;
+	filter: invert(97%) sepia(36%) saturate(1180%) hue-rotate(303deg) brightness(100%) contrast(96%);
+}
+
+.ico_github:after {
+	width: 30px;
+	height: 30px;
+	filter: invert(97%) sepia(36%) saturate(1180%) hue-rotate(303deg) brightness(100%) contrast(96%);
+}
+
+.ico_vk:hover {
+	width: 30px;
+	height: 30px;
+	filter: invert(38%) sepia(43%) saturate(612%) hue-rotate(173deg) brightness(85%) contrast(79%);
+}
+
+.ico_vk:after {
+	width: 30px;
+	height: 30px;
+	filter: invert(38%) sepia(43%) saturate(612%) hue-rotate(173deg) brightness(85%) contrast(79%);
+}
+
+.ico_telegram:hover {
+	width: 30px;
+	height: 30px;
+	filter: invert(73%) sepia(57%) saturate(2745%) hue-rotate(168deg) brightness(85%) contrast(101%);
+}
+
+.ico_telegram:after {
+	width: 30px;
+	height: 30px;
+	filter: invert(73%) sepia(57%) saturate(2745%) hue-rotate(168deg) brightness(85%) contrast(101%);
+}
+
+.ico_whatsapp:hover {
+	width: 30px;
+	height: 30px;
+	filter: invert(63%) sepia(67%) saturate(518%) hue-rotate(89deg) brightness(94%) contrast(90%);
+}
+
+.ico_whatsapp:after {
+	width: 30px;
+	height: 30px;
+	filter: invert(63%) sepia(67%) saturate(518%) hue-rotate(89deg) brightness(94%) contrast(90%);
+}
+
+/* Устройства с очень маленьким экраном (смартфоны, меньше 768px) */
+
+/* Стили CSS (по умолчанию) - для ширины viewport <768px */
+
+/* Устроства с маленьким экраном (планшеты, 768px и выше) */
+
+@media (min-width: 425px) {
+	.container {
+		margin: 0px auto;
+		width: 375px;
+	}
+	.mainBlog h1 {
+		width: 200px;
+		margin-top: -5px;
+		margin-left: 4px;
+		font-size: 21.1pt;
+		font-weight: 900;
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.emailLink, .phoneLink {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		font-size: 16pt;
+		font-weight: 800;
+		color: black;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.proj1_pic, .proj2_pic, .proj3_pic, .proj4_pic, .proj5_pic, .proj6_pic, .proj7_pic, .proj8_pic, .proj9_pic {
+		width: 105px;
+	}
+	.personalPhoto {
+		position: absolute;
+		margin-left: 250px;
+		margin-top: 70px;
+		width: 300px;
+		z-index: 1;
+	}
+	.hamburger-menu {
+		display: block;
+	}
+	.headerNav {
+		display: none;
+	}
+	.personalPhoto {
+		display: none;
+	}
+	.contactsLinks {
+		width: 140px;
+	}
+	/* Стили для устройств с шириной viewport, находящейся в диапазоне 425px - 767px */
+}
+
+@media (min-width: 768px) {
+	.container {
+		margin: 0px auto;
+		width: 536px;
+	}
+	.mainBlog h1 {
+		width: 400px;
+		margin-top: -5px;
+		margin-left: 4px;
+		font-size: 31.1pt;
+		font-weight: 900;
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.emailLink, .phoneLink {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		font-size: 18pt;
+		font-weight: 800;
+		color: black;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.proj1_pic, .proj2_pic, .proj3_pic, .proj4_pic, .proj5_pic, .proj6_pic, .proj7_pic, .proj8_pic, .proj9_pic {
+		width: 158px;
+	}
+	.personalPhoto {
+		position: absolute;
+		margin-left: 500px;
+		margin-top: 70px;
+		width: 400px;
+		z-index: 1;
+	}
+	.hamburger-menu {
+		display: block;
+	}
+	.headerNav {
+		display: none;
+	}
+	.personalPhoto {
+		display: none;
+	}
+	.contactsLinks {
+		width: 160px;
+	}
+	/* Стили для устройств с шириной viewport, находящейся в диапазоне 768px - 991px */
+}
+
+/* Устройства со средним экраном (ноутбуки и компьютеры, 992px и выше) */
+
+@media (min-width: 992px) {
+	.container {
+		margin: 0px auto;
+		width: 668px;
+	}
+	.mainBlog h1 {
+		width: 600px;
+		margin-top: -5px;
+		margin-left: 4px;
+		font-size: 41.1pt;
+		font-weight: 900;
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.emailLink, .phoneLink {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		font-size: 20pt;
+		font-weight: 800;
+		color: black;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.proj1_pic, .proj2_pic, .proj3_pic, .proj4_pic, .proj5_pic, .proj6_pic, .proj7_pic, .proj8_pic, .proj9_pic {
+		width: 202px;
+	}
+	.personalPhoto {
+		position: absolute;
+		margin-left: 750px;
+		margin-top: 100px;
+		width: 500px;
+		z-index: 1;
+	}
+	.hamburger-menu {
+		display: none;
+	}
+	.headerNav {
+		display: block;
+	}
+	.personalPhoto {
+		display: block;
+	}
+	.contactsLinks {
+		width: 180px;
+	}
+	/* Стили для устройств с шириной viewport, находящейся в диапазоне 992px - 1199px */
+}
+
+/* Устройства с большим экраном (компьютеры, 1200px и выше) */
+
+@media (min-width: 1200px) {
+	.container {
+		margin: 0px auto;
+		width: 1170px;
+	}
+	.mainBlog h1 {
+		width: 800px;
+		margin-top: -5px;
+		margin-left: 4px;
+		font-size: 51.1pt;
+		font-weight: 900;
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.emailLink, .phoneLink {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		font-size: 22pt;
+		font-weight: 800;
+		color: black;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.proj1_pic, .proj2_pic, .proj3_pic, .proj4_pic, .proj5_pic, .proj6_pic, .proj7_pic, .proj8_pic, .proj9_pic {
+		width: 370px;
+	}
+	.personalPhoto {
+		position: absolute;
+		margin-left: 1000px;
+		margin-top: 100px;
+		width: 600px;
+		z-index: 1;
+	}
+	.hamburger-menu {
+		display: none;
+	}
+	.headerNav {
+		display: block;
+	}
+	.personalPhoto {
+		display: block;
+	}
+	.contactsLinks {
+		width: 200px;
+	}
+	/* Стили для устройств с шириной viewport >1200px */
+}
+
+#menu__toggle {
+	opacity: 0;
+}
+
+#menu__toggle:checked~.menu__btn>span {
+	transform: rotate(45deg);
+}
+
+#menu__toggle:checked~.menu__btn>span::before {
+	top: 0;
+	transform: rotate(0);
+}
+
+#menu__toggle:checked~.menu__btn>span::after {
+	top: 0;
+	transform: rotate(90deg);
+}
+
+#menu__toggle:checked~.menu__box {
+	visibility: visible;
+	left: 0;
+}
+
+.menu__btn {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+	z-index: 3;
+}
+
+.hamburger-menu {
+	height: 0;
+}
+
+.menu__btn>span, .menu__btn>span::before, .menu__btn>span::after {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: red;
+	transition-duration: .25s;
+	z-index: 2;
+}
+
+.menu__btn>span::before {
+	content: '';
+	top: -8px;
+}
+
+.menu__btn>span::after {
+	content: '';
+	top: 8px;
+}
+
+.menu__box {
+	display: block;
+	position: fixed;
+	visibility: hidden;
+	top: 0;
+	left: -100%;
+	width: 300px;
+	height: 100%;
+	margin: 0;
+	padding: 80px 0;
+	list-style: none;
+	background-color: #ECEFF1;
+	box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+	transition-duration: .25s;
+	z-index: 2;
+}
+
+.menu__item {
+	display: block;
+	padding: 12px 24px;
+	color: #333;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+	transition-duration: .25s;
+}
+
+.menu__item:hover {
+	background-color: #CFD8DC;
+}
+
+.button_slide {
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	position: relative;
+	padding: 15px 30px;
+	border: 1px solid;
+	border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+	border-image-slice: 1;
+	margin: 10px 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: 2px;
+	transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+
+.button_slide:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 0;
+	width: 100%;
+	z-index: -1;
+	color: white;
+	background: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+	transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+
+.button_slide:hover {
+	background: rgba(255, 255, 255, 0);
+}
+
+.button_slide:hover:before {
+	bottom: 0%;
+	top: auto;
+	height: 100%;
+}

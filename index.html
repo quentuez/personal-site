@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link href="../personal-site/assets/css/styles.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../personal-site/assets/img/logo/logo.png" rel="shortcut icon">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="description"
+        content="На этом сайте Вы найдете все мои работы в сфере веб-разработки, а также контактную информацию для связи со мной">
+    <meta name="robots" content="all">
+
+    <title>Персональный сайт Дмитрия Клименкова</title>
+</head>
+
+<body>
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox">
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+
+        <ul class="menu__box">
+            <li><a class="menu__item" href="#mainBlog">Главная</a></li>
+            <li><a class="menu__item" href="#projects">Портфолио</a></li>
+            <li><a class="menu__item" href="#aboutMe">Обо мне</a></li>
+            <li><a class="menu__item" href="#footer">Контакты</a></li>
+
+        </ul>
+    </div>
+    <div class="mainBlog" id="mainBlog">
+
+        <img class="personalPhoto" src="../personal-site/assets/img/personalPhoto.png">
+        <div class="container">
+
+            <header id="header">
+                <div class="logo">
+                </div>
+                <nav class="headerNav">
+                    <ul>
+                        <li><a href="#mainBlog" class="button_slide">Главная</a></li>
+                        <li><a href="#projects" class="button_slide">Портфолио</a></li>
+                        <li><a href="#aboutMe" class="button_slide">Обо мне</a></li>
+                        <li><a href="#footer" class="button_slide">Контакты</a></li>
+                    </ul>
+                </nav>
+
+
+            </header>
+            <h2>Привет, меня зовут Дмитрий</h2>
+            <h1>Добро пожаловать на сайт</h1>
+            <p>Здесь Вы найдете мои веб-проекты, а также информацию обо мне.</p>
+            <div class="contactMe">
+                <a href="#contactMe" class="button_slide">Связаться со мной</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolioBlog" id="projects">
+        <div class="container">
+
+            <h3>Портфолио</h3>
+            <div class="listOfProjects">
+                <div class="column1">
+                    <div class="project1">
+                        <a href="../personal-site/TestHTML/testOfTags.html" target="_blank">
+                            <img class="proj1_pic" src="../personal-site/assets/img/previewOfProjects/project1.png"></a>
+                    </div>
+                    <div class="project2">
+                        <img class="proj2_pic" src="../personal-site/assets/img/previewOfProjects/project2.png">
+                    </div>
+                    <div class="project3">
+                        <img class="proj3_pic" src="../personal-site/assets/img/previewOfProjects/project3.png">
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="project4">
+                        <img class="proj4_pic" src="../personal-site/assets/img/previewOfProjects/project4.png">
+                    </div>
+                    <div class="project5">
+                        <img class="proj5_pic" src="../personal-site/assets/img/previewOfProjects/project5.png">
+                    </div>
+                    <div class="project6">
+                        <img class="proj6_pic" src="../personal-site/assets/img/previewOfProjects/project6.png">
+                    </div>
+                </div>
+                <div class="column3">
+                    <div class="project7">
+                        <img class="proj7_pic" src="../personal-site/assets/img/previewOfProjects/project7.png">
+                    </div>
+                    <div class="project8">
+                        <img class="proj8_pic" src="../personal-site/assets/img/previewOfProjects/project8.png">
+                    </div>
+                    <div class="project9">
+                        <img class="proj9_pic" src="../personal-site/assets/img/previewOfProjects/project9.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=aboutMeBlog id="aboutMe">
+        <div class="container">
+            <h3>Обо мне</h3>
+            <div class="skills">
+                <div class="HTML">
+                    <img src="../personal-site/assets/img/aboutMe/HTML.png">
+                    <h4>HTML</h4>
+                    <p>Навыки:
+                        <br>Обязательно появятся.
+                    </p>
+                </div>
+                <div class="CSS">
+                    <img src="../personal-site/assets/img/aboutMe/CSS.png">
+                    <h4>CSS</h4>
+                    <p>Навыки:
+                        <br>Когда-нибудь появятся.
+                    </p>
+                </div>
+                <div class="JS">
+                    <img src="../personal-site/assets/img/aboutMe/JS.png">
+                    <h4>JS</h4>
+                    <p>Навыки:
+                        <br>Надеюсь, что появятся.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contactMeBlog" id="contactMe">
+        <div class="container">
+            <h3>Связаться со мной</h3>
+            <form method="POST" action="../personal-site/assets/form.php">
+                <div class="form__group field">
+                    <input type="text" class="form__field" placeholder="name" id="name" name="name" required>
+                    <label for="name" class="form__label">Полное имя</label>
+                </div>
+                <div class="form__group field">
+                    <input type="email" class="form__field" placeholder="email" id="email" name="email" required>
+                    <label for="email" class="form__label">Электронный адрес</label>
+                </div>
+                <div class="form__group field">
+                    <input type="url" class="form__field" placeholder="url" id="url" name="url" required>
+                    <label for="url" class="form__label">Ваш сайт</label>
+                </div>
+                <div class="form__group field1">
+                    <textarea type="text" name="message" class="form__field1" cols=" 50" maxlength="500"
+                        placeholder="Введите текст"></textarea>
+                    <label for="url" class="form__label1">Введите сообщение</label>
+                </div>
+                <div id="buttonBlog"><button type="submit" name="submit" class="sendButton">Отправить письмо на мою
+                        почту</button></div>
+            </form>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <h3>Контакты</h3>
+            <div class="emailLink"><a href="mailto:dmitrij.klimenkoff7@gmail.com">dmitrij.klimenkoff7@gmail.com</a>
+            </div>
+            <div class="phoneLink"><a href="tel:+79039371294">+7-903-937-12-94</a></div>
+            <div class="contactsLinks">
+                <a href="https://github.com/quentuez" target="_blank">
+                    <img class="ico_github" src="../personal-site/assets/img/contactLinkIcos/github.png"
+                        alt="github_ico">
+                </a>
+                <a href="https://telegram.me/quentuez" target="_blank">
+                    <img class="ico_telegram" src="../personal-site/assets/img/contactLinkIcos/telegram.png"
+                        alt="telegram_ico">
+                </a>
+                <a href="https://vk.com/quentuez" target="_blank">
+                    <img class="ico_vk" src="../personal-site/assets/img/contactLinkIcos/vk.png" alt="vk_ico">
+                </a>
+                <a href="https://wa.me/79039371294" target="_blank">
+                    <img class="ico_whatsapp" src="../personal-site/assets/img/contactLinkIcos/whatsapp.png"
+                        alt="whatsapp_ico">
+                </a>
+            </div>
+            <p>© 2021 Сайт разработан мною лично.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
