@@ -1,1 +1,1 @@
-# personal-site
+# STATUS: BEING FINALIZED
