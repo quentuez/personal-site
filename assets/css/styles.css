@@ -648,7 +648,7 @@ textarea {
 		display: block;
 	}
 	.personalPhoto {
-		display: block;
+		display: none;
 	}
 	.contactsLinks {
 		width: 180px;
@@ -698,7 +698,7 @@ textarea {
 		display: block;
 	}
 	.personalPhoto {
-		display: block;
+		display: none;
 	}
 	.contactsLinks {
 		width: 200px;
