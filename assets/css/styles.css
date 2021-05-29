@@ -29,14 +29,6 @@ body {
 	}
 }
 
-.personalPhoto {
-	position: absolute;
-	margin-left: 1000px;
-	margin-top: 70px;
-	width: 600px;
-	z-index: 1;
-}
-
 .container {
 	margin: 0px auto;
 	width: 1170px;
@@ -536,20 +528,10 @@ textarea {
 	.proj1_pic, .proj2_pic, .proj3_pic, .proj4_pic, .proj5_pic, .proj6_pic, .proj7_pic, .proj8_pic, .proj9_pic {
 		width: 105px;
 	}
-	.personalPhoto {
-		position: absolute;
-		margin-left: 250px;
-		margin-top: 70px;
-		width: 300px;
-		z-index: 1;
-	}
 	.hamburger-menu {
 		display: block;
 	}
 	.headerNav {
-		display: none;
-	}
-	.personalPhoto {
 		display: none;
 	}
 	.contactsLinks {
@@ -584,20 +566,10 @@ textarea {
 	.proj1_pic, .proj2_pic, .proj3_pic, .proj4_pic, .proj5_pic, .proj6_pic, .proj7_pic, .proj8_pic, .proj9_pic {
 		width: 158px;
 	}
-	.personalPhoto {
-		position: absolute;
-		margin-left: 500px;
-		margin-top: 70px;
-		width: 400px;
-		z-index: 1;
-	}
 	.hamburger-menu {
 		display: block;
 	}
 	.headerNav {
-		display: none;
-	}
-	.personalPhoto {
 		display: none;
 	}
 	.contactsLinks {
@@ -634,21 +606,11 @@ textarea {
 	.proj1_pic, .proj2_pic, .proj3_pic, .proj4_pic, .proj5_pic, .proj6_pic, .proj7_pic, .proj8_pic, .proj9_pic {
 		width: 202px;
 	}
-	.personalPhoto {
-		position: absolute;
-		margin-left: 750px;
-		margin-top: 100px;
-		width: 500px;
-		z-index: 1;
-	}
 	.hamburger-menu {
 		display: none;
 	}
 	.headerNav {
 		display: block;
-	}
-	.personalPhoto {
-		display: none;
 	}
 	.contactsLinks {
 		width: 180px;
@@ -684,21 +646,11 @@ textarea {
 	.proj1_pic, .proj2_pic, .proj3_pic, .proj4_pic, .proj5_pic, .proj6_pic, .proj7_pic, .proj8_pic, .proj9_pic {
 		width: 370px;
 	}
-	.personalPhoto {
-		position: absolute;
-		margin-left: 1000px;
-		margin-top: 100px;
-		width: 600px;
-		z-index: 1;
-	}
 	.hamburger-menu {
 		display: none;
 	}
 	.headerNav {
 		display: block;
-	}
-	.personalPhoto {
-		display: none;
 	}
 	.contactsLinks {
 		width: 200px;
