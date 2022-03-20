@@ -1,0 +1,7 @@
+.header__a {
+  transition: 0.25s;
+}
+
+.header__a:hover {
+  transition: 0.25s;
+}
