@@ -1,4 +1,7 @@
 .section__img {
   height: 624.65px;
   width: 536.9px;
+  position: absolute;
+  right: 5%;
+  top: 25%;
 }
