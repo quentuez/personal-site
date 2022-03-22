@@ -11,7 +11,6 @@
     <!-- Иконка сделана Konami - https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles:_Tournament_Fighters -->
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
 
-
     <!-- Стили для блока html -->
     <link rel="stylesheet" href="./html/html.css">
     <link rel="stylesheet" href="./html/html_props.css">
@@ -19,6 +18,11 @@
     <!-- Стили для блока body -->
     <link rel="stylesheet" href="./body/body.css">
     <link rel="stylesheet" href="./body/html__body.css">
+
+    <!-- Стили для блока switcher -->
+    <link rel="stylesheet" href="./switcher/header__switcher.css">
+    <link rel="stylesheet" href="./switcher/__input/input.css">
+    <link rel="stylesheet" href="./switcher/__input/switcher__input.css">
 
     <!-- Стили для блока header -->
     <link rel="stylesheet" href="./header/header.css">
@@ -33,11 +37,17 @@
     <link rel="stylesheet" href="./header/__a/header__a_theme_vk.css">
 
     <!-- Стили для блока main -->
-    <link rel="stylesheet" href="./main/__section/main__section.css">
+    <link rel="stylesheet" href="./main/__section/main__section-preview.css">
     <link rel="stylesheet" href="./main/h1.css">
     <link rel="stylesheet" href="./main/p_style_uppercase.css">
     <link rel="stylesheet" href="./main/__img/section__img.css">
 
+    <!-- Метатеги -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Дмитрий Клименков">
+    <meta name="description" content="Сайт предназначен для предоставления информации обо мне, Дмитрии Клименкове">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
     <!-- Заголовок сайта -->
     <title>Главная страница - quentuez's сайт</title>
 </head>
@@ -45,6 +55,11 @@
 <body class="body html__body">
     <!-- Блок header -->
     <header class="header body__header">
+        <!-- Блок switcher -->
+        <div class="switcher header__switcher">
+            <input class="input switcher__input" type="checkbox">
+        </div>
+
         <a class="header__a" href="">
             <strong>quentuez's</strong> сайт
         </a>
@@ -75,7 +90,7 @@
 
     <!-- Блок main -->
     <main>
-        <section class="main__section">
+        <section class="section-preview main__section-preview">
             <div>
                 <h1 class="h1">Привет, меня зовут <br>Дмитрий.</h1>
                 <p class="p_style_uppercase">Добро пожаловать на мой сайт</p>
@@ -83,6 +98,23 @@
                 <button>Подробнее</button>
             </div>
             <img class="section__img" src="./main/__img/a photo of myself.jpg" alt="a photo of myself">
+        </section>
+        <section class="section_skills main__section_skills">
+            <h2>Навыки</h2>
+            <div>
+                <img>
+                <h3></h3>
+                <p></p>
+            </div>
+        </section>
+        <section class="section_projects main__section_projects">
+            <h2>Проекты</h2>
+            <div>
+                <img>
+                <h3></h3>
+                <p></p>
+                <button>Подробнее</button>
+            </div>
         </section>
     </main>
 </body>

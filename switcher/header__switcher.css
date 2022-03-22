@@ -1,0 +1,6 @@
+.header__switcher {
+  display: flex;
+  flex-basis: 10%;
+  justify-content: center;
+  align-items: center;
+}
