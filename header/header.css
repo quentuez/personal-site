@@ -1,3 +1,5 @@
 .header {
-  border-bottom: solid 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: 0;
+  border-radius: 5px;
 }
