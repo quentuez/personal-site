@@ -1,7 +1,14 @@
 .header__a {
+  text-decoration: none;
   transition: 0.25s;
+  font-size: 24px;
 }
 
 .header__a:hover {
   transition: 0.25s;
+  text-decoration: underline;
+}
+
+.header__a:visited {
+  color: #161417;
 }
