@@ -1,0 +1,15 @@
+.a {
+  color: #161417;
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.a:hover {
+  text-decoration: underline;
+  transition: 0.25s;
+}
+
+.a:visited {
+  color: #161417;
+}
