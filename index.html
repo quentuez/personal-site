@@ -51,15 +51,18 @@
     <!-- Блок object -->
     <link rel="stylesheet" type="text/css" href="object/object.css">
     <link rel="stylesheet" type="text/css" href="object/a__object.css">
+    <link rel="stylesheet" type="text/css" href="object/html-skills__object.css">
 
     <!-- Блок ul -->
     <link rel="stylesheet" type="text/css" href="ul/ul.css">
     <link rel="stylesheet" type="text/css" href="ul/header__ul.css">
     <link rel="stylesheet" type="text/css" href="ul/__li/ul__li.css">
+    <link rel="stylesheet" type="text/css" href="ul/section-skills__ul.css">
 
     <!-- Блок img -->
     <link rel="stylesheet" type="text/css" href="img/img.css">
     <link rel="stylesheet" type="text/css" href="img/a__img.css">
+    <link rel="stylesheet" type="text/css" href="img/intro-content__img.css">
 
     <!-- Стили для блока main -->
     <link rel="stylesheet" type="text/css" href="main/main.css">
@@ -83,10 +86,6 @@
     <link rel="stylesheet" type="text/css" href="button/button.css">
     <link rel="stylesheet" type="text/css" href="button/intro-content__button.css">
 
-    <!-- Блок img -->
-    <link rel="stylesheet" type="text/css" href="img/img.css">
-    <link rel="stylesheet" type="text/css" href="img/intro-content__img.css">
-
     <!-- Блок section-about-me -->
     <link rel="stylesheet" type="text/css" href="section-about-me/section-about-me.css">
     <link rel="stylesheet" type="text/css" href="section-about-me/main__section-about-me.css">
@@ -94,6 +93,23 @@
     <!-- Блок h2 -->
     <link rel="stylesheet" type="text/css" href="h2/h2.css">
     <link rel="stylesheet" type="text/css" href="h2/section-about-me__h2.css">
+    <link rel="stylesheet" type="text/css" href="h2/section-skills__h2.css">
+
+    <!-- Блок h3 -->
+    <link rel="stylesheet" type="text/css" href="h3/h3.css">
+    <link rel="stylesheet" type="text/css" href="h3/section-about-me__h3.css">
+
+    <!-- Блок abbr -->
+    <link rel="stylesheet" type="text/css" href="abbr/abbr.css">
+    <link rel="stylesheet" type="text/css" href="abbr/section-about-me__abbr.css">
+
+    <!-- Блок section_skills -->
+    <link rel="stylesheet" type="text/css" href="section_skills/section_skills.css">
+    <link rel="stylesheet" type="text/css" href="section_skills/main__section_skills.css">
+
+    <!-- Блок html-skills -->
+    <link rel="stylesheet" type="text/css" href="html-skills/html-skills.css">
+    <link rel="stylesheet" type="text/css" href="html-skills/section-skills__html-skills.css">
 
     <!-- Метатеги -->
     <meta charset="utf-8">
@@ -182,7 +198,7 @@
                     Вы можете узнать обо мне и моих увлечаниях. В разделе
                     <b>
                         <!-- Блок a -->
-                        <a class="a a_theme_dark" href="#">«Навыки»</a>
+                        <a class="a a_theme_dark" href="#section-skills">«Навыки»</a>
                     </b>
                     перечислены мои практические и теоретические знания в области разработки frontend'a. В разделе
                     <b>
@@ -204,28 +220,44 @@
             <!-- Блок h2 -->
             <h2 class="h2 section-about-me__h2">Об авторе</h2>
             <div>
-                <img>
-                <h3></h3>
-                <p></p>
+                <h3 class="h3 section-about-me__h3">Основная информация</h3>
+                <p class="p">Мне 25 лет, родился в городе Искитиме. Отучившись 11 лет в школе, в 2014 году поступил в
+                    <abbr class="abbr" title="Новосибирский Государственный Технический университет">НГТУ</abbr> на
+                    Факультет
+                    радиотехники и электроники.
+                </p>
+                <h3 class="h3 section-about-me__h3">Образование</h3>
+                <p class="p">В 2018 присвоена квалификация бакалавра по направлению «Конструирование и технология
+                    электронных средств». Чуть позднее, в 2020 году, освоил программу по тому же направлению и получил
+                    степень магистра.</p>
+                <h3 class="h3 section-about-me__h3">Работа</h3>
+                <p class="p">В ноября 2019 года устроился работать в АО/ООО «Катод» по специальности инженер-конструктор
+                    III категории.</p>
+                <h3 class="h3 section-about-me__h3">Хобби</h3>
+                <p class="p">Увлекаюсь <a class="a a_theme_dark" href="#">компьютерными играми</a>, <a
+                        class="a a_theme_dark" href="#">рок-музыкой</a>, активным видом отдыха (плавание,
+                    воллейбол, сноубординг, аргентинское танго), а также обучаюсь игре на электрогитаре. Более подробно
+                    о некоторых хобби рассказано и показано по соответствующим ссылкам.</p>
             </div>
         </section>
 
-        <section class="section_skills main__section_skills">
-            <h2>Навыки</h2>
-            <div>
-                <img>
-                <h3></h3>
-                <p></p>
+        <section class="section_skills main__section_skills" id="section-skills">
+            <h2 class="h2 section-skills__h2">Навыки</h2>
+            <div class="html-skills section-skills__html-skills">
+                <!-- svg-логотип сделан Boxicons - https://icon-icons.com/ru/users/knMsnPIfimrTUwypxC07R/icon-sets/ -->
+                <object class="object html-skills__object" data="html-skills/html's logo.svg"></object>
+                <ul class="ul section-skills__ul">
+                    <li class="li">Семантическое использование тегов.</li>
+                    <li class="li">Адаптивная верстка под различные устройства.</li>
+                    <li class="li">Создание макетов на основе Flexbox/Grid моделей</li>
+                    <li></li>
+                </ul>
             </div>
         </section>
 
         <section class="section_projects main__section_projects">
             <h2>Проекты</h2>
             <div>
-                <img>
-                <h3></h3>
-                <p></p>
-                <button>Подробнее</button>
             </div>
         </section>
     </main>

@@ -1,3 +1,5 @@
 .main__section-about-me {
   height: 100vh;
+  margin: 0 auto;
+  width: 80%;
 }
