@@ -1,0 +1,4 @@
+.bem-skills__img {
+    height: calc(225px + 500px);
+    width: calc(225px + 500px);
+}
