@@ -1,11 +1,18 @@
-// Функция в процессе разработки.
 function changeTheme() {
+  let ElementsWithLightTheme = document.querySelectorAll(
+    "[class*='theme_light']"
+  );
   if (this.checked) {
-    document.body.classList.add("body_theme_dark");
-    document.body.classList.remove("body_theme_light");
+    for (let elem of ElementsWithLightTheme) {
+      elem.className = elem.className.replace(/theme_light/, "theme_dark");
+    }
   } else {
-    document.body.classList.add("body_theme_light");
-    document.body.classList.remove("body_theme_dark");
+    let ElementsWithDarkTheme = document.querySelectorAll(
+      "[class*='theme_dark']"
+    );
+    for (let elem of ElementsWithDarkTheme) {
+      elem.className = elem.className.replace(/theme_dark/, "theme_light");
+    }
   }
 }
 

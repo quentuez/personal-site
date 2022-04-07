@@ -1,3 +1,4 @@
 .a_theme_dark {
   filter: invert(100%);
+  transition: 0.3s;
 }

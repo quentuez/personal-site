@@ -1,3 +1,4 @@
 .a_theme_light {
   filter: invert(0%);
+  transition: 0.3s;
 }

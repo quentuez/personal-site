@@ -1,5 +1,44 @@
-.intro-content__img {
-  height: calc(961px - 200px);
-  width: calc(826px - 200px);
-  margin: 50px;
+/* Large desktops and laptops */
+@media (min-width: 1300px) {
+  .intro-content__img {
+    height: calc(961px - 300px);
+    width: calc(826px - 300px);
+    margin: 50px;
+    display: block;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1299px) {
+  .intro-content__img {
+    display: none;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .intro-content__img {
+    display: none;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .intro-content__img {
+    display: none;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .intro-content__img {
+    display: none;
+  }
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+  .intro-content__img {
+    display: none;
+  }
 }
