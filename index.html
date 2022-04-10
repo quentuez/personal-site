@@ -81,11 +81,7 @@
     <!-- Блок object -->
     <link rel="stylesheet" type="text/css" href="object/object.css" />
     <link rel="stylesheet" type="text/css" href="object/a__object.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="object/html-skills__object.css"
-    />
+    <link rel="stylesheet" type="text/css" href="object/slide__object.css" />
 
     <!-- Блок ul -->
     <link rel="stylesheet" type="text/css" href="ul/ul.css" />
@@ -97,7 +93,7 @@
     <link rel="stylesheet" type="text/css" href="img/img.css" />
     <link rel="stylesheet" type="text/css" href="img/a__img.css" />
     <link rel="stylesheet" type="text/css" href="img/intro-content__img.css" />
-    <link rel="stylesheet" type="text/css" href="img/bem-skills__img.css" />
+    <link rel="stylesheet" type="text/css" href="img/slide__img.css" />
 
     <!-- Стили для блока main -->
     <link rel="stylesheet" type="text/css" href="main/main.css" />
@@ -181,22 +177,45 @@
       type="text/css"
       href="section_skills/main__section_skills.css"
     />
+    <link rel="stylesheet" type="text/css" href="section_skills/" />
 
-    <!-- Блок html-skills -->
-    <link rel="stylesheet" type="text/css" href="html-skills/html-skills.css" />
+    <!-- Блок slide -->
+    <link rel="stylesheet" type="text/css" href="slide/slide.css" />
     <link
       rel="stylesheet"
       type="text/css"
-      href="html-skills/section-skills__html-skills.css"
+      href="slide/section-skills__slide.css"
     />
-
-    <!-- Блок bem-skills -->
-    <link rel="stylesheet" type="text/css" href="bem-skills/bem-skills.css" />
     <link
       rel="stylesheet"
       type="text/css"
-      href="bem-skills/section-skills__bem-skills.css"
+      href="slide/_faded/section-skills__slide_faded.css"
     />
+
+    <!-- Блок arrow -->
+    <link rel="stylesheet" type="text/css" href="arrow/arrow.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="arrow/section_skills__arrow.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="arrow/_direction/section_skills__arrow_direction_left.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="arrow/_direction/section_skills__arrow_direction_right.css"
+    />
+
+    <!-- Блок dots -->
+    <link rel="stylesheet" type="text/css" href="dots/dots.css" />
+
+    <!-- Блок span -->
+    <link rel="stylesheet" type="text/css" href="span/span.css" />
+    <link rel="stylesheet" type="text/css" href="span/dots__span.css" />
 
     <!-- Метатеги -->
     <meta charset="utf-8" />
@@ -383,11 +402,11 @@
 
       <section class="section_skills main__section_skills" id="section-skills">
         <h2 class="h2 section-skills__h2">Навыки</h2>
-        <div class="html-skills section-skills__html-skills">
+        <div class="slide section-skills__slide section-skills__slide_faded">
           <!-- svg-логотип сделан W3C - https://www.w3.org/html/logo/downloads/HTML5_Logo.svg -->
           <object
-            class="object html-skills__object"
-            data="html-skills/html's logo.svg"
+            class="object slide__object"
+            data="slide/html's logo.svg"
           ></object>
           <ul class="ul section-skills__ul">
             <li class="li">Семантическое использование тегов.</li>
@@ -395,15 +414,30 @@
             <li class="li">Создание макетов на основе Flexbox/Grid моделей.</li>
           </ul>
         </div>
-        <div class="bem-skills section-skills__bem-skills">
+        <div class="slide section-skills__slide section-skills__slide_faded">
           <!-- png-логотип сделан Яндекс - https://ru.bem.info/methodology/ -->
-          <img class="img bem-skills__img" src="bem-skills/bem's logo.png" />
+          <img class="img slide__img" src="slide/bem's logo.png" />
           <ul class="ul section-skills__ul">
             <li class="li">Разделение интерфейса на компоненты.</li>
             <li class="li">Проектирование структуры по методологии.</li>
           </ul>
         </div>
+        <a
+          class="arrow section_skills__arrow section_skills__arrow_direction_left"
+          onclick="plusSlides(-1)"
+          >❮</a
+        ><a
+          class="arrow section_skills__arrow section_skills__arrow_direction_right"
+          onclick="plusSlides(1)"
+          >❯</a
+        >
       </section>
+      <br />
+
+      <div class="dots">
+        <span class="span dots__span" onclick="currentSlide(1)"></span>
+        <span class="span dots__span" onclick="currentSlide(2)"></span>
+      </div>
 
       <section class="section_projects main__section_projects">
         <h2>Проекты</h2>
@@ -412,5 +446,6 @@
     </main>
     <script src="html/isDOMContentLoaded.js"></script>
     <script src="switcher/changeTheme.js"></script>
+    <script src="section_skills/toggleSlides.js"></script>
   </body>
 </html>
