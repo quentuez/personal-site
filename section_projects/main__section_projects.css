@@ -1,0 +1,4 @@
+.main__section_projects {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}

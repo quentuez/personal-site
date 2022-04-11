@@ -81,7 +81,6 @@
     <!-- Блок object -->
     <link rel="stylesheet" type="text/css" href="object/object.css" />
     <link rel="stylesheet" type="text/css" href="object/a__object.css" />
-    <link rel="stylesheet" type="text/css" href="object/slide__object.css" />
 
     <!-- Блок ul -->
     <link rel="stylesheet" type="text/css" href="ul/ul.css" />
@@ -153,6 +152,7 @@
     <link rel="stylesheet" type="text/css" href="h2/h2.css" />
     <link rel="stylesheet" type="text/css" href="h2/section-about-me__h2.css" />
     <link rel="stylesheet" type="text/css" href="h2/section-skills__h2.css" />
+    <link rel="stylesheet" type="text/css" href="h2/section_projects__h2.css" />
 
     <!-- Блок h3 -->
     <link rel="stylesheet" type="text/css" href="h3/h3.css" />
@@ -177,7 +177,6 @@
       type="text/css"
       href="section_skills/main__section_skills.css"
     />
-    <link rel="stylesheet" type="text/css" href="section_skills/" />
 
     <!-- Блок slide -->
     <link rel="stylesheet" type="text/css" href="slide/slide.css" />
@@ -212,10 +211,23 @@
 
     <!-- Блок dots -->
     <link rel="stylesheet" type="text/css" href="dots/dots.css" />
+    <link rel="stylesheet" type="text/css" href="dots/section__dots.css" />
 
     <!-- Блок span -->
     <link rel="stylesheet" type="text/css" href="span/span.css" />
     <link rel="stylesheet" type="text/css" href="span/dots__span.css" />
+
+    <!-- Блок section_projects -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="section_projects/section_projects.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="section_projects/main__section_projects.css"
+    />
 
     <!-- Метатеги -->
     <meta charset="utf-8" />
@@ -335,7 +347,7 @@
             разработки frontend'a. В разделе
             <b>
               <!-- Блок a -->
-              <a class="a a_theme_light" href="#">«Проекты»</a>
+              <a class="a a_theme_light" href="#section_projects">«Проекты»</a>
             </b>
             выложены ссылки на репозитории pet-проектов, которыми я занимаюсь в
             свободное от основной работы время для оттачивания навыков
@@ -404,10 +416,7 @@
         <h2 class="h2 section-skills__h2">Навыки</h2>
         <div class="slide section-skills__slide section-skills__slide_faded">
           <!-- svg-логотип сделан W3C - https://www.w3.org/html/logo/downloads/HTML5_Logo.svg -->
-          <object
-            class="object slide__object"
-            data="slide/html's logo.svg"
-          ></object>
+          <img class="img slide__img" src="slide/html's logo.png" />
           <ul class="ul section-skills__ul">
             <li class="li">Семантическое использование тегов.</li>
             <li class="li">Адаптивная верстка под различные устройства.</li>
@@ -431,17 +440,49 @@
           onclick="plusSlides(1)"
           >❯</a
         >
+        <div class="dots section__dots">
+          <span class="span dots__span" onclick="currentSlide(1)"></span>
+          <span class="span dots__span" onclick="currentSlide(2)"></span>
+        </div>
       </section>
-      <br />
 
-      <div class="dots">
-        <span class="span dots__span" onclick="currentSlide(1)"></span>
-        <span class="span dots__span" onclick="currentSlide(2)"></span>
-      </div>
-
-      <section class="section_projects main__section_projects">
-        <h2>Проекты</h2>
-        <div></div>
+      <section
+        class="section_projects main__section_projects"
+        id="section_projects"
+      >
+        <h2 class="h2 section_projects__h2">Проекты</h2>
+        <div class="project section_projects__project">
+          <h3 class="h3 section_projects__h3">Contact book</h3>
+          <!-- Картинка взята отсюда - https://www.istockphoto.com/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B1%D0%BB%D0%BE%D0%BA%D0%BD%D0%BE%D1%82-gm146725857-8325217 -->
+          <img
+            class="img section_projects__img"
+            src="section_projects/project_1.png"
+          />
+        </div>
+        <div class="project section_projects__project">
+          <h3 class="h3 section_projects__h3">In development</h3>
+          <!-- Картинка взята отсюда - https://ru.wordpress.org/plugins/easy-under-construction/ -->
+          <img
+            class="img section_projects__img"
+            src="section_projects/project_2.png"
+          />
+        </div>
+        <div class="project section_projects__project">
+          <h3 class="h3 section_projects__h3">In development</h3>
+          <!-- Картинка взята отсюда - https://ru.wordpress.org/plugins/easy-under-construction/ -->
+          <img
+            class="img section_projects__img"
+            src="section_projects/project_3.png"
+          />
+        </div>
+        <div class="project section_projects__project">
+          <h3 class="h3 section_projects__h3">In development</h3>
+          <!-- Картинка взята отсюда - https://ru.wordpress.org/plugins/easy-under-construction/ -->
+          <img
+            class="img section_projects__img"
+            src="section_projects/project_4.png"
+          />
+        </div>
       </section>
     </main>
     <script src="html/isDOMContentLoaded.js"></script>
