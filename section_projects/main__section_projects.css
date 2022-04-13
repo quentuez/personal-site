@@ -1,4 +1,12 @@
 .main__section_projects {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: auto 200px 200px;
+  gap: 50px;
+  grid-template-areas:
+    "A A"
+    "B B"
+    "B B";
+  justify-content: center;
+  justify-items: center;
 }
