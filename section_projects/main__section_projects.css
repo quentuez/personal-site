@@ -1,6 +1,6 @@
 .main__section_projects {
   display: grid;
-  grid-template-columns: 500px 500px;
+  grid-template-columns: 400px 400px;
   grid-template-rows: auto 200px 200px;
   gap: 50px;
   grid-template-areas:
@@ -9,4 +9,5 @@
     "B B";
   justify-content: center;
   justify-items: center;
+  margin-bottom: 100px;
 }
