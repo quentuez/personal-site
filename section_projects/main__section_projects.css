@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 400px 400px;
   grid-template-rows: auto 200px 200px;
-  gap: 50px;
+  gap: 150px;
   grid-template-areas:
     "A A"
     "B B"

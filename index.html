@@ -95,6 +95,13 @@
     <link rel="stylesheet" type="text/css" href="img/intro-content__img.css" />
     <link rel="stylesheet" type="text/css" href="img/slide__img.css" />
 
+    <!-- Блок hamburger-menu -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="hamburger-menu/hamburger-menu.css"
+    />
+
     <!-- Стили для блока main -->
     <link rel="stylesheet" type="text/css" href="main/main.css" />
 
@@ -352,6 +359,32 @@
       </ul>
     </header>
 
+    <!-- Блок hamburger-menu -->
+    <aside class="hamburger-menu" id="menu">
+      <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <nav class="nav" id="nav">
+        <ul>
+          <li>
+            <a href="#section-about-me">Об авторе</a>
+          </li>
+          <li>
+            <a href="#section-skills">Навыки</a>
+          </li>
+          <li>
+            <a href="#section_projects">Проекты</a>
+          </li>
+          <li>
+            <a href="#section-contact-me">Связаться со мной</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <div class="menu-bg" id="menu-bg"></div>
+
     <!-- Блок main -->
     <main class="main">
       <!-- Блок section-preview -->
@@ -431,7 +464,7 @@
           </p>
           <h3 class="h3 section-about-me__h3">Работа</h3>
           <p class="p">
-            В ноября 2019 года устроился работать в АО/ООО «Катод» по
+            В ноябре 2019 года устроился работать в АО/ООО «Катод» по
             специальности инженер-конструктор III категории.
           </p>
           <h3 class="h3 section-about-me__h3">Хобби</h3>
@@ -528,7 +561,7 @@
       </section>
     </main>
 
-    <footer class="footer body__footer">
+    <footer class="footer body__footer" id="section-contact-me">
       <h2 class="h2 footer__h2">Связаться со мной</h2>
       <div class="contact-info footer__contact-info">
         <div id="map" class="map footer__map"></div>
@@ -548,5 +581,6 @@
     <script src="switcher/changeTheme.js"></script>
     <script src="section_skills/toggleSlides.js"></script>
     <script src="map/drawMap.js"></script>
+    <script src="hamburger-menu/menuOnClick.js"></script>
   </body>
 </html>
