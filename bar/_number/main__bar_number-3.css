@@ -1,0 +1,7 @@
+.main__bar_number-3 {
+  transform: translateY(4px);
+}
+
+.change .main__bar_number-3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}

@@ -1,0 +1,14 @@
+.main__menu-bg {
+  z-index: 999;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+}
+
+.change-bg {
+  width: 720px;
+  height: 660px;
+  transform: translate(-60%, -30%);
+  position: fixed;
+  top: 50px;
+}

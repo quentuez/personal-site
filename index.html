@@ -78,6 +78,7 @@
       href="a/_hovered/a_hovered_telegram.css"
     />
     <link rel="stylesheet" type="text/css" href="a/_hovered/a_hovered_vk.css" />
+    <link rel="stylesheet" type="text/css" href="a/nav__a.css" />
 
     <!-- Блок object -->
     <link rel="stylesheet" type="text/css" href="object/object.css" />
@@ -88,19 +89,13 @@
     <link rel="stylesheet" type="text/css" href="ul/header__ul.css" />
     <link rel="stylesheet" type="text/css" href="ul/__li/ul__li.css" />
     <link rel="stylesheet" type="text/css" href="ul/section-skills__ul.css" />
+    <link rel="stylesheet" type="text/css" href="ul/nav__ul.css" />
 
     <!-- Блок img -->
     <link rel="stylesheet" type="text/css" href="img/img.css" />
     <link rel="stylesheet" type="text/css" href="img/a__img.css" />
     <link rel="stylesheet" type="text/css" href="img/intro-content__img.css" />
     <link rel="stylesheet" type="text/css" href="img/slide__img.css" />
-
-    <!-- Блок hamburger-menu -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="hamburger-menu/hamburger-menu.css"
-    />
 
     <!-- Стили для блока main -->
     <link rel="stylesheet" type="text/css" href="main/main.css" />
@@ -270,6 +265,53 @@
       href="contact-links/footer__contact-links.css"
     />
 
+    <!-- Блок hamburger-menu -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="hamburger-menu/hamburger-menu.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="hamburger-menu/main__hamburger-menu.css"
+    />
+
+    <!-- Блок bar -->
+    <link rel="stylesheet" type="text/css" href="bar/bar.css" />
+    <link rel="stylesheet" type="text/css" href="bar/main__bar.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="bar/_number/main__bar_number-1.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="bar/_number/main__bar_number-2.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="bar/_number/main__bar_number-3.css"
+    />
+
+    <!-- Блок nav -->
+    <link rel="stylesheet" type="text/css" href="nav/nav.css" />
+    <link rel="stylesheet" type="text/css" href="nav/main__nav.css" />
+
+    <!-- Блок li -->
+    <link rel="stylesheet" type="text/css" href="li/li.css" />
+    <link rel="stylesheet" type="text/css" href="li/nav__li.css" />
+
+    <!-- Блок menu-bar -->
+    <link rel="stylesheet" type="text/css" href="menu-bar/menu-bar.css" />
+    <link rel="stylesheet" type="text/css" href="menu-bar/main__menu-bar.css" />
+
+    <!-- Блок menu-bg -->
+    <link rel="stylesheet" type="text/css" href="menu-bg/menu-bg.css" />
+    <link rel="stylesheet" type="text/css" href="menu-bg/main__menu-bg.css" />
+
     <!-- Метатеги -->
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
@@ -359,34 +401,41 @@
       </ul>
     </header>
 
-    <!-- Блок hamburger-menu -->
-    <aside class="hamburger-menu" id="menu">
-      <div id="menu-bar" onclick="menuOnClick()">
-        <div id="bar1" class="bar"></div>
-        <div id="bar2" class="bar"></div>
-        <div id="bar3" class="bar"></div>
-      </div>
-      <nav class="nav" id="nav">
-        <ul>
-          <li>
-            <a href="#section-about-me">Об авторе</a>
-          </li>
-          <li>
-            <a href="#section-skills">Навыки</a>
-          </li>
-          <li>
-            <a href="#section_projects">Проекты</a>
-          </li>
-          <li>
-            <a href="#section-contact-me">Связаться со мной</a>
-          </li>
-        </ul>
-      </nav>
-    </aside>
-    <div class="menu-bg" id="menu-bg"></div>
-
     <!-- Блок main -->
     <main class="main">
+      <!-- Блок hamburger-menu -->
+      <aside class="hamburger-menu main__hamburger-menu">
+        <div
+          class="menu-bar main__menu-bar"
+          id="menu-bar"
+          onclick="menuOnClick()"
+        >
+          <div class="bar main__bar main__bar_number-1"></div>
+          <div class="bar main__bar main__bar_number-2"></div>
+          <div class="bar main__bar main__bar_number-3"></div>
+        </div>
+        <nav class="nav main__nav" id="nav">
+          <ul class="nav__ul">
+            <li class="li nav__li">
+              <a class="nav__a" href="#">Главная</a>
+            </li>
+            <li class="li nav__li">
+              <a class="nav__a" href="#section-about-me">Об авторе</a>
+            </li>
+            <li class="li nav__li">
+              <a class="nav__a" href="#section-skills">Навыки</a>
+            </li>
+            <li class="li nav__li">
+              <a class="nav__a" href="#section_projects">Проекты</a>
+            </li>
+            <li class="li nav__li">
+              <a class="nav__a" href="#section-contact-me">Связаться со мной</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="menu-bg" id="menu-bg"></div>
+
       <!-- Блок section-preview -->
       <section class="section-preview main__section-preview">
         <!-- Блок intro-content -->
