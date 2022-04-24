@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
-<!-- Блок html -->
-<html class="html html_props" lang="ru">
+<html class="html document__html" lang="ru">
   <head>
     <!-- Шрифт разработан Christian Robertson - https://fonts.google.com/specimen/Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,13 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
     />
 
-    <!-- Иконка сделана Konami - https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles:_Tournament_Fighters -->
+    <!-- Иконка разработана Konami - https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles:_Tournament_Fighters -->
     <link rel="apple-touch-icon" href="favicon.ico" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
     <!-- Стили для блока html -->
     <link rel="stylesheet" type="text/css" href="html/html.css" />
-    <link rel="stylesheet" type="text/css" href="html/html_props.css" />
+    <link rel="stylesheet" type="text/css" href="html/document__html.css" />
 
     <!-- Стили для блока body -->
     <link rel="stylesheet" type="text/css" href="body/body.css" />
@@ -32,10 +31,8 @@
       type="text/css"
       href="body/_theme/body_theme_light.css"
     />
-    <link rel="stylesheet" type="text/css" href="body/html__body.css" />
 
     <!-- Стили для блока header -->
-    <link rel="stylesheet" type="text/css" href="header/header.css" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -49,45 +46,68 @@
     <link rel="stylesheet" type="text/css" href="header/body__header.css" />
 
     <!-- Стили для блока switcher -->
-    <link rel="stylesheet" href="switcher/switcher.css" />
     <link rel="stylesheet" href="switcher/header__switcher.css" />
 
     <!-- Стили для блока input -->
     <link rel="stylesheet" href="input/input.css" />
     <link rel="stylesheet" href="input/switcher__input.css" />
 
-    <!-- Блок a -->
-    <link rel="stylesheet" type="text/css" href="a/a.css" />
-    <link rel="stylesheet" type="text/css" href="a/_theme/a_theme_dark.css" />
-    <link rel="stylesheet" type="text/css" href="a/_theme/a_theme_light.css" />
-    <link rel="stylesheet" type="text/css" href="a/header__a.css" />
-    <link rel="stylesheet" type="text/css" href="a/footer__a.css" />
+    <!-- Блок anchor -->
+    <link rel="stylesheet" type="text/css" href="anchor/anchor.css" />
     <link
       rel="stylesheet"
       type="text/css"
-      href="a/_hovered/a_hovered_github.css"
+      href="anchor/_theme/anchor_theme_dark.css"
     />
     <link
       rel="stylesheet"
       type="text/css"
-      href="a/_hovered/a_hovered_instagram.css"
+      href="anchor/_theme/anchor_theme_light.css"
+    />
+    <link rel="stylesheet" type="text/css" href="anchor/header__anchor.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="anchor/_hovered/anchor_hovered_github.css"
     />
     <link
       rel="stylesheet"
       type="text/css"
-      href="a/_hovered/a_hovered_telegram.css"
+      href="anchor/_hovered/anchor_hovered_instagram.css"
     />
-    <link rel="stylesheet" type="text/css" href="a/_hovered/a_hovered_vk.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="anchor/_hovered/anchor_hovered_telegram.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="anchor/_hovered/anchor_hovered_vk.css"
+    />
     <link rel="stylesheet" type="text/css" href="a/nav__a.css" />
+    <link rel="stylesheet" type="text/css" href="a/footer__a.css" />
 
     <!-- Блок object -->
-    <link rel="stylesheet" type="text/css" href="object/object.css" />
-    <link rel="stylesheet" type="text/css" href="object/a__object.css" />
+    <link rel="stylesheet" type="text/css" href="object/anchor__object.css" />
 
-    <!-- Блок ul -->
-    <link rel="stylesheet" type="text/css" href="ul/ul.css" />
-    <link rel="stylesheet" type="text/css" href="ul/header__ul.css" />
-    <link rel="stylesheet" type="text/css" href="ul/__li/ul__li.css" />
+    <!-- Блок unordered-list -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="unordered-list/unordered-list.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="unordered-list/header__unordered-list.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="unordered-list/__item/unordered-list__item.css"
+    />
     <link rel="stylesheet" type="text/css" href="ul/section-skills__ul.css" />
     <link rel="stylesheet" type="text/css" href="ul/nav__ul.css" />
 
@@ -326,33 +346,24 @@
     <title>Главная страница - quentuez's сайт</title>
   </head>
 
-  <!-- Блок body -->
-  <body class="body body_theme_light html__body">
-    <!-- Блок header -->
-    <header class="header header_theme_light body__header">
-      <!-- Блок switcher -->
-      <div class="switcher header__switcher">
-        <!-- Блок input -->
+  <body class="body body_theme_light">
+    <header class="header_theme_light body__header">
+      <div class="header__switcher">
         <input class="input switcher__input" id="switcher" type="checkbox" />
       </div>
 
-      <!-- Блок a -->
-      <a class="a a_theme_light header__a" href="#">
-        <!-- Блок object -->
-        <!-- svg-логотип сделан Boxicons - https://icon-icons.com/ru/users/knMsnPIfimrTUwypxC07R/icon-sets/ -->
-        <object class="object a__object" data="object/logo.svg"></object>
-        <pre><b>quentuez's</b> сайт</pre>
+      <a class="anchor anchor_theme_light header__anchor" href="#">
+        <!-- svg-логотип разработан Boxicons - https://icon-icons.com/ru/users/knMsnPIfimrTUwypxC07R/icon-sets/ -->
+        <object class="anchor__object" data="object/logo.svg"></object>
+        <p><b>quentuez's</b> сайт</p>
       </a>
 
-      <!-- Блок ul -->
-      <ul class="ul header__ul">
-        <li class="ul__li">
-          <!-- Блок а -->
+      <ul class="unordered-list header__unordered-list">
+        <li class="unordered-list__item">
           <a
-            class="a a_hovered_github a_theme_light"
+            class="anchor_hovered_github a_theme_light"
             href="https://github.com/quentuez"
           >
-            <!-- Блок img -->
             <img
               class="img a__img"
               src="img/github's icon.png"
@@ -360,13 +371,11 @@
             />
           </a>
         </li>
-        <li class="ul__li">
-          <!-- Блок а -->
+        <li class="unordered-list__item">
           <a
-            class="a a_hovered_instagram a_theme_light"
+            class="anchor_hovered_instagram a_theme_light"
             href="https://instagram.com/quentuez"
           >
-            <!-- Блок img -->
             <img
               class="img a__img"
               src="img/instagram's icon.png"
@@ -374,13 +383,11 @@
             />
           </a>
         </li>
-        <li class="ul__li">
-          <!-- Блок а -->
+        <li class="unordered-list__item">
           <a
-            class="a a_hovered_telegram a_theme_light"
+            class="anchor_hovered_telegram a_theme_light"
             href="https://t.me/quentuez"
           >
-            <!-- Блок img -->
             <img
               class="img a__img"
               src="img/telegram's icon.png"
@@ -388,22 +395,18 @@
             />
           </a>
         </li>
-        <li class="ul__li">
-          <!-- Блок а -->
+        <li class="unordered-list__item">
           <a
-            class="a a_hovered_vk a_theme_light"
+            class="anchor_hovered_vk a_theme_light"
             href="https://vk.com/quentuez"
           >
-            <!-- Блок img -->
             <img class="img a__img" src="img/vk's icon.png" alt="vk's icon" />
           </a>
         </li>
       </ul>
     </header>
 
-    <!-- Блок main -->
     <main class="main">
-      <!-- Блок hamburger-menu -->
       <aside class="hamburger-menu main__hamburger-menu">
         <div
           class="menu-bar main__menu-bar"
@@ -436,40 +439,34 @@
       </aside>
       <div class="menu-bg" id="menu-bg"></div>
 
-      <!-- Блок section-preview -->
       <section class="section-preview main__section-preview">
-        <!-- Блок intro-content -->
         <div class="intro-content section-preview__intro-content">
-          <!-- Блок h1 -->
           <h1 class="h1">Привет, меня зовут <br />Дмитрий.</h1>
-          <!-- Блок p -->
+
           <p class="p p_style_uppercase">Добро пожаловать на мой сайт</p>
           <br />
-          <!-- Блок p -->
+
           <p class="p">
             Здесь Вы найдете много всего - так, в разделе
             <b>
-              <!-- Блок a -->
               <a class="a a_theme_light" href="#section-about-me"
                 >«Об авторе»</a
               >
             </b>
             Вы можете узнать обо мне и моих увлечаниях. В разделе
             <b>
-              <!-- Блок a -->
               <a class="a a_theme_light" href="#section-skills">«Навыки»</a>
             </b>
             перечислены мои практические и теоретические знания в области
             разработки frontend'a. В разделе
             <b>
-              <!-- Блок a -->
               <a class="a a_theme_light" href="#section_projects">«Проекты»</a>
             </b>
             выложены ссылки на репозитории pet-проектов, которыми я занимаюсь в
             свободное от основной работы время для оттачивания навыков
             разработки веб-приложений.
           </p>
-          <!-- Блок button -->
+
           <button
             class="button intro-content__button"
             onclick="alert(window.innerHeight); alert(window.innerWidth);"
@@ -477,7 +474,7 @@
             Связаться со мной
           </button>
         </div>
-        <!-- Блок img -->
+
         <img
           class="img intro-content__img"
           src="img/a photo of myself.jpg"
@@ -485,12 +482,10 @@
         />
       </section>
 
-      <!-- Блок section-about-me -->
       <section
         class="section-about-me main__section-about-me"
         id="section-about-me"
       >
-        <!-- Блок h2 -->
         <h2 class="h2 section-about-me__h2">Об авторе</h2>
         <div>
           <h3 class="h3 section-about-me__h3">Основная информация</h3>
@@ -625,9 +620,9 @@
     </footer>
 
     <!-- Скрипты -->
-    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
     <script src="html/isDOMContentLoaded.js"></script>
     <script src="switcher/changeTheme.js"></script>
+    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
     <script src="section_skills/toggleSlides.js"></script>
     <script src="map/drawMap.js"></script>
     <script src="hamburger-menu/menuOnClick.js"></script>

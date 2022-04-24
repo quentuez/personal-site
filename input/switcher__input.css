@@ -1,15 +1,15 @@
 .switcher__input[type="checkbox"] {
+  height: 30px;
   position: relative;
   width: 70px;
-  height: 30px;
 }
 
 .switcher__input[type="checkbox"]:before {
-  position: absolute;
-  width: 30px;
   height: 30px;
-  top: 0;
   left: 0;
+  position: absolute;
+  top: 0;
+  width: 30px;
 }
 
 .switcher__input:checked[type="checkbox"]:before {
