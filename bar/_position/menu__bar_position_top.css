@@ -1,0 +1,7 @@
+.menu__bar_position_top {
+  transform: translateY(-4px);
+}
+
+.change .menu__bar_position_top {
+  transform: translateY(4px) rotateZ(-45deg);
+}

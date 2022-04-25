@@ -1,0 +1,9 @@
+.hamburger-button__menu {
+  height: 40px;
+  margin: 30px 0 20px 20px;
+  width: 45px;
+}
+
+.change {
+  display: block;
+}

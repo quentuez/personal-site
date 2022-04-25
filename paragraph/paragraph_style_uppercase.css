@@ -1,0 +1,5 @@
+.paragraph_style_uppercase {
+  line-height: 1.5;
+  font-size: 2em;
+  text-transform: uppercase;
+}

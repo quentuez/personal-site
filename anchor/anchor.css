@@ -1,11 +1,11 @@
 .anchor {
   color: #161417;
-  text-decoration: underline;
+  text-decoration: none;
   transition: 0.3s;
 }
 
 .anchor:hover {
-  text-decoration: none;
+  text-decoration: underline;
   transition: 0.3s;
 }
 

@@ -1,19 +1,19 @@
 .button {
+  border: none;
+  font-size: 1.5em;
   border-radius: 40px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   padding: 20px 60px;
-  border: none;
-  transition: 0.25s;
-  font-size: 1.5em;
+  transition: 0.3s;
 }
 
 .button:hover {
-  transition: 0.25s;
-  cursor: pointer;
   background: #64b5f6;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .button:active {
   background: #1e88e5;
-  transition: 0.25s;
+  transition: 0.3s;
 }

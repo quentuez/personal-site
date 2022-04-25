@@ -1,48 +1,44 @@
 /* Large desktops and laptops */
 @media (min-width: 1300px) {
-  .main__section-preview {
-    display: flex;
-    height: 100vh;
-    padding-top: 70px;
+  .intro-content__image {
+    display: block;
+    height: calc(961px - 300px);
+    margin: 50px;
+    width: calc(826px - 300px);
   }
 }
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1299px) {
-  .main__section-preview {
-    display: flex;
-    padding-top: 70px;
+  .intro-content__image {
+    display: none;
   }
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-  .main__section-preview {
-    display: flex;
-    padding-top: 70px;
+  .intro-content__image {
+    display: none;
   }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-  .main__section-preview {
-    display: flex;
-    padding-top: 70px;
+  .intro-content__image {
+    display: none;
   }
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-  .main__section-preview {
-    display: flex;
-    padding-top: 70px;
+  .intro-content__image {
+    display: none;
   }
 }
 
 /* Iphone 5 */
 @media (max-width: 320px) {
-  .main__section-preview {
-    display: flex;
-    padding-top: 70px;
+  .intro-content__image {
+    display: none;
   }
 }

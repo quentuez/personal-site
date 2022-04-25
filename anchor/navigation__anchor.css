@@ -1,0 +1,9 @@
+.navigation__anchor {
+  color: #f5f5f5;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navigation__anchor:hover {
+  text-decoration: underline;
+}

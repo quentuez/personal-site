@@ -1,10 +1,9 @@
 .bar {
   background-color: #161417;
   border-radius: 5px;
-  transition: 0.3s ease;
+  transition: 0.3s;
 }
 
-/* */
 .change {
   display: block;
 }
