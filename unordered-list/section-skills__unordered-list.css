@@ -1,4 +1,4 @@
-.section-skills__ul {
+.section-skills__unordered-list {
   display: flex;
   flex-direction: column;
   justify-content: center;

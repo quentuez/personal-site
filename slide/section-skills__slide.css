@@ -1,4 +1,4 @@
 .section-skills__slide {
-  flex-direction: row;
   display: none;
+  flex-direction: row;
 }

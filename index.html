@@ -111,16 +111,20 @@
       type="text/css"
       href="unordered-list/navigation__unordered-list.css"
     />
-    <link rel="stylesheet" type="text/css" href="ul/section-skills__ul.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="unordered-list/section-skills__unordered-list.css"
+    />
 
-    <!-- Блок img -->
+    <!-- Блок image -->
     <link rel="stylesheet" type="text/css" href="image/anchor__image.css" />
     <link
       rel="stylesheet"
       type="text/css"
       href="image/intro-content__image.css"
     />
-    <link rel="stylesheet" type="text/css" href="image/slide__img.css" />
+    <link rel="stylesheet" type="text/css" href="image/slide__image.css" />
 
     <!-- Блок hamburger-button -->
     <link
@@ -172,6 +176,11 @@
       type="text/css"
       href="item/unordered-list__item.css"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="item/section-skills__item.css"
+    />
 
     <!-- Блок background -->
     <link rel="stylesheet" type="text/css" href="background/background.css" />
@@ -218,47 +227,51 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="section-about-me/section-about-me.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
       href="section-about-me/main__section-about-me.css"
     />
 
-    <!-- Блок h2 -->
-    <link rel="stylesheet" type="text/css" href="h2/h2.css" />
-    <link rel="stylesheet" type="text/css" href="h2/section-about-me__h2.css" />
-    <link rel="stylesheet" type="text/css" href="h2/section-skills__h2.css" />
-    <link rel="stylesheet" type="text/css" href="h2/section_projects__h2.css" />
-    <link rel="stylesheet" type="text/css" href="h2/footer__h2.css" />
-
-    <!-- Блок h3 -->
-    <link rel="stylesheet" type="text/css" href="h3/h3.css" />
-    <link rel="stylesheet" type="text/css" href="h3/section-about-me__h3.css" />
-
-    <!-- Блок abbr -->
-    <link rel="stylesheet" type="text/css" href="abbr/abbr.css" />
+    <!-- Блок heading2 -->
+    <link rel="stylesheet" type="text/css" href="heading2/heading2.css" />
     <link
       rel="stylesheet"
       type="text/css"
-      href="abbr/section-about-me__abbr.css"
-    />
-
-    <!-- Блок section_skills -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="section_skills/section_skills.css"
+      href="heading2/section-about-me__heading2.css"
     />
     <link
       rel="stylesheet"
       type="text/css"
-      href="section_skills/main__section_skills.css"
+      href="heading2/section-skills__heading2.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="heading2/section_projects__h2.css"
+    />
+    <link rel="stylesheet" type="text/css" href="heading2/footer__h2.css" />
+
+    <!-- Блок heading3 -->
+    <link rel="stylesheet" type="text/css" href="heading3/heading3.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="heading3/section-about-me__heading3.css"
+    />
+
+    <!-- Блок abbreviation -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="abbreviation/abbreviation.css"
+    />
+
+    <!-- Блок section-skills -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="section-skills/main__section-skills.css"
     />
 
     <!-- Блок slide -->
-    <link rel="stylesheet" type="text/css" href="slide/slide.css" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -275,22 +288,26 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="arrow/section_skills__arrow.css"
+      href="arrow/section-skills__arrow.css"
     />
     <link
       rel="stylesheet"
       type="text/css"
-      href="arrow/_direction/section_skills__arrow_direction_left.css"
+      href="arrow/_direction/section-skills__arrow_direction_left.css"
     />
     <link
       rel="stylesheet"
       type="text/css"
-      href="arrow/_direction/section_skills__arrow_direction_right.css"
+      href="arrow/_direction/section-skills__arrow_direction_right.css"
     />
 
     <!-- Блок dots -->
     <link rel="stylesheet" type="text/css" href="dots/dots.css" />
-    <link rel="stylesheet" type="text/css" href="dots/section__dots.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="dots/section-skills__dots.css"
+    />
 
     <!-- Блок span -->
     <link rel="stylesheet" type="text/css" href="span/span.css" />
@@ -496,76 +513,87 @@
         />
       </section>
 
-      <section
-        class="section-about-me main__section-about-me"
-        id="section-about-me"
-      >
-        <h2 class="h2 section-about-me__h2">Об авторе</h2>
+      <section class="main__section-about-me" id="section-about-me">
+        <h2 class="heading2 section-about-me__heading2">Об авторе</h2>
         <div>
-          <h3 class="h3 section-about-me__h3">Основная информация</h3>
-          <p class="p">
+          <h3 class="heading3 section-about-me__heading3">
+            Основная информация
+          </h3>
+          <p class="paragraph">
             Мне 25 лет, родился в городе Искитиме. Отучившись 11 лет в школе, в
             2014 году поступил в
             <abbr
-              class="abbr"
+              class="abbreviation"
               title="Новосибирский Государственный Технический университет"
               >НГТУ</abbr
             >
             на Факультет радиотехники и электроники.
           </p>
-          <h3 class="h3 section-about-me__h3">Образование</h3>
-          <p class="p">
+          <h3 class="heading3 section-about-me__heading3">Образование</h3>
+          <p class="paragraph">
             В 2018 присвоена квалификация бакалавра по направлению
             «Конструирование и технология электронных средств». Чуть позднее, в
             2020 году, освоил программу по тому же направлению и получил степень
             магистра.
           </p>
-          <h3 class="h3 section-about-me__h3">Работа</h3>
-          <p class="p">
+          <h3 class="heading3 section-about-me__heading3">Работа</h3>
+          <p class="paragraph">
             В ноябре 2019 года устроился работать в АО/ООО «Катод» по
             специальности инженер-конструктор III категории.
           </p>
-          <h3 class="h3 section-about-me__h3">Хобби</h3>
-          <p class="p">
+          <h3 class="heading3 section-about-me__heading3">Хобби</h3>
+          <p class="paragraph">
             Увлекаюсь
-            <a class="a a_theme_light" href="#">компьютерными играми</a>,
-            <a class="a a_theme_light" href="#">рок-музыкой</a>, активным видом
-            отдыха (плавание, воллейбол, сноубординг, аргентинское танго), а
-            также обучаюсь игре на электрогитаре. Более подробно о некоторых
-            хобби рассказано и показано по соответствующим ссылкам.
+            <a class="anchor anchor_theme_light" href="#"
+              >компьютерными играми</a
+            >, <a class="anchor anchor_theme_light" href="#">рок-музыкой</a>,
+            активным видом отдыха (плавание, воллейбол, сноубординг,
+            аргентинское танго), а также обучаюсь игре на электрогитаре. Более
+            подробно о некоторых хобби рассказано и показано по соответствующим
+            ссылкам.
           </p>
         </div>
       </section>
 
-      <section class="section_skills main__section_skills" id="section-skills">
-        <h2 class="h2 section-skills__h2">Навыки</h2>
-        <div class="slide section-skills__slide section-skills__slide_faded">
-          <!-- svg-логотип сделан W3C - https://www.w3.org/html/logo/downloads/HTML5_Logo.svg -->
-          <img class="img slide__img" src="slide/html's logo.png" />
-          <ul class="ul section-skills__ul">
-            <li class="li">Семантическое использование тегов.</li>
-            <li class="li">Адаптивная верстка под различные устройства.</li>
-            <li class="li">Создание макетов на основе Flexbox/Grid моделей.</li>
+      <section class="main__section-skills" id="section-skills">
+        <h2 class="heading2 section-skills__heading2">Навыки</h2>
+        <div class="section-skills__slide section-skills__slide_faded">
+          <!-- svg-логотип разработан W3C - https://www.w3.org/html/logo/downloads/HTML5_Logo.svg -->
+          <img class="slide__image" src="slide/html-logo.png" />
+          <ul class="section-skills__unordered-list">
+            <li class="item section-skills__item">
+              Семантическое использование тегов.
+            </li>
+            <li class="item section-skills__item">
+              Адаптивная верстка под различные устройства.
+            </li>
+            <li class="item section-skills__item">
+              Создание макетов на основе Flexbox/Grid моделей.
+            </li>
           </ul>
         </div>
-        <div class="slide section-skills__slide section-skills__slide_faded">
-          <!-- png-логотип сделан Яндекс - https://ru.bem.info/methodology/ -->
-          <img class="img slide__img" src="slide/bem's logo.png" />
-          <ul class="ul section-skills__ul">
-            <li class="li">Разделение интерфейса на компоненты.</li>
-            <li class="li">Проектирование структуры по методологии.</li>
+        <div class="section-skills__slide section-skills__slide_faded">
+          <!-- png-логотип разработан Яндекс - https://ru.bem.info/methodology/ -->
+          <img class="slide__image" src="slide/bem-logo.png" />
+          <ul class="section-skills__unordered-list">
+            <li class="item section-skills__item">
+              Разделение интерфейса на компоненты.
+            </li>
+            <li class="item section-skills__item">
+              Проектирование структуры по методологии.
+            </li>
           </ul>
         </div>
         <a
-          class="arrow section_skills__arrow section_skills__arrow_direction_left"
+          class="arrow section-skills__arrow section-skills__arrow_direction_left"
           onclick="plusSlides(-1)"
           >❮</a
         ><a
-          class="arrow section_skills__arrow section_skills__arrow_direction_right"
+          class="arrow section-skills__arrow section-skills__arrow_direction_right"
           onclick="plusSlides(1)"
           >❯</a
         >
-        <div class="dots section__dots">
+        <div class="dots section-skills__dots">
           <span class="span dots__span" onclick="currentSlide(1)"></span>
           <span class="span dots__span" onclick="currentSlide(2)"></span>
         </div>
@@ -637,7 +665,7 @@
     <script src="switcher/switcher.js"></script>
     <script src="hamburger-button/hamburger-button.js"></script>
     <script src="button/button.js"></script>
-    <script src="section_skills/toggleSlides.js"></script>
+    <script src="section-skills/toggleSlides.js"></script>
     <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
     <script src="map/drawMap.js"></script>
   </body>

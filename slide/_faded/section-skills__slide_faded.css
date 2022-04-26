@@ -1,11 +1,11 @@
 .section-skills__slide_faded {
-  animation-name: faded;
   animation-duration: 1.5s;
+  animation-name: faded;
 }
 
 @keyframes faded {
   from {
-    opacity: 0.4;
+    opacity: 0.3;
   }
   to {
     opacity: 1;
