@@ -90,7 +90,6 @@
       type="text/css"
       href="anchor/navigation__anchor.css"
     />
-    <link rel="stylesheet" type="text/css" href="a/footer__a.css" />
 
     <!-- Блок object -->
     <link rel="stylesheet" type="text/css" href="object/anchor__object.css" />
@@ -245,9 +244,8 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="heading2/section_projects__h2.css"
+      href="heading2/section-projects__heading2.css"
     />
-    <link rel="stylesheet" type="text/css" href="heading2/footer__h2.css" />
 
     <!-- Блок heading3 -->
     <link rel="stylesheet" type="text/css" href="heading3/heading3.css" />
@@ -313,37 +311,22 @@
     <link rel="stylesheet" type="text/css" href="span/span.css" />
     <link rel="stylesheet" type="text/css" href="span/dots__span.css" />
 
-    <!-- Блок section_projects -->
+    <!-- Блок section-projects -->
     <link
       rel="stylesheet"
       type="text/css"
-      href="section_projects/section_projects.css"
+      href="section-projects/main__section-projects.css"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="section_projects/main__section_projects.css"
-    />
-
-    <!-- Блок footer -->
-    <link rel="stylesheet" type="text/css" href="footer/footer.css" />
-    <link rel="stylesheet" type="text/css" href="footer/body__footer.css" />
-
-    <!-- Блок map -->
-    <link rel="stylesheet" type="text/css" href="map/map.css" />
-    <link rel="stylesheet" type="text/css" href="map/footer__map.css" />
 
     <!-- Блок contact-info -->
     <link
       rel="stylesheet"
       type="text/css"
-      href="contact-info/contact-info.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
       href="contact-info/footer__contact-info.css"
     />
+
+    <!-- Блок map -->
+    <link rel="stylesheet" type="text/css" href="map/footer__map.css" />
 
     <!-- Блок contact-links -->
     <link
@@ -599,64 +582,52 @@
         </div>
       </section>
 
-      <section
-        class="section_projects main__section_projects"
-        id="section_projects"
-      >
-        <h2 class="h2 section_projects__h2">Проекты</h2>
-        <div class="project section_projects__project">
-          <a class="a" href="https://github.com/quentuez/test-task-by-sibers">
-            <h3 class="h3 section_projects__h3">Contact book</h3>
+      <section class="main__section-projects" id="section_projects">
+        <h2 class="heading2 section-projects__heading2">Проекты</h2>
+        <div>
+          <a
+            class="anchor"
+            href="https://github.com/quentuez/test-task-by-sibers"
+          >
+            <h3 class="heading3">Contact book</h3>
             <!-- Картинка взята отсюда - https://www.istockphoto.com/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B1%D0%BB%D0%BE%D0%BA%D0%BD%D0%BE%D1%82-gm146725857-8325217 -->
-            <img
-              class="img section_projects__img"
-              src="section_projects/project_1.png"
-            />
+            <img src="section-projects/project-1.png" />
           </a>
         </div>
-        <div class="project section_projects__project">
-          <a class="a">
-            <h3 class="h3 section_projects__h3">In development</h3>
+        <div>
+          <a class="anchor">
+            <h3 class="heading3">In development</h3>
             <!-- Картинка взята отсюда - https://ru.wordpress.org/plugins/easy-under-construction/ -->
-            <img
-              class="img section_projects__img"
-              src="section_projects/project_2.png"
-            />
+            <img src="section-projects/project-2.png" />
           </a>
         </div>
-        <div class="project section_projects__project">
-          <a class="a">
-            <h3 class="h3 section_projects__h3">In development</h3>
+        <div>
+          <a class="anchor">
+            <h3 class="heading3">In development</h3>
             <!-- Картинка взята отсюда - https://ru.wordpress.org/plugins/easy-under-construction/ -->
-            <img
-              class="img section_projects__img"
-              src="section_projects/project_3.png"
-            />
+            <img src="section-projects/project-3.png" />
           </a>
         </div>
-        <div class="project section_projects__project">
-          <a class="a">
-            <h3 class="h3 section_projects__h3">In development</h3>
+        <div>
+          <a class="anchor">
+            <h3 class="heading3">In development</h3>
             <!-- Картинка взята отсюда - https://ru.wordpress.org/plugins/easy-under-construction/ -->
-            <img
-              class="img section_projects__img"
-              src="section_projects/project_4.png"
-            />
+            <img src="section-projects/project-4.png" />
           </a>
         </div>
       </section>
     </main>
 
-    <footer class="footer body__footer" id="section-contact-me">
-      <h2 class="h2 footer__h2">Связаться со мной</h2>
-      <div class="contact-info footer__contact-info">
-        <div id="map" class="map footer__map"></div>
+    <footer id="section-contact-me">
+      <h2 class="heading2">Связаться со мной</h2>
+      <div class="footer__contact-info">
+        <div class="footer__map" id="map"></div>
         <div class="contact-links footer__contact-links">
-          <a class="a footer__a" href="mailto:dmitrij.klimenkoff7@gmail.com"
+          <a class="anchor" href="mailto:dmitrij.klimenkoff7@gmail.com"
             >dmitrij.klimenkoff7@gmail.com</a
           >
           <br />
-          <a class="a footer__a" href="tel:+79039371294">+7-903-937-12-94</a>
+          <a class="anchor" href="tel:+79039371294">+7-903-937-12-94</a>
         </div>
       </div>
     </footer>
@@ -667,6 +638,6 @@
     <script src="button/button.js"></script>
     <script src="section-skills/toggleSlides.js"></script>
     <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
-    <script src="map/drawMap.js"></script>
+    <script src="map/map.js"></script>
   </body>
 </html>
