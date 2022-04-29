@@ -158,6 +158,16 @@
       type="text/css"
       href="bar/_position/menu__bar_position_bottom.css"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="bar/_theme/bar_theme_light.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="bar/_theme/bar_theme_dark.css"
+    />
 
     <!-- Блок nav -->
     <link rel="stylesheet" type="text/css" href="navigation/navigation.css" />
@@ -187,6 +197,16 @@
       rel="stylesheet"
       type="text/css"
       href="background/main__background.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="background/_theme/background_theme_light.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="background/_theme/background_theme_dark.css"
     />
 
     <!-- Блок section-preview -->
@@ -297,6 +317,16 @@
       rel="stylesheet"
       type="text/css"
       href="arrow/_direction/section-skills__arrow_direction_right.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="arrow/_theme/arrow_theme_light.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="arrow/_theme/arrow_theme_dark.css"
     />
 
     <!-- Блок dots -->
@@ -421,29 +451,49 @@
     <main>
       <aside class="main__hamburger-button">
         <div class="menu hamburger-button__menu" id="menu-bar">
-          <div class="bar menu__bar menu__bar_position_top"></div>
-          <div class="bar menu__bar menu__bar_position_middle"></div>
-          <div class="bar menu__bar menu__bar_position_bottom"></div>
+          <div
+            class="bar menu__bar menu__bar_position_top bar_theme_light"
+          ></div>
+          <div
+            class="bar menu__bar menu__bar_position_middle bar_theme_light"
+          ></div>
+          <div
+            class="bar menu__bar menu__bar_position_bottom bar_theme_light"
+          ></div>
         </div>
 
         <nav class="navigation hamburger-button__navigation" id="nav">
           <ul class="navigation__unordered-list">
             <li class="item navigation__item">
-              <a class="navigation__anchor" href="#">Главная</a>
+              <a class="navigation__anchor anchor_theme_light" href="#"
+                >Главная</a
+              >
             </li>
             <li class="item navigation__item">
-              <a class="navigation__anchor" href="#section-about-me"
+              <a
+                class="navigation__anchor anchor_theme_light"
+                href="#section-about-me"
                 >Об авторе</a
               >
             </li>
             <li class="item navigation__item">
-              <a class="navigation__anchor" href="#section-skills">Навыки</a>
+              <a
+                class="navigation__anchor anchor_theme_light"
+                href="#section-skills"
+                >Навыки</a
+              >
             </li>
             <li class="item navigation__item">
-              <a class="navigation__anchor" href="#section_projects">Проекты</a>
+              <a
+                class="navigation__anchor anchor_theme_light"
+                href="#section_projects"
+                >Проекты</a
+              >
             </li>
             <li class="item navigation__item">
-              <a class="navigation__anchor" href="#section-contact-me"
+              <a
+                class="navigation__anchor anchor_theme_light"
+                href="#section-contact-me"
                 >Связаться со мной</a
               >
             </li>
@@ -451,7 +501,10 @@
         </nav>
       </aside>
 
-      <div class="background main__background" id="menu-bg"></div>
+      <div
+        class="background main__background background_theme_light"
+        id="menu-bg"
+      ></div>
 
       <section class="main__section-preview">
         <div class="section-preview__intro-content">
@@ -568,11 +621,11 @@
           </ul>
         </div>
         <a
-          class="arrow section-skills__arrow section-skills__arrow_direction_left"
+          class="arrow section-skills__arrow section-skills__arrow_direction_left arrow_theme_light"
           onclick="plusSlides(-1)"
           >❮</a
         ><a
-          class="arrow section-skills__arrow section-skills__arrow_direction_right"
+          class="arrow section-skills__arrow section-skills__arrow_direction_right arrow_theme_light"
           onclick="plusSlides(1)"
           >❯</a
         >
@@ -623,11 +676,15 @@
       <div class="footer__contact-info">
         <div class="footer__map" id="map"></div>
         <div class="contact-links footer__contact-links">
-          <a class="anchor" href="mailto:dmitrij.klimenkoff7@gmail.com"
+          <a
+            class="anchor anchor_theme_light"
+            href="mailto:dmitrij.klimenkoff7@gmail.com"
             >dmitrij.klimenkoff7@gmail.com</a
           >
           <br />
-          <a class="anchor" href="tel:+79039371294">+7-903-937-12-94</a>
+          <a class="anchor anchor_theme_light" href="tel:+79039371294"
+            >+7-903-937-12-94</a
+          >
         </div>
       </div>
     </footer>

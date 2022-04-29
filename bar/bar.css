@@ -3,11 +3,3 @@
   border-radius: 5px;
   transition: 0.3s;
 }
-
-.change {
-  display: block;
-}
-
-.change .bar {
-  background-color: #f5f5f5;
-}

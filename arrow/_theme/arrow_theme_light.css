@@ -1,0 +1,9 @@
+.arrow_theme_light {
+  color: #161417;
+}
+
+.arrow_theme_light:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #f5f5f5;
+  transition: 0.3s;
+}

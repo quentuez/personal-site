@@ -1,0 +1,7 @@
+.bar_theme_dark {
+  background-color: #f5f5f5;
+}
+
+.change .bar_theme_dark {
+  background-color: #161417;
+}

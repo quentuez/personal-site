@@ -1,3 +1,7 @@
 .menu__bar {
   height: 5px;
 }
+
+.change {
+  display: block;
+}
