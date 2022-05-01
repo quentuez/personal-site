@@ -1,4 +1,47 @@
-.section-skills__dots {
-  bottom: 10%;
-  position: relative;
+/* Large desktops and laptops */
+@media (min-width: 1300px) {
+  .section-skills__dots {
+    bottom: 5%;
+    position: relative;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (max-width: 1299px) {
+  .section-skills__dots {
+    bottom: 4%;
+    position: relative;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+  .section-skills__dots {
+    bottom: 3%;
+    position: relative;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .section-skills__dots {
+    bottom: 2%;
+    position: relative;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .section-skills__dots {
+    bottom: 1%;
+    position: relative;
+  }
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+  .section-skills__dots {
+    bottom: 0%;
+    position: relative;
+  }
 }

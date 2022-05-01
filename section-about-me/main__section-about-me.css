@@ -1,6 +1,9 @@
 /* Large desktops and laptops */
-@media (min-width: 1300px) {
+@media (max-width: 2560px) {
   .main__section-about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100vh;
     margin: 0 auto;
     width: 80%;
@@ -8,40 +11,55 @@
 }
 
 /* Landscape tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1299px) {
+@media (max-width: 1440px) {
   .main__section-about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0 auto;
     width: 80%;
   }
 }
 
 /* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 1024px) {
   .main__section-about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0 auto;
     width: 80%;
   }
 }
 
 /* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .main__section-about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0 auto;
     width: 80%;
   }
 }
 
 /* Portrait phones and smaller */
-@media (max-width: 480px) {
+@media (max-width: 425px) {
   .main__section-about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0 auto;
     width: 80%;
   }
 }
 
 /* Iphone 5 */
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .main__section-about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0 auto;
     width: 80%;
   }

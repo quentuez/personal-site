@@ -282,6 +282,9 @@
       href="abbreviation/abbreviation.css"
     />
 
+    <!-- Блок underline -->
+    <link rel="stylesheet" type="text/css" href="underline/underline.css" />
+
     <!-- Блок section-skills -->
     <link
       rel="stylesheet"
@@ -557,7 +560,7 @@
           </h3>
           <p class="paragraph">
             Мне 25 лет, родился в городе Искитиме. Отучившись 11 лет в школе, в
-            2014 году поступил в
+            <time datetime="2014">2014 году</time> поступил в
             <abbr
               class="abbreviation"
               title="Новосибирский Государственный Технический университет"
@@ -567,15 +570,17 @@
           </p>
           <h3 class="heading3 section-about-me__heading3">Образование</h3>
           <p class="paragraph">
-            В 2018 присвоена квалификация бакалавра по направлению
-            «Конструирование и технология электронных средств». Чуть позднее, в
-            2020 году, освоил программу по тому же направлению и получил степень
-            магистра.
+            В <time datetime="2018">2018</time> присвоена квалификация бакалавра
+            по направлению «Конструирование и технология электронных средств».
+            Чуть позднее, в <time datetime="2020">2020 году</time>, освоил
+            программу по тому же направлению и получил степень магистра.
           </p>
           <h3 class="heading3 section-about-me__heading3">Работа</h3>
           <p class="paragraph">
-            В ноябре 2019 года устроился работать в АО/ООО «Катод» по
-            специальности инженер-конструктор III категории.
+            В <time datetime="2019-11">ноябре 2019 года</time> устроился
+            работать в АО/ООО «Катод» по специальности инженер-конструктор III
+            категории. Сайт предприятия -
+            <a class="anchor">http://katodnv<wbr />.com<wbr />/ru</a>
           </p>
           <h3 class="heading3 section-about-me__heading3">Хобби</h3>
           <p class="paragraph">
@@ -586,7 +591,7 @@
             активным видом отдыха (плавание, воллейбол, сноубординг,
             аргентинское танго), а также обучаюсь игре на электрогитаре. Более
             подробно о некоторых хобби рассказано и показано по соответствующим
-            ссылкам.
+            <u class="underline">сылкам</u>.
           </p>
         </div>
       </section>
@@ -676,15 +681,19 @@
       <div class="footer__contact-info">
         <div class="footer__map" id="map"></div>
         <div class="contact-links footer__contact-links">
-          <a
-            class="anchor anchor_theme_light"
-            href="mailto:dmitrij.klimenkoff7@gmail.com"
-            >dmitrij.klimenkoff7@gmail.com</a
-          >
+          <p class="paragraph">
+            <a
+              class="anchor anchor_theme_light"
+              href="mailto:dmitrij.klimenkoff7@gmail.com"
+              >dmitrij.klimenkoff7@gmail.com</a
+            >
+          </p>
           <br />
-          <a class="anchor anchor_theme_light" href="tel:+79039371294"
-            >+7-903-937-12-94</a
-          >
+          <p class="paragraph">
+            <a class="anchor anchor_theme_light" href="tel:+79039371294"
+              >+7-903-937-12-94</a
+            >
+          </p>
         </div>
       </div>
     </footer>
