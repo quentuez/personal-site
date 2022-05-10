@@ -5,10 +5,7 @@
 }
 
 .anchor:hover {
+  color: #64b5f6;
   text-decoration: underline;
   transition: 0.3s;
-}
-
-.anchor:visited {
-  color: #161417;
 }
