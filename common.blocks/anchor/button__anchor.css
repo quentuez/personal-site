@@ -1,0 +1,9 @@
+.button__anchor {
+  color: #161417;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.button__anchor:hover {
+  transition: 0.3s;
+}

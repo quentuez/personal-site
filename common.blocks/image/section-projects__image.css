@@ -1,0 +1,9 @@
+.section-projects__image {
+  filter: blur(3px);
+  transition: 0.3s;
+}
+
+.section-projects__image:hover {
+  filter: blur(0px);
+  transition: 0.3s;
+}
