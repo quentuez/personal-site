@@ -2,6 +2,16 @@
 
 <html class="html document__html" lang="ru">
   <head>
+    <!-- Метатеги -->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <meta name="author" content="Дмитрий Клименков" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Сайт предназначен для предоставления информации обо мне, Дмитрии Клименкове"
+    />
+
     <!-- Шрифт разработан Christian Robertson - https://fonts.google.com/specimen/Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -315,6 +325,13 @@
       href="common.blocks/section-about-me/main__section-about-me.css"
     />
 
+    <!-- thematic-break -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="common.blocks/thematic-break/section-about-me__thematic-break.css"
+    />
+
     <!-- Блок heading2 -->
     <link
       rel="stylesheet"
@@ -497,16 +514,6 @@
       href="common.blocks/contact-links/footer__contact-links.css"
     />
 
-    <!-- Метатеги -->
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="IE=edge" />
-    <meta name="author" content="Дмитрий Клименков" />
-    <meta name="color-scheme" content="light dark" />
-    <meta
-      name="description"
-      content="Сайт предназначен для предоставления информации обо мне, Дмитрии Клименкове"
-    />
-
     <!-- Заголовок сайта -->
     <title>Главная страница - quentuez's сайт</title>
   </head>
@@ -536,6 +543,7 @@
               class="anchor__image"
               src="common.blocks/image/github-icon.png"
               alt="github's icon"
+              type="image/png"
             />
           </a>
         </li>
@@ -548,6 +556,7 @@
               class="anchor__image"
               src="common.blocks/image/instagram-icon.png"
               alt="instagram's icon"
+              type="image/png"
             />
           </a>
         </li>
@@ -560,6 +569,7 @@
               class="anchor__image"
               src="common.blocks/image/telegram-icon.png"
               alt="telegram's icon"
+              type="image/png"
             />
           </a>
         </li>
@@ -572,6 +582,7 @@
               class="anchor__image"
               src="common.blocks/image/vk-icon.png"
               alt="vk's icon"
+              type="image/png"
             />
           </a>
         </li>
@@ -580,7 +591,7 @@
 
     <main>
       <aside class="main__hamburger-button">
-        <div class="menu hamburger-button__menu" id="menu-bar">
+        <menu class="menu hamburger-button__menu" id="menu-bar">
           <div
             class="bar menu__bar menu__bar_position_top bar_theme_light"
           ></div>
@@ -590,7 +601,7 @@
           <div
             class="bar menu__bar menu__bar_position_bottom bar_theme_light"
           ></div>
-        </div>
+        </menu>
 
         <nav class="navigation hamburger-button__navigation" id="nav">
           <ul class="navigation__unordered-list">
@@ -640,7 +651,11 @@
         <div class="section-preview__intro-content">
           <h1 class="heading1">Привет, меня зовут Дмитрий.</h1>
           <p class="paragraph paragraph_style_uppercase">
-            Добро пожаловать на мой сайт
+            <q
+              lang="en"
+              cite="https://www.goodreads.com/quotes/tag/welcome?page=1"
+              >Enter freely and of your own free will!</q
+            >
           </p>
           <p class="paragraph">
             Здесь Вы найдете много всего - так, в разделе
@@ -666,18 +681,23 @@
             свободное от основной работы время для оттачивания навыков
             разработки веб-приложений.
           </p>
-          <button class="button intro-content__button">
-            <a class="button__anchor" href="#section-contact-me"
-              >Связаться со мной</a
-            >
-          </button>
+          <a class="button__anchor" href="#section-contact-me"
+            ><button class="button intro-content__button">
+              Связаться со мной
+            </button></a
+          >
         </div>
 
-        <img
-          class="intro-content__image"
-          src="common.blocks/image/a photo of myself.jpg"
-          alt="a photo of myself"
-        />
+        <picture>
+          <source
+            srcset="common.blocks/image/a-photo-of-myself.avif"
+            type="image/avif" />
+          <img
+            class="intro-content__image"
+            src="common.blocks/image/a-photo-of-myself.jpg"
+            alt="a photo of myself"
+            type="image/jpeg"
+        /></picture>
       </section>
 
       <section class="main__section-about-me" id="section-about-me">
@@ -696,6 +716,7 @@
             >
             на Факультет радиотехники и электроники.
           </p>
+          <hr class="section-about-me__thematic-break" />
           <h3 class="heading3 section-about-me__heading3">Образование</h3>
           <p class="paragraph">
             В <time datetime="2018">2018</time> присвоена квалификация бакалавра
@@ -703,6 +724,7 @@
             Чуть позднее, в <time datetime="2020">2020 году</time>, освоил
             программу по тому же направлению и получил степень магистра.
           </p>
+          <hr class="section-about-me__thematic-break" />
           <h3 class="heading3 section-about-me__heading3">Работа</h3>
           <p class="paragraph">
             В <time datetime="2019-11">ноябре 2019 года</time> устроился
@@ -714,6 +736,7 @@
               ></b
             >
           </p>
+          <hr class="section-about-me__thematic-break" />
           <h3 class="heading3 section-about-me__heading3">Хобби</h3>
           <p class="paragraph">
             Увлекаюсь
@@ -738,7 +761,16 @@
         <h2 class="heading2 section-skills__heading2">Навыки</h2>
         <div class="section-skills__slide section-skills__slide_faded">
           <!-- svg-логотип разработан W3C - https://www.w3.org/html/logo/downloads/HTML5_Logo.svg -->
-          <img class="slide__image" src="common.blocks/slide/html-logo.png" />
+          <figure>
+            <img
+             
+              src="common.blocks/slide/html-logo.png"
+              alt="html's logo"
+              type="image/png"
+            />
+            <figcaption>HTML</figcaption>
+          </figure>
+
           <ul class="section-skills__unordered-list">
             <li class="item section-skills__item">
               Семантическое использование тегов.
@@ -753,7 +785,12 @@
         </div>
         <div class="section-skills__slide section-skills__slide_faded">
           <!-- png-логотип разработан Яндекс - https://ru.bem.info/methodology/ -->
-          <img class="slide__image" src="common.blocks/slide/bem-logo.png" />
+          <img
+            class="slide__image"
+            src="common.blocks/slide/bem-logo.png"
+            alt="bem's logo"
+            type="image/png"
+          />
           <ul class="section-skills__unordered-list">
             <li class="item section-skills__item">
               Разделение интерфейса на компоненты.
@@ -790,6 +827,8 @@
             <img
               class="section-projects__image"
               src="common.blocks/section-projects/project-1.png"
+              alt="contact book's image"
+              type="image/png"
             />
           </a>
         </div>
@@ -800,6 +839,8 @@
             <img
               class="section-projects__image"
               src="common.blocks/section-projects/project-2.png"
+              alt="under construction's image"
+              type="image/png"
             />
           </a>
         </div>
@@ -810,6 +851,8 @@
             <img
               class="section-projects__image"
               src="common.blocks/section-projects/project-3.png"
+              alt="under construction's image"
+              type="image/png"
             />
           </a>
         </div>
@@ -820,6 +863,8 @@
             <img
               class="section-projects__image"
               src="common.blocks/section-projects/project-4.png"
+              alt="under construction's image"
+              type="image/png"
             />
           </a>
         </div>
@@ -829,19 +874,23 @@
     <footer class="main__section-contact-me" id="section-contact-me">
       <h2 class="heading2 section-contact-me__heading2">Связаться со мной</h2>
       <div class="footer__contact-info">
-        <div class="footer__map" id="map"></div>
+        <div class="footer__map" id="map">
+          <noscript
+            ><img src="common.blocks/map/map.png" type="image/png"
+          /></noscript>
+        </div>
         <div class="contact-links footer__contact-links">
           <p class="paragraph">
             <a
               class="anchor anchor_theme_light"
-              href="mailto:dmitrij.klimenkoff7@gmail.com"
-              >dmitrij.klimenkoff7@gmail.com</a
+              href="mailto:hello_world@gmail.com"
+              >hello_world@gmail.com</a
             >
           </p>
           <br />
           <p class="paragraph">
-            <a class="anchor anchor_theme_light" href="tel:+79039371294"
-              >+7-903-937-12-94</a
+            <a class="anchor anchor_theme_light" href="tel:+78005553535"
+              >+7-800-555-35-35</a
             >
           </p>
         </div>
