@@ -673,11 +673,12 @@
         <h2 class="heading2 section-skills__heading2">Навыки</h2>
         <div class="section-skills__slide section-skills__slide_faded">
           <!-- svg-логотип разработан W3C - https://www.w3.org/html/logo/downloads/HTML5_Logo.svg -->
-          <figure>
-            <img src="slide/html-logo.png" alt="html's logo" type="image/png" />
-            <figcaption>HTML</figcaption>
-          </figure>
-
+          <img
+            class="slide__image"
+            src="slide/html-logo.png"
+            alt="html's logo"
+            type="image/png"
+          />
           <ul class="section-skills__unordered-list">
             <li class="item section-skills__item">
               Семантическое использование тегов.
@@ -805,7 +806,8 @@
     <!-- Скрипты -->
     <script src="switcher/switcher.js"></script>
     <script src="hamburger-button/hamburger-button.js"></script>
-    <script src="section-skills/toggleSlides.js"></script>
+    <!-- Код взят отсюда - https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+    <script src="section-skills/section-skills.js"></script>
     <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
     <script src="map/map.js"></script>
   </body>
