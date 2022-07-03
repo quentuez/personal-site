@@ -1,7 +1,7 @@
-.table-head > tr {
+.table-head_theme_light > tr {
   background-color: rgb(228, 240, 245);
 }
 
-.table-head > tr:nth-of-type(2) {
+.table-head_theme_light > tr:nth-of-type(2) {
   border-bottom: 2px solid black;
 }

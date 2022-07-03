@@ -1,310 +1,174 @@
 <!DOCTYPE html>
 
 <html class="html document__html" lang="ru">
-  <head>
-    <!-- Шрифт разработан Christian Robertson - https://fonts.google.com/specimen/Roboto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
-    />
 
-    <!-- Иконка разработана Konami - https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles:_Tournament_Fighters -->
-    <link rel="apple-touch-icon" href="../common.blocks/favicon.ico" />
-    <link rel="icon" type="image/x-icon" href="../common.blocks/favicon.ico" />
+<head>
+  <!-- Шрифт разработан Christian Robertson - https://fonts.google.com/specimen/Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" />
 
-    <!-- Стили для блока html -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/html/html.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/html/document__html.css"
-    />
+  <!-- Иконка разработана Konami - https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles:_Tournament_Fighters -->
+  <link rel="apple-touch-icon" href="../common.blocks/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="../common.blocks/favicon.ico" />
 
-    <!-- Стили для блока body -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/body/body.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/body/_theme/body_theme_light.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/body/_theme/body_theme_dark.css"
-    />
+  <!-- Стили для блока html -->
+  <link rel="stylesheet" type="text/css" href="../common.blocks/html/html.css" />
+  <link rel="stylesheet" type="text/css" href="../common.blocks/html/document__html.css" />
 
-    <!-- Стили для блока header -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/header/_theme/header_theme_light.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/header/_theme/header_theme_dark.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/header/body__header.css"
-    />
+  <!-- Стили для блока body -->
+  <link rel="stylesheet" type="text/css" href="../common.blocks/body/body.css" />
+  <link rel="stylesheet" type="text/css" href="../common.blocks/body/_theme/body_theme_light.css" />
+  <link rel="stylesheet" type="text/css" href="../common.blocks/body/_theme/body_theme_dark.css" />
 
-    <!-- Стили для блока switcher -->
-    <link
-      rel="stylesheet"
-      href="../common.blocks/switcher/header__switcher.css"
-    />
+  <!-- Стили для блока header -->
+  <link rel="stylesheet" type="text/css" href="../common.blocks/header/_theme/header_theme_light.css" />
+  <link rel="stylesheet" type="text/css" href="../common.blocks/header/_theme/header_theme_dark.css" />
+  <link rel="stylesheet" type="text/css" href="../common.blocks/header/body__header.css" />
 
-    <!-- Стили для блока input -->
-    <link rel="stylesheet" href="../common.blocks/input/input.css" />
-    <link rel="stylesheet" href="../common.blocks/input/switcher__input.css" />
+  <!-- Стили для блока switcher -->
+  <link rel="stylesheet" href="../common.blocks/switcher/header__switcher.css" />
 
-    <!-- Блок anchor -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/anchor/anchor.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/anchor/_theme/anchor_theme_light.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/anchor/_theme/anchor_theme_dark.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/anchor/header__anchor.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/anchor/_hovered/anchor_hovered_github.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/anchor/_hovered/anchor_hovered_instagram.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/anchor/_hovered/anchor_hovered_telegram.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/anchor/_hovered/anchor_hovered_vk.css"
-    />
+  <!-- Стили для блока input -->
+  <link rel="stylesheet" href="../common.blocks/input/input.css" />
+  <link rel="stylesheet" href="../common.blocks/input/switcher__input.css" />
 
-    <!-- Блок object -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/object/anchor__object.css"
-    />
+  <!-- Блок anchor -->
+  <link rel="stylesheet" type="text/css" href="../common.blocks/anchor/anchor.css" />
+  <link rel="stylesheet" type="text/css" href="../common.blocks/anchor/_theme/anchor_theme_light.css" />
+  <link rel="stylesheet" type="text/css" href="../common.blocks/anchor/_theme/anchor_theme_dark.css" />
+  <link rel="stylesheet" type="text/css" href="../common.blocks/anchor/header__anchor.css" />
+  <link rel="stylesheet" type="text/css" href="../common.blocks/anchor/_hovered/anchor_hovered_github.css" />
+  <link rel="stylesheet" type="text/css" href="../common.blocks/anchor/_hovered/anchor_hovered_instagram.css" />
+  <link rel="stylesheet" type="text/css" href="../common.blocks/anchor/_hovered/anchor_hovered_telegram.css" />
+  <link rel="stylesheet" type="text/css" href="../common.blocks/anchor/_hovered/anchor_hovered_vk.css" />
 
-    <!-- Блок unordered-list -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/unordered-list/unordered-list.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/unordered-list/header__unordered-list.css"
-    />
+  <!-- Блок object -->
+  <link rel="stylesheet" type="text/css" href="../common.blocks/object/anchor__object.css" />
 
-    <!-- Блок image -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/image/anchor__image.css"
-    />
+  <!-- Блок unordered-list -->
+  <link rel="stylesheet" type="text/css" href="../common.blocks/unordered-list/unordered-list.css" />
+  <link rel="stylesheet" type="text/css" href="../common.blocks/unordered-list/header__unordered-list.css" />
 
-    <!-- Блок item -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/item/item.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/item/unordered-list__item.css"
-    />
+  <!-- Блок image -->
+  <link rel="stylesheet" type="text/css" href="../common.blocks/image/anchor__image.css" />
 
-    <!-- Блок section-preview -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../common.blocks/section-preview/main__section-preview.css"
-    />
+  <!-- Блок item -->
+  <link rel="stylesheet" type="text/css" href="../common.blocks/item/item.css" />
+  <link rel="stylesheet" type="text/css" href="../common.blocks/item/unordered-list__item.css" />
 
-    <!-- Блок table -->
-    <link rel="stylesheet" type="text/css" href="table/table.css" />
+  <!-- Блок section-preview -->
+  <link rel="stylesheet" type="text/css" href="../common.blocks/section-preview/main__section-preview.css" />
 
-    <!-- Блок table-head -->
-    <link rel="stylesheet" type="text/css" href="table-head/table-head.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="table-head/__table-header/table-head__table-header.css"
-    />
+  <!-- Блок table -->
+  <link rel="stylesheet" type="text/css" href="table/table.css" />
+  <link rel="stylesheet" type="text/css" href="table/section-preview__table.css" />
 
-    <!-- Блок table-body -->
-    <link rel="stylesheet" type="text/css" href="table-body/table-body.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="table-body/__table-data/table-body__table-data.css"
-    />
+  <!-- Блок table-head -->
+  <link rel="stylesheet" type="text/css" href="table-head/table-head.css" />
+  <link rel="stylesheet" type="text/css" href="table-head/__table-header/table-head__table-header.css" />
+  <link rel="stylesheet" type="text/css" href="table-head/_theme/table-head_theme_light.css" />
+  <link rel="stylesheet" type="text/css" href="table-head/_theme/table-head_theme_dark.css" />
+  <link rel="stylesheet" type="text/css"
+    href="table-head/__table-header/_theme/table-head__table-header_theme_light.css" />
+  <link rel="stylesheet" type="text/css"
+    href="table-head/__table-header/_theme/table-head__table-header_theme_dark.css" />
 
-    <!-- Метатеги -->
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="IE=edge" />
-    <meta name="author" content="Дмитрий Клименков" />
-    <meta name="color-scheme" content="light dark" />
-    <meta
-      name="description"
-      content="Сайт предназначен для предоставления информации обо мне, Дмитрии Клименкове"
-    />
+  <!-- Блок table-body -->
+  <link rel="stylesheet" type="text/css" href="table-body/table-body.css" />
+  <link rel="stylesheet" type="text/css" href="table-body/__table-data/table-body__table-data.css" />
 
-    <!-- Заголовок сайта -->
-    <title>Компьютерные игры - quentuez's сайт</title>
-  </head>
+  <!-- Метатеги -->
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge" />
+  <meta name="author" content="Дмитрий Клименков" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Сайт предназначен для предоставления информации обо мне, Дмитрии Клименкове" />
 
-  <body class="body body_theme_light">
-    <header class="header_theme_light body__header">
-      <div class="header__switcher">
-        <input class="input switcher__input" type="checkbox" />
-      </div>
+  <!-- Заголовок сайта -->
+  <title>Компьютерные игры - quentuez's сайт</title>
+</head>
 
-      <a class="anchor anchor_theme_light header__anchor" href="../index.html">
-        <!-- svg-логотип разработан Boxicons - https://icon-icons.com/ru/users/knMsnPIfimrTUwypxC07R/icon-sets/ -->
-        <object
-          class="anchor__object"
-          data="../common.blocks/object/logo.svg"
-        ></object>
-        <p><b>quentuez's</b> сайт</p>
-      </a>
+<body class="body body_theme_light">
+  <header class="header_theme_light body__header">
+    <div class="header__switcher">
+      <input class="input switcher__input" type="checkbox" />
+    </div>
 
-      <ul class="unordered-list header__unordered-list">
-        <li class="unordered-list__item">
-          <a
-            class="anchor_hovered_github anchor_theme_light"
-            href="https://github.com/quentuez"
-          >
-            <img
-              class="anchor__image"
-              src="../common.blocks/image/github-icon.png"
-              alt="github's icon"
-            />
-          </a>
-        </li>
-        <li class="unordered-list__item">
-          <a
-            class="anchor_hovered_instagram anchor_theme_light"
-            href="https://instagram.com/quentuez"
-          >
-            <img
-              class="anchor__image"
-              src="../common.blocks/image/instagram-icon.png"
-              alt="instagram's icon"
-            />
-          </a>
-        </li>
-        <li class="unordered-list__item">
-          <a
-            class="anchor_hovered_telegram anchor_theme_light"
-            href="https://t.me/quentuez"
-          >
-            <img
-              class="anchor__image"
-              src="../common.blocks/image/telegram-icon.png"
-              alt="telegram's icon"
-            />
-          </a>
-        </li>
-        <li class="unordered-list__item">
-          <a
-            class="anchor_hovered_vk anchor_theme_light"
-            href="https://vk.com/quentuez"
-          >
-            <img
-              class="anchor__image"
-              src="../common.blocks/image/vk-icon.png"
-              alt="vk's icon"
-            />
-          </a>
-        </li>
-      </ul>
-    </header>
+    <a class="anchor anchor_theme_light header__anchor" href="../index.html">
+      <!-- svg-логотип разработан Boxicons - https://icon-icons.com/ru/users/knMsnPIfimrTUwypxC07R/icon-sets/ -->
+      <object class="anchor__object" data="../common.blocks/object/logo.svg"></object>
+      <p><b>quentuez's</b> сайт</p>
+    </a>
 
-    <main style="height: 7000px">
-      <section class="main__section-preview">
-        <table class="table">
-          <thead class="table-head">
-            <tr>
-              <th class="table-head__table-header" rowspan="2" scope="col">
-                № п/п
-              </th>
-              <th class="table-head__table-header" rowspan="2" scope="col">
-                Название игры
-              </th>
-              <th class="table-head__table-header" colspan="2" scope="col">
-                Статус
-              </th>
-              <th class="table-head__table-header" rowspan="2" scope="col">
-                Оценка
-              </th>
-            </tr>
-            <tr>
-              <th class="table-head__table-header" scope="col">В процессе</th>
-              <th class="table-head__table-header" scope="col">Пройдена</th>
-            </tr>
-          </thead>
+    <ul class="unordered-list header__unordered-list">
+      <li class="unordered-list__item">
+        <a class="anchor_hovered_github anchor_theme_light" href="https://github.com/quentuez">
+          <img class="anchor__image" src="../common.blocks/image/github-icon.png" alt="github's icon" />
+        </a>
+      </li>
+      <li class="unordered-list__item">
+        <a class="anchor_hovered_instagram anchor_theme_light" href="https://instagram.com/quentuez">
+          <img class="anchor__image" src="../common.blocks/image/instagram-icon.png" alt="instagram's icon" />
+        </a>
+      </li>
+      <li class="unordered-list__item">
+        <a class="anchor_hovered_telegram anchor_theme_light" href="https://t.me/quentuez">
+          <img class="anchor__image" src="../common.blocks/image/telegram-icon.png" alt="telegram's icon" />
+        </a>
+      </li>
+      <li class="unordered-list__item">
+        <a class="anchor_hovered_vk anchor_theme_light" href="https://vk.com/quentuez">
+          <img class="anchor__image" src="../common.blocks/image/vk-icon.png" alt="vk's icon" />
+        </a>
+      </li>
+    </ul>
+  </header>
 
-          <tbody class="table-body">
-            <caption>
-              Список компьютерных игр
-            </caption>
-            <tr>
-              <td class="table-body__table-data">1</td>
-              <td class="table-body__table-data">Batman: Arkham City</td>
-              <td class="table-body__table-data">✘</td>
-              <td class="table-body__table-data">✔</td>
-              <td class="table-body__table-data">5/5</td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <th scope="row">Всего игр:</th>
-              <td>1</td>
-            </tr>
-          </tfoot>
-        </table>
-      </section>
-    </main>
+  <main style="height: 7000px">
+    <section class="main__section-preview">
+      <table class="table section-preview__table">
+        <thead class="table-head table-head_theme_light">
+          <tr>
+            <th class="table-head__table-header" rowspan="2" scope="col">
+              № п/п
+            </th>
+            <th class="table-head__table-header" rowspan="2" scope="col">
+              Название игры
+            </th>
+            <th class="table-head__table-header" colspan="2" scope="col">
+              Статус
+            </th>
+            <th class="table-head__table-header" rowspan="2" scope="col">
+              Оценка
+            </th>
+          </tr>
+          <tr>
+            <th class="table-head__table-header table-head__table-header_theme_light" scope="col">В процессе</th>
+            <th class="table-head__table-header table-head__table-header_theme_light" scope="col">Пройдена</th>
+          </tr>
+        </thead>
 
-    <!-- Скрипты -->
-    <script src="../common.blocks/switcher/switcher.js"></script>
-  </body>
+        <tbody id="table" class="table-body">
+          <caption>
+            Список компьютерных игр
+          </caption>
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row">Всего игр: </th>
+            <td></td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </main>
+
+  <!-- Скрипты -->
+  <script src="../common.blocks/switcher/switcher.js"></script>
+  <script src="./table/table.js"></script>
+</body>
+
 </html>

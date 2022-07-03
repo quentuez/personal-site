@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "The Witcher 3: Wild Hunt",
+    "developer": "CD Projekt Red",
+    "release": "2015",
+    "inProgress": "Нет",
+    "isComplete": "Да",
+    "myScore": "5"
+  },
+  {
+    "id": 2,
+    "title": "Alan Wake",
+    "developer": "Remedy Entertainment",
+    "release": "2012",
+    "inProgress": "Нет",
+    "isComplete": "Да",
+    "myScore": "4"
+  }
+]
