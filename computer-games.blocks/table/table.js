@@ -1,4 +1,4 @@
-fetch("https://api.npoint.io/86827b323c67e57abab6")
+fetch("https://api.npoint.io/634b15d4584475959e6a")
   .then((response) => response.json())
   .then((data) => buildTable(data));
 
