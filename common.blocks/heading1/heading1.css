@@ -1,4 +1,45 @@
 .heading1 {
-  font-size: 4em;
   line-height: 1.5;
+}
+
+/* Large desktops and laptops */
+@media (max-width: 2560px) {
+  .heading1 {
+    font-size: 6em;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (max-width: 1440px) {
+  .heading1 {
+    font-size: 5em;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 1024px) {
+  .heading1 {
+    font-size: 4em;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+  .heading1 {
+    font-size: 3em;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 425px) {
+  .heading1 {
+    font-size: 2.75em;
+  }
+}
+
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .heading1 {
+    font-size: 2.5em;
+  }
 }

@@ -1,6 +1,5 @@
 .header__switcher {
   height: 30px;
-  margin-left: 40px;
   position: relative;
   width: 70px;
 }
@@ -14,4 +13,46 @@
 
 .header__switcher:checked:before {
   left: 40px;
+}
+
+/* Large desktops and laptops */
+@media (max-width: 2560px) {
+  .header__switcher {
+    margin-left: 70px;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (max-width: 1440px) {
+  .header__switcher {
+    margin-left: 60px;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 1024px) {
+  .header__switcher {
+    margin-left: 50px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+  .header__switcher {
+    margin-left: 40px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 425px) {
+  .header__switcher {
+    margin-left: 30px;
+  }
+}
+
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .header__switcher {
+    margin-left: 20px;
+  }
 }

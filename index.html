@@ -48,8 +48,8 @@
   <link rel="stylesheet" type="text/css" href="common.blocks/anchor/_hovered/anchor_hovered_instagram.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/anchor/_hovered/anchor_hovered_telegram.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/anchor/_hovered/anchor_hovered_vk.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/anchor/button__anchor.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/anchor/navigation__anchor.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/anchor/button__anchor.css">
 
   <!-- Блок object -->
   <link rel="stylesheet" type="text/css" href="common.blocks/object/anchor__object.css">
@@ -59,12 +59,6 @@
   <link rel="stylesheet" type="text/css" href="common.blocks/unordered-list/header__unordered-list.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/unordered-list/navigation__unordered-list.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/unordered-list/section-skills__unordered-list.css">
-
-  <!-- Блок image -->
-  <link rel="stylesheet" type="text/css" href="common.blocks/image/anchor__image.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/image/intro-content__image.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/image/slide__image.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/image/section-projects__image.css">
 
   <!-- Блок hamburger-button -->
   <link rel="stylesheet" type="text/css" href="common.blocks/hamburger-button/main__hamburger-button.css">
@@ -82,14 +76,20 @@
   <link rel="stylesheet" type="text/css" href="common.blocks/bar/_theme/bar_theme_light.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/bar/_theme/bar_theme_dark.css">
 
-  <!-- Блок nav -->
+  <!-- Блок image -->
+  <link rel="stylesheet" type="text/css" href="common.blocks/image/anchor__image.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/image/intro-content__image.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/image/slide__image.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/image/section-projects__image.css">
+
+  <!-- Блок navigation -->
   <link rel="stylesheet" type="text/css" href="common.blocks/navigation/navigation.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/navigation/hamburger-button__navigation.css">
 
   <!-- Блок item -->
   <link rel="stylesheet" type="text/css" href="common.blocks/item/item.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/item/navigation__item.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/item/unordered-list__item.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/item/navigation__item.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/item/section-skills__item.css">
 
   <!-- Блок background -->
@@ -259,12 +259,13 @@
         <h1 class="heading1">Привет, меня зовут Дмитрий.</h1>
         <p class="paragraph paragraph_style_uppercase">
           <q lang="en" cite="https://www.goodreads.com/quotes/tag/welcome?page=1">Enter freely and of your own free
-            will!</q><cite>― Bram Stoker, Dracula</cite>
+            will!</q>
+          <cite>― Bram Stoker, Dracula</cite>
         </p>
         <p class="paragraph">
           Здесь Вы найдете много всего - так, в разделе
           <b><a class="anchor anchor_theme_light" href="#section-about-me">«Об авторе»</a></b>
-          Вы можете узнать обо мне и моих увлечаниях. В разделе
+          Вы можете узнать обо мне и моих увлечениях. В разделе
           <b><a class="anchor anchor_theme_light" href="#section-skills">«Навыки»</a></b>
           перечислены мои практические и теоретические знания во frontend-разработке. В разделе
           <b><a class="anchor anchor_theme_light" href="#section-projects">«Проекты»</a></b>
@@ -272,9 +273,9 @@
           свободное от основной работы время для оттачивания навыков
           разработки веб-приложений.
         </p>
-        <a class="button__anchor" href="#section-contact-me"><button class="button intro-content__button">
-            Связаться со мной
-          </button></a>
+        <a class="button__anchor" href="#section-contact-me">
+          <button class="button intro-content__button">Связаться со мной</button>
+        </a>
       </div>
 
       <picture>
@@ -431,7 +432,6 @@
   <script src="common.blocks/map/map.js"></script>
   <script>
     alert(window.devicePixelRatio);
-
     alert(window.innerWidth);
     alert(window.innerHeight);
     alert(window.outerWidth);

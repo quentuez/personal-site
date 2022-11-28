@@ -1,5 +1,47 @@
 .paragraph_style_uppercase {
+  font-style: italic;
   line-height: 1.5;
-  font-size: 2em;
   text-transform: uppercase;
+}
+
+/* Large desktops and laptops */
+@media (max-width: 2560px) {
+  .paragraph_style_uppercase {
+    font-size: 1.7em;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (max-width: 1440px) {
+  .paragraph_style_uppercase {
+    font-size: 1.6em;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 1024px) {
+  .paragraph_style_uppercase {
+    font-size: 1.5em;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+  .paragraph_style_uppercase {
+    font-size: 1.4em;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 425px) {
+  .paragraph_style_uppercase {
+    font-size: 1.3em;
+  }
+}
+
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .paragraph_style_uppercase {
+    font-size: 1.2em;
+  }
 }

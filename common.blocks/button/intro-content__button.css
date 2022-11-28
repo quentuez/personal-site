@@ -1,4 +1,51 @@
 .intro-content__button {
   display: block;
-  margin: 80px auto;
+}
+
+/* Large desktops and laptops */
+@media (max-width: 2560px) {
+  .intro-content__button {
+    margin: 90px auto;
+    padding: 20px 60px;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (max-width: 1440px) {
+  .intro-content__button {
+    margin: 80px auto;
+    padding: 18px 60px;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 1024px) {
+  .intro-content__button {
+    margin: 70px auto;
+    padding: 16px 60px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+  .intro-content__button {
+    margin: 60px auto;
+    padding: 14px 60px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 425px) {
+  .intro-content__button {
+    margin: 50px auto;
+    padding: 12px 60px;
+  }
+}
+
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .intro-content__button {
+    margin: 40px auto;
+    padding: 10px 60px;
+  }
 }
