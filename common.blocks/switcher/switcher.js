@@ -1,5 +1,5 @@
 document
-  .querySelector(".switcher__input")
+  .querySelector(".header__switcher")
   .addEventListener("click", function () {
     let ElementsWithLightTheme = document.querySelectorAll(
       "[class*='theme_light']"

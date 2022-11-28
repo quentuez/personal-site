@@ -1,4 +1,4 @@
-.input[type="checkbox"] {
+.switcher {
   appearance: none;
   background: #eeeeee;
   border-radius: 20px;
@@ -6,20 +6,20 @@
   transition: 0.3s;
 }
 
-.input[type="checkbox"]:before {
+.switcher:before {
+  background: #eeeeee;
   content: "";
   cursor: pointer;
   border-radius: 20px;
-  background: #eeeeee;
-  transition: 0.3s;
-  transform: scale(1.1);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
-.input:checked[type="checkbox"] {
+.switcher:checked {
   background: #64b5f6;
 }
 
-.input:checked[type="checkbox"]:before {
+.switcher:checked:before {
   background: #1e88e5;
 }

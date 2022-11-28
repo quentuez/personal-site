@@ -4,7 +4,6 @@
 }
 
 .anchor_hovered_vk:hover {
-  filter: invert(26%) sepia(99%) saturate(2489%) hue-rotate(203deg)
-    brightness(105%) contrast(106%);
+  filter: invert(26%) sepia(99%) saturate(2489%) hue-rotate(203deg) brightness(105%) contrast(106%);
   transition: 0.3s;
 }

@@ -1,8 +1,8 @@
-* {
+a, p, button, h2, h3, li, h1 {
   font-family: "Merriweather", serif;
 }
 
 .html {
-  scroll-behavior: smooth;
   caret-color: transparent;
+  scroll-behavior: smooth;
 }

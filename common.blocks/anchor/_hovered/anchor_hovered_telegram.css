@@ -4,7 +4,6 @@
 }
 
 .anchor_hovered_telegram:hover {
-  filter: invert(39%) sepia(93%) saturate(3186%) hue-rotate(177deg)
-    brightness(93%) contrast(101%);
+  filter: invert(39%) sepia(93%) saturate(3186%) hue-rotate(177deg) brightness(93%) contrast(101%);
   transition: 0.3s;
 }
