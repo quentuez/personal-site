@@ -36,6 +36,6 @@
  /* Iphone 5 */
  @media (max-width: 375px) {
    .unordered-list__item {
-     padding-right: 15px;
+     padding-right: 8px;
    }
  }
