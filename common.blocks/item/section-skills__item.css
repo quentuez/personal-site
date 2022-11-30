@@ -1,4 +1,6 @@
 .section-skills__item {
-  font-size: 1.5em;
+  font-size: 1.1em;
   line-height: 1.5;
+  margin: 0 auto;
+  width: 48%;
 }

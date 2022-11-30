@@ -1,5 +1,5 @@
 .slide__image {
-  height: calc(800px - 200px);
-  margin: 5% 10% 10% 10%;
-  width: calc(600px - 100px);
+  height: 150px;
+  margin: 0 auto;
+  width: 100px;
 }

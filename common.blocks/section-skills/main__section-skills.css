@@ -1,9 +1,5 @@
 .main__section-skills {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
   margin: 0 auto;
+  padding: 70px;
   position: relative;
-  width: 90%;
 }

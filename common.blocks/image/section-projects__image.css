@@ -1,4 +1,9 @@
 .section-projects__image {
+  display: block;
+  margin: 0 auto;
+}
+
+.section-projects__image {
   filter: blur(3px);
   transition: 0.3s;
 }
@@ -6,4 +11,52 @@
 .section-projects__image:hover {
   filter: blur(0px);
   transition: 0.3s;
+}
+
+/* Large desktops and laptops */
+@media (max-width: 2560px) {
+  .section-projects__image {
+    height: 200px;
+    width: 500px;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (max-width: 1440px) {
+  .section-projects__image {
+    height: 200px;
+    width: 500px;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 1024px) {
+  .section-projects__image {
+    height: 200px;
+    width: 500px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+  .section-projects__image {
+    height: 200px;
+    width: 500px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 425px) {
+  .section-projects__image {
+    height: 120px;
+    width: 300px;
+  }
+}
+
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .section-projects__image {
+    height: 120px;
+    width: 300px;
+  }
 }
