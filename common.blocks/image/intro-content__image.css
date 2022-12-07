@@ -7,7 +7,7 @@
   .intro-content__image {
     display: block;
     height: calc(961px - 300px);
-    margin: 40px;
+    margin: 100px;
     width: calc(826px - 300px);
   }
 }

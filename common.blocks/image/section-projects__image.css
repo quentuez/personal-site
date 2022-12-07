@@ -16,32 +16,32 @@
 /* Large desktops and laptops */
 @media (max-width: 2560px) {
   .section-projects__image {
-    height: 200px;
-    width: 500px;
+    height: 220px;
+    width: 550px;
   }
 }
 
 /* Landscape tablets and medium desktops */
 @media (max-width: 1440px) {
   .section-projects__image {
-    height: 200px;
-    width: 500px;
+    height: 170px;
+    width: 425px;
   }
 }
 
 /* Portrait tablets and small desktops */
 @media (max-width: 1024px) {
   .section-projects__image {
-    height: 200px;
-    width: 500px;
+    height: 280px;
+    width: 700px;
   }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 768px) {
   .section-projects__image {
-    height: 200px;
-    width: 500px;
+    height: 160px;
+    width: 400px;
   }
 }
 

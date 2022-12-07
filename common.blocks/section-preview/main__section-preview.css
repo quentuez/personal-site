@@ -6,28 +6,28 @@
 /* Large desktops and laptops */
 @media (max-width: 2560px) {
   .main__section-preview {
-    padding-top: 10px;
+    padding-top: 110px;
   }
 }
 
 /* Landscape tablets and medium desktops */
 @media (max-width: 1440px) {
   .main__section-preview {
-    padding-top: 20px;
+    padding-top: 110px;
   }
 }
 
 /* Portrait tablets and small desktops */
 @media (max-width: 1024px) {
   .main__section-preview {
-    padding-top: 30px;
+    padding-top: 100px;
   }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 768px) {
   .main__section-preview {
-    padding-top: 40px;
+    padding-top: 90px;
   }
 }
 

@@ -27,7 +27,7 @@
  }
 
  /* Portrait phones and smaller */
- @media (max-width: 20px) {
+ @media (max-width: 425px) {
    .unordered-list__item {
      padding-right: 17.5px;
    }
