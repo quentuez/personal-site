@@ -2,343 +2,685 @@
   {
     "id": 1,
     "title": "The Witcher 3: Wild Hunt",
-    "developer": "CD Projekt RED",
+    "myScore": "5",
     "release": "2015",
+    "developer": "CD Projekt RED",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "5"
+    "isComplete": "Да"
   },
   {
     "id": 2,
     "title": "Alan Wake",
+    "myScore": "3",
+    "release": "2012",
     "developer": "Remedy Entertainment",
-    "release": "2010",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "3"
+    "isComplete": "Да"
   },
   {
     "id": 3,
     "title": "Alan Wake's American Nightmare",
-    "developer": "Remedy Entertainment",
+    "myScore": "2",
     "release": "2012",
+    "developer": "Remedy Entertainment",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "2"
+    "isComplete": "Да"
   },
   {
     "id": 4,
     "title": "Alien: Isolation",
-    "developer": "Creative Assembly",
+    "myScore": "4",
     "release": "2014",
+    "developer": "Creative Assembly",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "4"
+    "isComplete": "Да"
   },
   {
     "id": 5,
     "title": "Amnesia: A Machine for Pigs",
-    "developer": "Frictional Games",
+    "myScore": "3",
     "release": "2013",
+    "developer": "The Chinese Room",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "3"
+    "isComplete": "Да"
   },
   {
     "id": 6,
     "title": "Amnesia: The Dark Descent",
-    "developer": "Frictional Games, The Chinese Room",
+    "myScore": "4",
     "release": "2010",
+    "developer": "Frictional Games",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "4"
+    "isComplete": "Да"
   },
   {
     "id": 7,
     "title": "Assassin’s Creed II",
-    "developer": "Ubisoft Montreal",
+    "myScore": "4",
     "release": "2009",
+    "developer": "Ubisoft Montreal",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "4"
+    "isComplete": "Да"
   },
   {
     "id": 8,
     "title": "Batman: Arkham Asylum",
-    "developer": "Rocksteady Studios",
+    "myScore": "4",
     "release": "2009",
+    "developer": "Rocksteady Studios",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "4"
+    "isComplete": "Да"
   },
   {
     "id": 9,
     "title": "Batman: Arkham City",
-    "developer": "Rocksteady Studios",
+    "myScore": "5",
     "release": "2011",
+    "developer": "Rocksteady Studios",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "5"
+    "isComplete": "Да"
   },
   {
     "id": 10,
     "title": "BioShock Infinite",
-    "developer": "Irrational Games",
+    "myScore": "5",
     "release": "2013",
+    "developer": "Irrational Games",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "5"
+    "isComplete": "Да"
   },
   {
     "id": 11,
     "title": "Black Mesa",
+    "myScore": "5",
+    "release": "2020",
     "developer": "Crowbar Collective",
-    "release": "2015",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "5"
+    "isComplete": "Да"
   },
   {
     "id": 12,
     "title": "Borderlands 2",
-    "developer": "Gearbox Software",
+    "myScore": "5",
     "release": "2012",
+    "developer": "Gearbox Software",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "5"
+    "isComplete": "Да"
   },
   {
     "id": 13,
     "title": "Borderlands",
-    "developer": "Gearbox Software",
+    "myScore": "2",
     "release": "2009",
+    "developer": "Gearbox Software",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "2"
+    "isComplete": "Да"
   },
   {
     "id": 14,
     "title": "Borderlands: The Pre-Sequel!",
-    "developer": "Gearbox Software",
+    "myScore": "3",
     "release": "2014",
+    "developer": "Gearbox Software",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "3"
+    "isComplete": "Да"
   },
   {
     "id": 15,
     "title": "Call of Duty: Modern Warfare 2",
-    "developer": "Infinity Ward",
+    "myScore": "4",
     "release": "2009",
+    "developer": "Infinity Ward",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "4"
+    "isComplete": "Да"
   },
   {
     "id": 16,
     "title": "Counter-Strike: Condition Zero",
-    "developer": "Ritual Entertainment",
+    "myScore": "2",
     "release": "2004",
+    "developer": "Ritual Entertainment",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "2"
+    "isComplete": "Да"
   },
   {
     "id": 17,
     "title": "Cuphead",
-    "developer": "StudioMDHR Entertainment",
+    "myScore": "5",
     "release": "2017",
+    "developer": "Studio MDHR Entertainment Inc.",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "5"
+    "isComplete": "Да"
   },
   {
     "id": 18,
     "title": "Cyberpunk 2077",
-    "developer": "CD Projekt RED",
+    "myScore": "5",
     "release": "2020",
+    "developer": "CD Projekt RED",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "5"
+    "isComplete": "Да"
   },
   {
     "id": 19,
     "title": "The Darkness II",
-    "developer": "Digital Extremes",
+    "myScore": "3",
     "release": "2012",
+    "developer": "Digital Extremes",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "3"
+    "isComplete": "Да"
   },
   {
     "id": 20,
     "title": "Dead Space 2",
-    "developer": "Visceral Games",
+    "myScore": "5",
     "release": "2011",
+    "developer": "Visceral Games",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "5"
+    "isComplete": "Да"
   },
   {
     "id": 21,
     "title": "Deus Ex: Human Revolution",
-    "developer": "Eidos Montreal",
+    "myScore": "4",
     "release": "2011",
+    "developer": "Eidos Montreal",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "4"
+    "isComplete": "Да"
   },
   {
     "id": 22,
     "title": "Devil May Cry 5",
-    "developer": "Capcom R&D Division 1",
+    "myScore": "3",
     "release": "2019",
+    "developer": "Capcom",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "3"
+    "isComplete": "Да"
   },
   {
     "id": 23,
     "title": "Dishonored 2",
-    "developer": "Arkane Studios",
+    "myScore": "4",
     "release": "2016",
+    "developer": "Arkane Studios",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "4"
+    "isComplete": "Да"
   },
   {
     "id": 24,
     "title": "Dishonored",
-    "developer": "Arkane Studios",
+    "myScore": "4",
     "release": "2012",
+    "developer": "Arkane Studios",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "4"
+    "isComplete": "Да"
   },
   {
     "id": 25,
     "title": "DmC: Devil May Cry",
-    "developer": "Ninja Theory",
+    "myScore": "4",
     "release": "2013",
+    "developer": "Ninja Theory",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "4"
+    "isComplete": "Да"
   },
   {
     "id": 26,
     "title": "DOOM",
-    "developer": "id Software",
+    "myScore": "4",
     "release": "2015",
+    "developer": "id Software",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "4"
+    "isComplete": "Да"
   },
   {
     "id": 27,
     "title": "The Elder Scrolls V: Skyrim",
-    "developer": "Bethesda Game Studios",
+    "myScore": "3",
     "release": "2011",
+    "developer": "Bethesda Game Studios",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "3"
+    "isComplete": "Да"
   },
   {
     "id": 28,
     "title": "Fallout 4",
-    "developer": "Bethesda Game Studios",
+    "myScore": "3",
     "release": "2015",
+    "developer": "Bethesda Game Studios",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "3"
+    "isComplete": "Да"
   },
   {
     "id": 29,
     "title": "Fallout: New Vegas",
-    "developer": "Obsidian Entertainment",
+    "myScore": "5",
     "release": "2010",
+    "developer": "Obsidian Entertainment",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "5"
+    "isComplete": "Да"
   },
   {
     "id": 30,
     "title": "Grand Theft Auto III",
-    "developer": "Rockstar North",
+    "myScore": "3",
     "release": "2001",
+    "developer": "Rockstar North",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "3"
+    "isComplete": "Да"
   },
   {
     "id": 31,
     "title": "Grand Theft Auto IV",
-    "developer": "Rockstar North",
+    "myScore": "3",
     "release": "2008",
+    "developer": "Rockstar North",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "3"
+    "isComplete": "Да"
   },
   {
     "id": 32,
     "title": "Grand Theft Auto: San Andreas",
-    "developer": "Rockstar North",
+    "myScore": "5",
     "release": "2004",
+    "developer": "Rockstar North",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "5"
+    "isComplete": "Да"
   },
   {
     "id": 33,
     "title": "Grand Theft Auto V",
-    "developer": "Rockstar North",
+    "myScore": "5",
     "release": "2013",
+    "developer": "Rockstar North",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "5"
+    "isComplete": "Да"
   },
   {
     "id": 34,
     "title": "Grand Theft Auto: Vice City",
-    "developer": "Rockstar North",
+    "myScore": "4",
     "release": "2002",
+    "developer": "Rockstar North",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "4"
+    "isComplete": "Да"
   },
   {
     "id": 35,
     "title": "Half-Life",
-    "developer": "Valve Corporation",
+    "myScore": "5",
     "release": "1998",
+    "developer": "Valve Corporation",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "5"
+    "isComplete": "Да"
   },
   {
     "id": 36,
     "title": "Half-Life 2",
-    "developer": "Valve Corporation",
+    "myScore": "5",
     "release": "2004",
+    "developer": "Valve Corporation",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "5"
+    "isComplete": "Да"
   },
   {
     "id": 37,
     "title": "Half-Life 2: Episode One",
-    "developer": "Valve Corporation",
+    "myScore": "3",
     "release": "2006",
+    "developer": "Valve Corporation",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "3"
+    "isComplete": "Да"
   },
   {
     "id": 38,
     "title": "Half-Life 2: Episode Two",
-    "developer": "Valve Corporation",
+    "myScore": "4",
     "release": "2007",
+    "developer": "Valve Corporation",
     "inProgress": "Нет",
-    "isComplete": "Да",
-    "myScore": "4"
-  }
+    "isComplete": "Да"
+  },
+  {
+    "id": 39,
+    "title": "Half-Life: Blue Shift",
+    "myScore": "3",
+    "release": "2001",
+    "developer": "Gearbox Software",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 40,
+    "title": "Half-Life: Opposing Force",
+    "myScore": "4",
+    "release": "1999",
+    "developer": "Gearbox Software",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 41,
+    "title": "Hotline Miami",
+    "myScore": "4",
+    "release": "2012",
+    "developer": "Dennaton Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 42,
+    "title": "Hotline Miami 2: Wrong Number",
+    "myScore": "5",
+    "release": "2015",
+    "developer": "Dennaton Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 43,
+    "title": "L.A. Noire",
+    "myScore": "4",
+    "release": "2011",
+    "developer": "Team Bondi",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 44,
+    "title": "Layers of Fear",
+    "myScore": "3",
+    "release": "2016",
+    "developer": "Bloober Team",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 45,
+    "title": "Left 4 Dead",
+    "myScore": "4",
+    "release": "2008",
+    "developer": "Valve South",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 46,
+    "title": "Left 4 Dead 2",
+    "myScore": "5",
+    "release": "2009",
+    "developer": "Valve",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 47,
+    "title": "Life Is Strange",
+    "myScore": "4",
+    "release": "2015",
+    "developer": "Graphic adventure",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 48,
+    "title": "LIMBO",
+    "myScore": "5",
+    "release": "2010",
+    "developer": "Playdead",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 49,
+    "title": "Marc Eckō's Getting Up: Contents Under Pressure",
+    "myScore": "5",
+    "release": "2006",
+    "developer": "The Collective",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 50,
+    "title": "Mass Effect 2",
+    "myScore": "4",
+    "release": "2010",
+    "developer": "BioWare",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 51,
+    "title": "Mass Effect",
+    "myScore": "3",
+    "release": "2007",
+    "developer": "BioWare",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 52,
+    "title": "Max Payne 3",
+    "myScore": "5",
+    "release": "2012",
+    "developer": "Rockstar Studios",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 53,
+    "title": "Metal Gear Rising: Revengeance",
+    "myScore": "5",
+    "release": "2013",
+    "developer": "PlatinumGames",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 54,
+    "title": "Metal Gear Solid V: The Phantom Pain",
+    "myScore": "5",
+    "release": "2015",
+    "developer": "Kojima Productions",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 55,
+    "title": "Metro 2033",
+    "myScore": "4",
+    "release": "2010",
+    "developer": "4A Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 56,
+    "title": "Metro: Last Light",
+    "myScore": "5",
+    "release": "2013",
+    "developer": "4A Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 57,
+    "title": "Mother Russia Bleeds",
+    "myScore": "4",
+    "release": "2016",
+    "developer": "Le Cartel Studio",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 58,
+    "title": "Murdered: Soul Suspect",
+    "myScore": "3",
+    "release": "2014",
+    "developer": "Airtight Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 59,
+    "title": "Ori and the Blind Forest",
+    "myScore": "5",
+    "release": "2015",
+    "developer": "Moon Studios",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 60,
+    "title": "Ori and the Will of the Wisps",
+    "myScore": "5",
+    "release": "2020",
+    "developer": "Moon Studios",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 61,
+    "title": "Outlast",
+    "myScore": "4",
+    "release": "2013",
+    "developer": "Red Barrels",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 62,
+    "title": "Papers, Please",
+    "myScore": "5",
+    "release": "2013",
+    "developer": "3909 LLC",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 63,
+    "title": "Portal",
+    "myScore": "4",
+    "release": "2007",
+    "developer": "Valve",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 64,
+    "title": "Portal 2",
+    "myScore": "5",
+    "release": "2011",
+    "developer": "Valve",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 65,
+    "title": "Prey",
+    "myScore": "4",
+    "release": "2017",
+    "developer": "Arkane Austin",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 66,
+    "title": "Rise of the Tomb Raider",
+    "myScore": "3",
+    "release": "2015",
+    "developer": "Crystal Dynamics",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 67,
+    "title": "Saints Row: The Third",
+    "myScore": "3",
+    "release": "2011",
+    "developer": "Volition",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 68,
+    "title": "Shadow Warrior",
+    "myScore": "3",
+    "release": "2013",
+    "developer": "Flying Wild Hog",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 69,
+    "title": "Sleeping Dogs",
+    "myScore": "3",
+    "release": "2012",
+    "developer": "United Front Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 70,
+    "title": "South Park: The Stick of Truth",
+    "myScore": "4",
+    "release": "2014",
+    "developer": "Obsidian Entertainment",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 71,
+    "title": "Spec Ops: The Line",
+    "myScore": "5",
+    "release": "2012",
+    "developer": "Yager Development",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 72,
+    "title": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+    "myScore": "5",
+    "release": "2007",
+    "developer": "GSC Game World",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 73,
+    "title": "S.T.A.L.K.E.R.: Clear Sky",
+    "myScore": "4",
+    "release": "2008",
+    "developer": "GSC Game World",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 74,
+    "title": "S.T.A.L.K.E.R.: Call of Pripyat",
+    "myScore": "5",
+    "release": "2010",
+    "developer": "GSC Game World",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 75,
+    "title": "The Stanley Parable",
+    "myScore": "3",
+    "release": "2013",
+    "developer": "Galactic Cafe",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 76,
+    "title": "A Story About My Uncle",
+    "myScore": "3",
+    "release": "2014",
+    "developer": "Gone North Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
 ]
