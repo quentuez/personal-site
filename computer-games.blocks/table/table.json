@@ -683,4 +683,193 @@
     "inProgress": "Нет",
     "isComplete": "Да"
   },
+  {
+    "id": 77,
+    "title": "Tales from the Borderlands",
+    "myScore": "4",
+    "release": "2014",
+    "developer": "Telltale Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 78,
+    "title": "To the Moon",
+    "myScore": "4",
+    "release": "2011",
+    "developer": "Freebird Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 79,
+    "title": "Tomb Raider",
+    "myScore": "5",
+    "release": "2013",
+    "developer": "Crystal Dynamics",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 80,
+    "title": "Tomb Raider: Anniversary",
+    "myScore": "3",
+    "release": "2007",
+    "developer": "Crystal Dynamics",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 81,
+    "title": "Transistor",
+    "myScore": "4",
+    "release": "2014",
+    "developer": "Supergiant Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 82,
+    "title": "The Walking Dead",
+    "myScore": "5",
+    "release": "2012",
+    "developer": "Telltale Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 83,
+    "title": "The Walking Dead",
+    "myScore": "5",
+    "release": "2012",
+    "developer": "Telltale Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 84,
+    "title": "The Walking Dead: Season Two",
+    "myScore": "4",
+    "release": "2013",
+    "developer": "Telltale Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 85,
+    "title": "The Walking Dead: A New Frontier",
+    "myScore": "2",
+    "release": "2016",
+    "developer": "Telltale Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 86,
+    "title": "Warhammer 40,000: Space Marine",
+    "myScore": "3",
+    "release": "2011",
+    "developer": "Relic Entertainment",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 87,
+    "title": "Warhammer: Vermintide 2",
+    "myScore": "3",
+    "release": "2018",
+    "developer": "Fatshark",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 88,
+    "title": "The Wolf Among Us",
+    "myScore": "5",
+    "release": "2013",
+    "developer": "Telltale Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 89,
+    "title": "Wolfenstein: The New Order",
+    "myScore": "5",
+    "release": "2014",
+    "developer": "MachineGames",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 90,
+    "title": "Wolfenstein II: The New Colossus",
+    "myScore": "5",
+    "release": "2017",
+    "developer": "MachineGames",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 91,
+    "title": "Wolfenstein II: The New Colossus",
+    "myScore": "4",
+    "release": "2015",
+    "developer": "MachineGames",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 92,
+    "title": "A Plague Tale: Innocence",
+    "myScore": "4",
+    "release": "2019",
+    "developer": "Asobo Studio",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 93,
+    "title": "Rage 2",
+    "myScore": "4",
+    "release": "2019",
+    "developer": "Avalanche Studios",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 94,
+    "title": "Doom Eternal",
+    "myScore": "5",
+    "release": "2020",
+    "developer": "id Software",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 95,
+    "title": "Transformers: The Game",
+    "myScore": "3",
+    "release": "2007",
+    "developer": "Traveller's Tales",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 96,
+    "title": "Transformers: The Game",
+    "myScore": "3",
+    "release": "2007",
+    "developer": "Traveller's Tales",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 97,
+    "title": "Spider-Man 3",
+    "myScore": "4",
+    "release": "2007",
+    "developer": "Beenox",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  }
 ]
