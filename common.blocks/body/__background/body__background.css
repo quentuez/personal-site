@@ -1,0 +1,13 @@
+.body__background {
+  height: 0;
+  position: fixed;
+  width: 0;
+  z-index: 1;
+}
+
+.change-bg {
+  height: 775px;
+  top: 50px;
+  transform: translate(-60%, -30%);
+  width: 775px;
+}

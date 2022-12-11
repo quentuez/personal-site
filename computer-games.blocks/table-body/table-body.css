@@ -1,7 +1,7 @@
-.table-bead > tr:nth-of-type(even) {
+.table-head>tr:nth-of-type(even) {
   background-color: rgb(237, 238, 242);
 }
 
-tbody > tr:first-of-type {
+tbody>tr:first-of-type {
   text-align: left;
 }

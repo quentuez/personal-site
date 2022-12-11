@@ -1,9 +1,6 @@
 .section-projects__image {
   display: block;
   margin: 0 auto;
-}
-
-.section-projects__image {
   filter: blur(3px);
   transition: 0.3s;
 }

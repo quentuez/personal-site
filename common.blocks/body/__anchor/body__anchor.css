@@ -1,0 +1,17 @@
+.body__anchor {
+  align-items: center;
+}
+
+/* Large desktops and laptops */
+@media (max-width: 2560px) {
+  .body__anchor {
+    display: flex;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+  .body__anchor {
+    display: none;
+  }
+}

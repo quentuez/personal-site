@@ -433,7 +433,7 @@
   },
   {
     "id": 49,
-    "title": "Marc Eckō's Getting Up: Contents Under Pressure",
+    "title": "Marc Ecko's Getting Up: Contents Under Pressure",
     "myScore": "5",
     "release": "2006",
     "developer": "The Collective",
@@ -869,6 +869,15 @@
     "myScore": "4",
     "release": "2007",
     "developer": "Beenox",
+    "inProgress": "Нет",
+    "isComplete": "Да"
+  },
+  {
+    "id": 97,
+    "title": "Uncharted 4: A Thief's End",
+    "myScore": "5",
+    "release": "2022",
+    "developer": "Naughty Dog",
     "inProgress": "Нет",
     "isComplete": "Да"
   }

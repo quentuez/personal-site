@@ -19,56 +19,14 @@
 /* Landscape tablets and medium desktops */
 @media (max-width: 1440px) {
   .main__section-projects {
-    align-content: center;
-    display: grid;
     grid-template-columns: 400px 400px;
     grid-template-rows: auto 200px 200px;
     gap: 100px;
-    grid-template-areas:
-      "A A"
-      "B B"
-      "B B";
-    justify-content: center;
-    justify-items: center;
-    margin-bottom: 100px;
   }
 }
 
 /* Portrait tablets and small desktops */
 @media (max-width: 1024px) {
-  .main__section-projects {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 30px;
-    justify-content: space-between;
-  }
-}
-
-/* Landscape phones and portrait tablets */
-@media (max-width: 768px) {
-  .main__section-projects {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 30px;
-    justify-content: space-between;
-  }
-}
-
-/* Portrait phones and smaller */
-@media (max-width: 425px) {
-  .main__section-projects {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 30px;
-    justify-content: space-between;
-  }
-}
-
-/* Iphone 5 */
-@media (max-width: 375px) {
   .main__section-projects {
     display: flex;
     flex-direction: column;

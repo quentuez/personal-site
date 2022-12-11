@@ -1,0 +1,46 @@
+.body__section-preview {
+  align-items: center;
+  display: flex;
+}
+
+/* Large desktops and laptops */
+@media (max-width: 2560px) {
+  .body__section-preview {
+    padding-top: 115px;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (max-width: 1440px) {
+  .body__section-preview {
+    padding-top: 110px;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 1024px) {
+  .body__section-preview {
+    padding-top: 100px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+  .body__section-preview {
+    padding-top: 90px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 425px) {
+  .body__section-preview {
+    padding-top: 50px;
+  }
+}
+
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .body__section-preview {
+    padding-top: 60px;
+  }
+}

@@ -1,9 +1,7 @@
-fetch("https://api.npoint.io/634b15d4584475959e6a")
-  .then((response) => response.json())
-  .then((data) => buildTable(data));
+fetch("https://api.npoint.io/9fcd745a10b1bc1e9730").then((response) => response.json()).then((data) => buildTable(data));
 
 function buildTable(data) {
-  let table = document.getElementById("table");
+  let table = document.querySelector(".table-body");
   for (let i = 0; i < data.length; i++) {
     let row = `
     <tr>

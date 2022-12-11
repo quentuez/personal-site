@@ -1,0 +1,9 @@
+/* Фильтр разработан MultiplyByZer0 - https://stackoverflow.com/questions/42966641/how-to-transform-black-into-any-given-color-using-only-css-filters/43960991#43960991 */
+.anchor__image_icon_telegram {
+  transition: 0.3s;
+}
+
+.anchor__image_icon_telegram:hover {
+  filter: invert(39%) sepia(93%) saturate(3186%) hue-rotate(177deg) brightness(93%) contrast(101%);
+  transition: 0.3s;
+}

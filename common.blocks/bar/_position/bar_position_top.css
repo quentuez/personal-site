@@ -1,0 +1,7 @@
+.bar_position_top {
+  transform: translateY(-4px);
+}
+
+.change .bar_position_top {
+  transform: translateY(4px) rotateZ(-45deg);
+}

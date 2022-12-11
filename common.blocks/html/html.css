@@ -1,8 +1,13 @@
-a, p, button, h2, h3, li, h1 {
-  font-family: "Merriweather", serif;
-}
-
 .html {
   caret-color: transparent;
   scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  padding: 0;
+  padding-inline-start: 0;
 }

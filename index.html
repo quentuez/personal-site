@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 
-<html class="html document__html" lang="ru">
+<html class="html" lang="ru">
 
 <head>
   <!-- Метатеги -->
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="IE=edge">
-  <meta name="author" content="Дмитрий Клименков">
+  <meta name="description" content="Сайт предназначен для предоставления информации обо мне, Дмитрии Клименкове.">
   <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Сайт предназначен для предоставления информации обо мне, Дмитрии Клименкове">
+  <meta name="description" content="Привет, мир!">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 
-  <!-- Шрифт разработан Christian Robertson - https://fonts.google.com/specimen/Roboto -->
+  <!-- Шрифт разработан Christian Robertson - https://fonts.google.com/specimen/Merriweather -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" type="text/css"
-    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap">
 
   <!-- Иконка разработана Konami - https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles:_Tournament_Fighters -->
   <link rel="apple-touch-icon" href="common.blocks/favicon.ico">
@@ -23,136 +22,125 @@
 
   <!-- Стили для блока html -->
   <link rel="stylesheet" type="text/css" href="common.blocks/html/html.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/html/document__html.css">
 
   <!-- Стили для блока body -->
   <link rel="stylesheet" type="text/css" href="common.blocks/body/body.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/body/__header/body__header.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/body/__header/_theme/body__header_theme_light.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/body/__header/_theme/body__header_theme_dark.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/body/_theme/body_theme_light.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/body/_theme/body_theme_dark.css">
-
-  <!-- Стили для блока header -->
-  <link rel="stylesheet" type="text/css" href="common.blocks/header/_theme/header_theme_light.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/header/_theme/header_theme_dark.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/header/body__header.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/body/__anchor/body__anchor.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/body/__unordered-list/body__unordered-list.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/body/__hamburger-button/body__hamburger-button.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/body/__menu/body__menu.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/body/__navigation/body__navigation.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/body/__background/body__background.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/body/__section-preview/body__section-preview.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/body/__intro-content/body__intro-content.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/body/body__button/body__button.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/body/__image/body__image.css">
 
   <!-- Стили для блока switcher -->
   <link rel="stylesheet" href="common.blocks/switcher/switcher.css">
   <link rel="stylesheet" href="common.blocks/switcher/header__switcher.css">
 
-  <!-- Блок anchor -->
+  <!-- Стили для блока anchor -->
   <link rel="stylesheet" type="text/css" href="common.blocks/anchor/anchor.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/anchor/_theme/anchor_theme_light.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/anchor/_theme/anchor_theme_dark.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/anchor/header__anchor.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/anchor/_hovered/anchor_hovered_github.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/anchor/_hovered/anchor_hovered_instagram.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/anchor/_hovered/anchor_hovered_telegram.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/anchor/_hovered/anchor_hovered_vk.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/anchor/navigation__anchor.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/anchor/button__anchor.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/anchor/__object/anchor__object.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/anchor/__image/anchor__image.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/anchor/__image/_icon/anchor__image_icon_github.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/anchor/__image/_icon/anchor__image_icon_instagram.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/anchor/__image/_icon/anchor__image_icon_telegram.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/anchor/__image/_icon/anchor__image_icon_vk.css">
 
-  <!-- Блок object -->
-  <link rel="stylesheet" type="text/css" href="common.blocks/object/anchor__object.css">
-
-  <!-- Блок unordered-list -->
+  <!-- Стили для блока unordered-list -->
   <link rel="stylesheet" type="text/css" href="common.blocks/unordered-list/unordered-list.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/unordered-list/header__unordered-list.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/unordered-list/navigation__unordered-list.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/unordered-list/__item/unordered-list__item.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/unordered-list/section-skills__unordered-list.css">
 
-  <!-- Блок hamburger-button -->
-  <link rel="stylesheet" type="text/css" href="common.blocks/hamburger-button/main__hamburger-button.css">
+  <!-- Стили для блока item -->
+  <link rel="stylesheet" type="text/css" href="common.blocks/item/item.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/item/section-skills__item.css">
 
-  <!-- Блок menu -->
-  <link rel="stylesheet" type="text/css" href="common.blocks/menu/menu.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/menu/hamburger-button__menu.css">
-
-  <!-- Блок bar -->
-  <link rel="stylesheet" type="text/css" href="common.blocks/bar/bar.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/bar/menu__bar.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/bar/_position/menu__bar_position_top.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/bar/_position/menu__bar_position_middle.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/bar/_position/menu__bar_position_bottom.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/bar/_theme/bar_theme_light.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/bar/_theme/bar_theme_dark.css">
-
-  <!-- Блок image -->
-  <link rel="stylesheet" type="text/css" href="common.blocks/image/anchor__image.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/image/intro-content__image.css">
+  <!-- Стили для блока image -->
   <link rel="stylesheet" type="text/css" href="common.blocks/image/slide__image.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/image/section-projects__image.css">
 
-  <!-- Блок navigation -->
+  <!-- Стили для блока menu -->
+  <link rel="stylesheet" type="text/css" href="common.blocks/menu/menu.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/menu/__bar/menu__bar.css">
+
+  <!-- Стили для блока bar -->
+  <link rel="stylesheet" type="text/css" href="common.blocks/bar/bar.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/bar/_position/bar_position_top.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/bar/_position/bar_position_middle.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/bar/_position/bar_position_bottom.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/bar/_theme/bar_theme_light.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/bar/_theme/bar_theme_dark.css">
+
+  <!-- Стили для блока navigation -->
   <link rel="stylesheet" type="text/css" href="common.blocks/navigation/navigation.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/navigation/hamburger-button__navigation.css">
+  <link rel="stylesheet" type="text/css"
+    href="common.blocks/navigation/__unordered-list/navigation__unordered-list.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/navigation/__item/navigation__item.css">
+  <link rel="stylesheet" type="text/css" href="common.blocks/navigation/__anchor/navigation__anchor.css">
 
-  <!-- Блок item -->
-  <link rel="stylesheet" type="text/css" href="common.blocks/item/item.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/item/unordered-list__item.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/item/navigation__item.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/item/section-skills__item.css">
-
-  <!-- Блок background -->
+  <!-- Стили для блока background -->
   <link rel="stylesheet" type="text/css" href="common.blocks/background/background.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/background/main__background.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/background/_theme/background_theme_light.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/background/_theme/background_theme_dark.css">
 
-  <!-- Блок section-preview -->
-  <link rel="stylesheet" type="text/css" href="common.blocks/section-preview/main__section-preview.css">
-
-  <!-- Блок intro-content -->
-  <link rel="stylesheet" type="text/css" href="common.blocks/intro-content/section-preview__intro-content.css">
-
-  <!-- Блок heading1 -->
+  <!-- Стили для блока heading1 -->
   <link rel="stylesheet" type="text/css" href="common.blocks/heading1/heading1.css">
 
-  <!-- Блок paragraph -->
+  <!-- Стили для блока paragraph -->
   <link rel="stylesheet" type="text/css" href="common.blocks/paragraph/paragraph.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/paragraph/paragraph_style_uppercase.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/paragraph/section-contact-me__paragraph.css">
 
-  <!-- Блок button -->
+  <!-- Стили для блока button -->
   <link rel="stylesheet" type="text/css" href="common.blocks/button/button.css">
-  <link rel="stylesheet" type="text/css" href="common.blocks/button/intro-content__button.css">
 
-  <!-- Блок section-about-me -->
+  <!-- Стили для блока section-about-me -->
   <link rel="stylesheet" type="text/css" href="common.blocks/section-about-me/main__section-about-me.css">
 
-  <!-- thematic-break -->
-  <link rel="stylesheet" type="text/css" href="common.blocks/thematic-break/section-about-me__thematic-break.css">
-
-  <!-- Блок heading2 -->
+  <!-- Стили для блока heading2 -->
   <link rel="stylesheet" type="text/css" href="common.blocks/heading2/heading2.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/heading2/section-about-me__heading2.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/heading2/section-skills__heading2.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/heading2/section-projects__heading2.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/heading2/section-contact-me__heading2.css">
 
-  <!-- Блок heading3 -->
+  <!-- Стили для блока heading3 -->
   <link rel="stylesheet" type="text/css" href="common.blocks/heading3/heading3.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/heading3/section-about-me__heading3.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/heading3/_theme/heading3_theme_light.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/heading3/_theme/heading3_theme_dark.css">
 
-  <!-- Блок abbreviation -->
+  <!-- Стили для блока abbreviation -->
   <link rel="stylesheet" type="text/css" href="common.blocks/abbreviation/abbreviation.css">
 
-  <!-- Блок strikethrough -->
+  <!-- Стили для блока thematic-break -->
+  <link rel="stylesheet" type="text/css" href="common.blocks/thematic-break/section-about-me__thematic-break.css">
+
+  <!-- Стили для блока strikethrough -->
   <link rel="stylesheet" type="text/css" href="common.blocks/strikethrough/_theme/strikethrough_theme_light.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/strikethrough/_theme/strikethrough_theme_dark.css">
 
-  <!-- Блок underline -->
+  <!-- Стили для блока underline -->
   <link rel="stylesheet" type="text/css" href="common.blocks/underline/underline.css">
 
-  <!-- Блок section-skills -->
+  <!-- Стили для блока section-skills -->
   <link rel="stylesheet" type="text/css" href="common.blocks/section-skills/main__section-skills.css">
 
-  <!-- Блок slide -->
+  <!-- Стили для блока slide -->
   <link rel="stylesheet" type="text/css" href="common.blocks/slide/section-skills__slide.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/slide/_faded/section-skills__slide_faded.css">
 
-  <!-- Блок arrow -->
+  <!-- Стили для блока arrow -->
   <link rel="stylesheet" type="text/css" href="common.blocks/arrow/arrow.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/arrow/section-skills__arrow.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/arrow/_direction/section-skills__arrow_direction_left.css">
@@ -161,28 +149,28 @@
   <link rel="stylesheet" type="text/css" href="common.blocks/arrow/_theme/arrow_theme_light.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/arrow/_theme/arrow_theme_dark.css">
 
-  <!-- Блок dots -->
+  <!-- Стили для блока dots -->
   <link rel="stylesheet" type="text/css" href="common.blocks/dots/dots.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/dots/section-skills__dots.css">
 
-  <!-- Блок span -->
+  <!-- Стили для блока span -->
   <link rel="stylesheet" type="text/css" href="common.blocks/span/span.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/span/dots__span.css">
 
-  <!-- Блок section-projects -->
+  <!-- Стили для блока section-projects -->
   <link rel="stylesheet" type="text/css" href="common.blocks/section-projects/main__section-projects.css">
 
-  <!-- Блок section-contact-me -->
+  <!-- Стили для блока section-contact-me -->
   <link rel="stylesheet" type="text/css" href="common.blocks/section-contact-me/main__section-contact-me.css">
 
-  <!-- Блок contact-info -->
+  <!-- Стили для блока contact-info -->
   <link rel="stylesheet" type="text/css" href="common.blocks/contact-info/footer__contact-info.css">
 
-  <!-- Блок map -->
+  <!-- Стили для блока map -->
   <link rel="stylesheet" type="text/css" href="common.blocks/map/map.css">
   <link rel="stylesheet" type="text/css" href="common.blocks/map/footer__map.css">
 
-  <!-- Блок contact-links -->
+  <!-- Стили для блока contact-links -->
   <link rel="stylesheet" type="text/css" href="common.blocks/contact-links/contact-links.css">
 
   <!-- Заголовок сайта -->
@@ -190,73 +178,79 @@
 </head>
 
 <body class="body body_theme_light">
-  <header class="header_theme_light body__header">
+  <header class="body__header body__header_theme_light">
     <input class="switcher header__switcher" type="checkbox" aria-label="theme switcher">
 
-    <a class="anchor anchor_theme_light header__anchor" href="#">
+    <a class="anchor anchor_theme_light body__anchor" href="#">
       <!-- svg-логотип разработан Boxicons - https://icon-icons.com/ru/users/knMsnPIfimrTUwypxC07R/icon-sets/ -->
-      <object class="anchor__object" data="common.blocks/object/logo.svg" alt="smiling face"></object>
+      <object class="anchor__object" data="common.blocks/anchor/__object/anchor__object.svg"
+        alt="smiling face"></object>
       <p><b>quentuez's</b> сайт</p>
     </a>
 
-    <ul class="unordered-list header__unordered-list">
+    <ul class="unordered-list body__unordered-list">
       <li class="unordered-list__item">
-        <a class="anchor_hovered_github anchor_theme_light" href="https://github.com/quentuez">
-          <img class="anchor__image" src="common.blocks/image/github-icon.png" alt="github's icon" type="image/png">
+        <a class="anchor anchor_theme_light" href="https://github.com/quentuez">
+          <img class="anchor__image anchor__image_icon_github"
+            src="common.blocks/anchor/__image/_icon/anchor__image_icon_github.png" alt="github's icon" type="image/png">
         </a>
       </li>
       <li class="unordered-list__item">
-        <a class="anchor_hovered_instagram anchor_theme_light" href="https://instagram.com/quentuez">
-          <img class="anchor__image" src="common.blocks/image/instagram-icon.png" alt="instagram's icon"
+        <a class="anchor anchor_theme_light" href="https://instagram.com/quentuez">
+          <img class="anchor__image anchor__image_icon_instagram"
+            src="common.blocks/anchor/__image/_icon/anchor__image_icon_instagram.png" alt="instagram's icon"
             type="image/png">
         </a>
       </li>
       <li class="unordered-list__item">
-        <a class="anchor_hovered_telegram anchor_theme_light" href="https://t.me/quentuez">
-          <img class="anchor__image" src="common.blocks/image/telegram-icon.png" alt="telegram's icon" type="image/png">
+        <a class="anchor anchor_theme_light" href="https://t.me/quentuez">
+          <img class="anchor__image anchor__image_icon_telegram"
+            src="common.blocks/anchor/__image/_icon/anchor__image_icon_telegram.png" alt="telegram's icon"
+            type="image/png">
         </a>
       </li>
       <li class="unordered-list__item">
-        <a class="anchor_hovered_vk anchor_theme_light" href="https://vk.com/quentuez">
-          <img class="anchor__image" src="common.blocks/image/vk-icon.png" alt="vk's icon" type="image/png">
+        <a class="anchor anchor_theme_light" href="https://vk.com/quentuez">
+          <img class="anchor__image anchor__image_icon_vk"
+            src="common.blocks/anchor/__image/_icon/anchor__image_icon_vk.png" alt="vk's icon" type="image/png">
         </a>
       </li>
     </ul>
   </header>
 
   <main>
-    <aside class="main__hamburger-button">
-      <menu class="menu hamburger-button__menu" id="menu-bar">
-        <div class="bar menu__bar menu__bar_position_top bar_theme_light"></div>
-        <div class="bar menu__bar menu__bar_position_middle bar_theme_light"></div>
-        <div class="bar menu__bar menu__bar_position_bottom bar_theme_light"></div>
+    <aside class="body__hamburger-button">
+      <menu class="menu body__menu">
+        <div class="bar menu__bar bar_position_top bar_theme_light"></div>
+        <div class="bar menu__bar bar_position_middle bar_theme_light"></div>
+        <div class="bar menu__bar bar_position_bottom bar_theme_light"></div>
       </menu>
 
-      <nav class="navigation hamburger-button__navigation" id="nav">
+      <nav class="navigation body__navigation">
         <ul class="navigation__unordered-list">
-          <li class="item navigation__item">
+          <li class="navigation__item">
             <a class="anchor navigation__anchor anchor_theme_light" href="#">Главная</a>
           </li>
-          <li class="item navigation__item">
+          <li class="navigation__item">
             <a class="anchor navigation__anchor anchor_theme_light" href="#section-about-me">Об авторе</a>
           </li>
-          <li class="item navigation__item">
+          <li class="navigation__item">
             <a class="anchor navigation__anchor anchor_theme_light" href="#section-skills">Навыки</a>
           </li>
-          <li class="item navigation__item">
+          <li class="navigation__item">
             <a class="anchor navigation__anchor anchor_theme_light" href="#section-projects">Проекты</a>
           </li>
-          <li class="item navigation__item">
+          <li class="navigation__item">
             <a class="anchor navigation__anchor anchor_theme_light" href="#section-contact-me">Связаться со мной</a>
           </li>
         </ul>
       </nav>
     </aside>
 
-    <div class="background main__background background_theme_light" id="menu-bg"></div>
+    <div class="background body__background background_theme_light"></div>
 
-    <section class="main__section-preview">
-      <div class="section-preview__intro-content">
+    <section class="body__section-preview">
+      <div class="body__intro-content">
         <h1 class="heading1">Привет, меня зовут Дмитрий.</h1>
         <p class="paragraph paragraph_style_uppercase">
           <q lang="en" cite="https://www.goodreads.com/quotes/tag/welcome?page=1">Enter freely and of your own free
@@ -274,68 +268,68 @@
           свободное от основной работы время для оттачивания навыков
           разработки веб-приложений.
         </p>
-        <a class="button__anchor" href="#section-contact-me">
-          <button class="button intro-content__button">Связаться со мной</button>
+        <a class="anchor" href="#section-contact-me">
+          <button class="button body__button">Связаться со мной</button>
         </a>
       </div>
 
       <picture>
-        <source srcset="common.blocks/image/a-photo-of-myself.avif" type="image/avif">
-        <img class="intro-content__image" src="common.blocks/image/a-photo-of-myself.jpg" alt="a photo of myself"
+        <source srcset="common.blocks/body/__image/body__image.avif" type="image/avif">
+        <img class="body__image" src="common.blocks/body/__image/body__image.jpg" alt="a photo of myself"
           type="image/jpeg">
       </picture>
     </section>
 
-    <section class="main__section-about-me" id="section-about-me">
+    <section class="section-about-me main__section-about-me" id="section-about-me">
       <h2 class="heading2 section-about-me__heading2">Об авторе</h2>
-      <div>
-        <h3 class="heading3 section-about-me__heading3">
-          Основная информация
-        </h3>
-        <p class="paragraph">
-          Мне 26 лет, родился в городе Искитиме. Отучившись 11 лет в школе, в
-          <time datetime="2014">2014 году</time> поступил в
-          <abbr class="abbreviation" title="Новосибирский Государственный Технический Университет">НГТУ</abbr>
-          на факультет радиотехники и электроники.
-        </p>
-        <hr class="section-about-me__thematic-break">
-        <h3 class="heading3 section-about-me__heading3">Образование</h3>
-        <p class="paragraph">
-          В <time datetime="2018">2018</time> присвоена квалификация бакалавра
-          по направлению «Конструирование и технология радиоэлектронных средств».
-          Чуть позднее, в <time datetime="2020">2020 году</time>, освоил
-          программу по тому же направлению и получил степень магистра.
-        </p>
-        <hr class="section-about-me__thematic-break">
-        <h3 class="heading3 section-about-me__heading3">Работа</h3>
-        <p class="paragraph">
-          В <time datetime="2019-11">ноябре 2019 года</time> устроился
-          работать в АО/ООО «Катод» на должность инженера-конструктора III
-          категории. Сайт предприятия -
-          <b><a class="anchor anchor_theme_light" href="http://katodnv.com/ru">http://katodnv<wbr >.com<wbr >/ru</a></b>
-        </p>
-        <hr class="section-about-me__thematic-break">
-        <h3 class="heading3 section-about-me__heading3">Хобби</h3>
-        <p class="paragraph">
-          Увлекаюсь
-          <b><a class="anchor anchor_theme_light" href="computer-games.blocks/index.html">компьютерными
-              играми</a></b>,
-          <b><a class="anchor anchor_theme_light" href="#">рок-музыкой</a></b>, активным видом отдыха (плаванием,
-          воллейболом,
-          <s class="strikethrough_theme_light">аргентинским танго</s>,
-          катанием на сноуборде и велосипеде), а также обучаюсь игре на электрогитаре. Более подробно
-          о некоторых хобби рассказано и показано по соответствующим
-          <u class="underline">сылкам</u>.
-        </p>
-      </div>
+
+      <h3 class="heading3 section-about-me__heading3">Основная информация</h3>
+      <p class="paragraph">
+        Мне 26 лет, родился в городе Искитиме. Отучившись 11 лет в школе, в
+        <time datetime="2014">2014 году</time> поступил в
+        <abbr class="abbreviation" title="Новосибирский Государственный Технический Университет">НГТУ</abbr>
+        на факультет радиотехники и электроники.
+      </p>
+      <hr class="thematic-break section-about-me__thematic-break">
+
+      <h3 class="heading3 section-about-me__heading3">Образование</h3>
+      <p class="paragraph">
+        В <time datetime="2018">2018</time> присвоена квалификация бакалавра
+        по направлению «Конструирование и технология радиоэлектронных средств».
+        Чуть позднее, в <time datetime="2020">2020 году</time>, освоил
+        программу по тому же направлению и получил степень магистра.
+      </p>
+      <hr class="thematic-break section-about-me__thematic-break">
+
+      <h3 class="heading3 section-about-me__heading3">Работа</h3>
+      <p class="paragraph">
+        В <time datetime="2019-11">ноябре 2019 года</time> устроился
+        работать в АО/ООО «Катод» на должность инженера-конструктора III
+        категории. Сайт предприятия -
+        <b><a class="anchor anchor_theme_light" href="http://katodnv.com">http://katodnv<wbr >.com</a></b>
+      </p>
+      <hr class="thematic-break section-about-me__thematic-break">
+
+      <h3 class="heading3 section-about-me__heading3">Хобби</h3>
+      <p class="paragraph">
+        Увлекаюсь
+        <b><a class="anchor anchor_theme_light" href="computer-games.blocks/index.html">компьютерными
+            играми</a></b>,
+        <b><a class="anchor anchor_theme_light" href="#">рок-музыкой</a></b>, активным видом отдыха (плаванием,
+        воллейболом,
+        <s class="strikethrough strikethrough_theme_light">аргентинским танго</s>,
+        катанием на сноуборде и велосипеде), а также обучаюсь игре на электрогитаре. Более подробно
+        о некоторых хобби рассказано и показано по соответствующим
+        <u class="underline">сылкам</u>.
+      </p>
     </section>
 
-    <section class="main__section-skills" id="section-skills">
+    <section class="section-skills main__section-skills" id="section-skills">
       <h2 class="heading2 section-skills__heading2">Навыки</h2>
-      <div class="section-skills__slide section-skills__slide_faded">
+      <div class="slide section-skills__slide section-skills__slide_faded">
         <!-- svg-логотип разработан W3C - https://www.w3.org/html/logo/downloads/HTML5_Logo.svg -->
-        <img class="slide__image" src="common.blocks/slide/html-logo.png" alt="html's logo" type="image/png">
-        <ul class="section-skills__unordered-list">
+        <img class="image slide__image" src="common.blocks/slide/html-logo.png" alt="html's logo" type="image/png">
+        <ul class="unordered-list section-skills__unordered-list">
           <li class="item section-skills__item">
             Семантическое использование тегов.
           </li>
@@ -349,8 +343,8 @@
       </div>
       <div class="section-skills__slide section-skills__slide_faded">
         <!-- png-логотип разработан Яндекс - https://ru.bem.info/methodology/ -->
-        <img class="slide__image" src="common.blocks/slide/bem-logo.png" alt="bem's logo" type="image/png">
-        <ul class="section-skills__unordered-list">
+        <img class="image slide__image" src="common.blocks/slide/bem-logo.png" alt="bem's logo" type="image/png">
+        <ul class="unordered-list section-skills__unordered-list">
           <li class="item section-skills__item">
             Разделение интерфейса на компоненты.
           </li>
@@ -359,6 +353,7 @@
           </li>
         </ul>
       </div>
+
       <a class="arrow section-skills__arrow section-skills__arrow_direction_left arrow_theme_light"
         onclick="plusSlides(-1)">❮</a>
       <a class="arrow section-skills__arrow section-skills__arrow_direction_right arrow_theme_light"
@@ -369,13 +364,13 @@
       </div>
     </section>
 
-    <section class="main__section-projects" id="section-projects">
+    <section class="section-projects main__section-projects" id="section-projects">
       <h2 class="heading2 section-projects__heading2">Проекты</h2>
       <div>
         <a class="anchor" href="https://github.com/quentuez/test-task-by-sibers">
           <h3 class="heading3 heading3_theme_light">Contact book</h3>
           <!-- Картинка взята отсюда - https://www.istockphoto.com/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B1%D0%BB%D0%BE%D0%BA%D0%BD%D0%BE%D1%82-gm146725857-8325217 -->
-          <img class="section-projects__image" src="common.blocks/section-projects/project-1.png"
+          <img class="image section-projects__image" src="common.blocks/section-projects/project-1.png"
             alt="contact book's image" type="image/png">
         </a>
       </div>
@@ -383,7 +378,7 @@
         <a class="anchor">
           <h3 class="heading3 heading3_theme_light">In development</h3>
           <!-- Картинка взята отсюда - https://ru.wordpress.org/plugins/easy-under-construction/ -->
-          <img class="section-projects__image" src="common.blocks/section-projects/project-2.png"
+          <img class="image section-projects__image" src="common.blocks/section-projects/project-2.png"
             alt="under construction's image" type="image/png">
         </a>
       </div>
@@ -391,7 +386,7 @@
         <a class="anchor">
           <h3 class="heading3 heading3_theme_light">In development</h3>
           <!-- Картинка взята отсюда - https://ru.wordpress.org/plugins/easy-under-construction/ -->
-          <img class="section-projects__image" src="common.blocks/section-projects/project-3.png"
+          <img class="image section-projects__image" src="common.blocks/section-projects/project-3.png"
             alt="under construction's image" type="image/png">
         </a>
       </div>
@@ -399,18 +394,18 @@
         <a class="anchor">
           <h3 class="heading3 heading3_theme_light">In development</h3>
           <!-- Картинка взята отсюда - https://ru.wordpress.org/plugins/easy-under-construction/ -->
-          <img class="section-projects__image" src="common.blocks/section-projects/project-4.png"
+          <img class="image section-projects__image" src="common.blocks/section-projects/project-4.png"
             alt="under construction's image" type="image/png">
         </a>
       </div>
     </section>
   </main>
 
-  <footer class="main__section-contact-me" id="section-contact-me">
+  <footer class="section-contact-me main__section-contact-me" id="section-contact-me">
     <h2 class="heading2 section-contact-me__heading2">Связаться со мной</h2>
-    <div class="footer__contact-info">
+    <div class="contact-info footer__contact-info">
       <div class="map footer__map" id="map">
-        <noscript><img src="common.blocks/map/map.png" type="image/png"></noscript>
+        <noscript><img class="image" src="common.blocks/map/map.png" type="image/png"></noscript>
       </div>
       <address class="contact-links footer__contact-links">
         <p class="paragraph section-contact-me__paragraph">
@@ -426,7 +421,7 @@
 
   <!-- Скрипты -->
   <script src="common.blocks/switcher/switcher.js"></script>
-  <script src="common.blocks/hamburger-button/hamburger-button.js"></script>
+  <script src="common.blocks/body/__hamburger-button/body__hamburger-button.js"></script>
   <!-- Код взят отсюда - https://www.w3schools.com/howto/howto_js_slideshow.asp -->
   <script src="common.blocks/section-skills/section-skills.js"></script>
   <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
