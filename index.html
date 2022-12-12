@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html class="html" lang="ru">
 
 <head>
@@ -10,15 +9,11 @@
   <meta name="description" content="Привет, мир!">
   <meta name="description" content="Сайт предназначен для предоставления информации обо мне, Дмитрии Клименкове.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <!-- Шрифт разработан Christian Robertson - https://fonts.google.com/specimen/Merriweather -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
   <!-- Иконка разработана Konami - https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles:_Tournament_Fighters -->
-  <link rel="apple-touch-icon" href="common.blocks/favicon.ico">
   <link rel="icon" type="image/x-icon" href="common.blocks/favicon.ico">
-
   <!-- Заголовок сайта -->
   <title>Главная страница - quentuez's сайт</title>
 </head>
@@ -26,14 +21,14 @@
 <body class="body body_theme_light">
   <header class="body__header body__header_theme_light">
     <input class="switcher body__switcher" type="checkbox" aria-label="theme switcher">
-
     <a class="anchor anchor_theme_light body__anchor" href="#">
       <!-- svg-логотип разработан Boxicons - https://icon-icons.com/ru/users/knMsnPIfimrTUwypxC07R/icon-sets/ -->
       <object class="anchor__object" data="common.blocks/anchor/__object/anchor__object.svg"
         alt="smiling face"></object>
-      <p><b>quentuez's</b> сайт</p>
+      <p>
+        <b>quentuez's</b> сайт
+      </p>
     </a>
-
     <ul class="unordered-list body__unordered-list">
       <li class="unordered-list__item">
         <a class="anchor anchor_theme_light" href="https://github.com/quentuez">
@@ -68,11 +63,13 @@
   <main>
     <aside class="body__hamburger-button">
       <menu class="menu body__menu">
-        <div class="bar menu__bar bar_position_top bar_theme_light"></div>
-        <div class="bar menu__bar bar_position_middle bar_theme_light"></div>
-        <div class="bar menu__bar bar_position_bottom bar_theme_light"></div>
+        <div class="bar menu__bar bar_position_top bar_theme_light">
+        </div>
+        <div class="bar menu__bar bar_position_middle bar_theme_light">
+        </div>
+        <div class="bar menu__bar bar_position_bottom bar_theme_light">
+        </div>
       </menu>
-
       <nav class="navigation body__navigation">
         <ul class="navigation__unordered-list">
           <li class="navigation__item">
@@ -119,17 +116,12 @@
           <button class="button body__button">Связаться со мной</button>
         </a>
       </div>
-
-      <picture>
-        <source srcset="common.blocks/body/__image/body__image.avif" type="image/avif">
-        <img class="body__image" src="common.blocks/body/__image/body__image.jpg" alt="a photo of myself"
-          type="image/jpeg">
-      </picture>
+      <img class="body__image" src="common.blocks/body/__image/body__image.avif" alt="a photo of myself"
+        type="image/avif">
     </section>
 
     <section class="body__section-about-me" id="section-about-me">
       <h2 class="heading2 body__heading2">Об авторе</h2>
-
       <h3 class="heading3 body__heading3">Основная информация</h3>
       <p class="paragraph">
         Мне 26 лет, родился в городе Искитиме. Отучившись 11 лет в школе, в
@@ -138,7 +130,6 @@
         на факультет радиотехники и электроники.
       </p>
       <hr class="body__thematic-break">
-
       <h3 class="heading3 body__heading3">Образование</h3>
       <p class="paragraph">
         В <time datetime="2018">2018</time> присвоена квалификация бакалавра
@@ -147,7 +138,6 @@
         программу по тому же направлению и получил степень магистра.
       </p>
       <hr class="body__thematic-break">
-
       <h3 class="heading3 body__heading3">Работа</h3>
       <p class="paragraph">
         В <time datetime="2019-11">ноябре 2019 года</time> устроился
@@ -156,7 +146,6 @@
         <b><a class="anchor anchor_theme_light" href="http://katodnv.com">http://katodnv<wbr >.com</a></b>
       </p>
       <hr class="body__thematic-break">
-
       <h3 class="heading3 body__heading3">Хобби</h3>
       <p class="paragraph">
         Увлекаюсь
@@ -192,7 +181,6 @@
           <li class="item slide__item">Проектирование структуры по методологии.</li>
         </ul>
       </div>
-
       <a class="arrow body__arrow body__arrow_direction_left arrow_theme_light" onclick="plusSlides(-1)">❮</a>
       <a class="arrow body__arrow body__arrow_direction_right arrow_theme_light" onclick="plusSlides(1)">❯</a>
       <div class="dots body__dots">
@@ -203,28 +191,24 @@
 
     <section class="body__section-projects" id="section-projects">
       <h2 class="heading2 body__heading2_style_grid">Проекты</h2>
-
       <a class="anchor" href="https://github.com/quentuez/test-task-by-sibers">
         <h3 class="heading3 heading3_theme_light">Contact book</h3>
-        <!-- Картинка взята отсюда - https://www.istockphoto.com/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B1%D0%BB%D0%BE%D0%BA%D0%BD%D0%BE%D1%82-gm146725857-8325217 -->
+        <!-- Картинка взята отсюда - https://www.istockphoto.com/photo/notebook-gm146725857-8325217 -->
         <img class="body__image_type_project" src="common.blocks/body/__image/_type/body__image_type_project_one.webp"
           alt="contact book's image" type="image/webp">
       </a>
-
       <a class="anchor">
         <h3 class="heading3 heading3_theme_light">In development</h3>
         <!-- Картинка взята отсюда - https://ru.wordpress.org/plugins/easy-under-construction/ -->
         <img class="body__image_type_project" src="common.blocks/body/__image/_type/body__image_type_project_two.webp"
           alt="under construction's image" type="image/webp">
       </a>
-
       <a class="anchor">
         <h3 class="heading3 heading3_theme_light">In development</h3>
         <!-- Картинка взята отсюда - https://ru.wordpress.org/plugins/easy-under-construction/ -->
         <img class="body__image_type_project" src="common.blocks/body/__image/_type/body__image_type_project_three.webp"
           alt="under construction's image" type="image/webp">
       </a>
-
       <a class="anchor">
         <h3 class="heading3 heading3_theme_light">In development</h3>
         <!-- Картинка взята отсюда - https://ru.wordpress.org/plugins/easy-under-construction/ -->
