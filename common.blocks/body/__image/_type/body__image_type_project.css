@@ -1,0 +1,60 @@
+.body__image_type_project {
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  filter: blur(3px);
+  transition: 0.3s;
+}
+
+.body__image_type_project:hover {
+  filter: blur(0px);
+  transition: 0.3s;
+}
+
+/* Large desktops and laptops */
+@media (max-width: 2560px) {
+  .body__image_type_project {
+    height: 220px;
+    width: 550px;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (max-width: 1440px) {
+  .body__image_type_project {
+    height: 170px;
+    width: 425px;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 1024px) {
+  .body__image_type_project {
+    height: 280px;
+    width: 700px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+  .body__image_type_project {
+    height: 160px;
+    width: 400px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 425px) {
+  .body__image_type_project {
+    height: 120px;
+    width: 300px;
+  }
+}
+
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .body__image_type_project {
+    height: 120px;
+    width: 300px;
+  }
+}

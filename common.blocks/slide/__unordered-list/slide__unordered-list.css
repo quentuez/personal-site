@@ -1,0 +1,6 @@
+.slide__unordered-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+}

@@ -1,0 +1,37 @@
+/* Large desktops and laptops */
+@media (max-width: 2560px) {
+  .body__section-projects {
+    align-content: center;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: auto 400px 400px;
+    gap: 175px;
+    grid-template-areas:
+      "A A"
+      "B B"
+      "B B";
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 100px;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (max-width: 1440px) {
+  .body__section-projects {
+    grid-template-columns: 400px 400px;
+    grid-template-rows: auto 200px 200px;
+    gap: 100px;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 1024px) {
+  .body__section-projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+    justify-content: space-between;
+  }
+}

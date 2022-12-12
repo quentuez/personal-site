@@ -1,0 +1,16 @@
+/* Large desktops and laptops */
+@media (max-width: 2560px) {
+  .body__slide {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 425px) {
+  .body__slide {
+    display: flex;
+    flex-direction: column;
+  }
+}
