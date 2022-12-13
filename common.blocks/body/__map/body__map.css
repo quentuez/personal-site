@@ -1,16 +1,16 @@
  /* Large desktops and laptops */
  @media (max-width: 2560px) {
    .body__map {
-     height: 1000px;
-     width: 1000px;
+     height: 700px;
+     width: 700px;
    }
  }
 
  /* Landscape tablets and medium desktops */
  @media (max-width: 1440px) {
    .body__map {
-     height: 900px;
-     width: 900px;
+     height: 800px;
+     width: 800px;
    }
  }
 

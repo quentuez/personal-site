@@ -6,14 +6,12 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="IE=edge">
   <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Привет, мир!">
-  <meta name="description" content="Сайт предназначен для предоставления информации обо мне, Дмитрии Клименкове.">
+  <meta name="description" content="Здесь содержится основная информация обо мне.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Шрифт разработан Christian Robertson - https://fonts.google.com/specimen/Merriweather -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <!-- Иконка разработана Konami - https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles:_Tournament_Fighters -->
   <link rel="icon" type="image/x-icon" href="common.blocks/favicon.ico">
+
   <!-- Заголовок сайта -->
   <title>Главная страница - quentuez's сайт</title>
 </head>
@@ -117,7 +115,7 @@
         </a>
       </div>
       <img class="body__image" src="common.blocks/body/__image/body__image.avif" alt="a photo of myself"
-        type="image/avif">
+        type="image/avif" loading="lazy">
     </section>
 
     <section class="body__section-about-me" id="section-about-me">
@@ -165,7 +163,7 @@
       <div class="slide body__slide slide_faded">
         <!-- svg-логотип разработан W3C - https://www.w3.org/html/logo/downloads/HTML5_Logo.svg -->
         <img class="slide__image slide__image_one" src="common.blocks/slide/__image/_one/slide__image_one.webp"
-          alt="html's logo" type="image/webp">
+          alt="html's logo" type="image/webp" loading="lazy">
         <ul class="unordered-list slide__unordered-list">
           <li class="item slide__item">Семантическое использование тегов.</li>
           <li class="item slide__item">Адаптивная верстка под различные устройства.</li>
@@ -175,7 +173,7 @@
       <div class="slide body__slide slide_fade">
         <!-- webp-логотип разработан Яндекс - https://ru.bem.info/methodology/ -->
         <img class="slide__image slide__image_one" src="common.blocks/slide/__image/_two/slide__image_two.webp"
-          alt="bem's logo" type="image/webp">
+          alt="bem's logo" type="image/webp" loading="lazy">
         <ul class="unordered-list slide__unordered-list">
           <li class="item slide__item">Разделение интерфейса на компоненты.</li>
           <li class="item slide__item">Проектирование структуры по методологии.</li>
@@ -195,25 +193,25 @@
         <h3 class="heading3 heading3_theme_light">Contact book</h3>
         <!-- Картинка взята отсюда - https://www.istockphoto.com/photo/notebook-gm146725857-8325217 -->
         <img class="body__image_type_project" src="common.blocks/body/__image/_type/body__image_type_project_one.webp"
-          alt="contact book's image" type="image/webp">
+          alt="contact book's image" type="image/webp" loading="lazy">
       </a>
       <a class="anchor">
         <h3 class="heading3 heading3_theme_light">In development</h3>
         <!-- Картинка взята отсюда - https://ru.wordpress.org/plugins/easy-under-construction/ -->
         <img class="body__image_type_project" src="common.blocks/body/__image/_type/body__image_type_project_two.webp"
-          alt="under construction's image" type="image/webp">
+          alt="under construction's image" type="image/webp" loading="lazy">
       </a>
       <a class="anchor">
         <h3 class="heading3 heading3_theme_light">In development</h3>
         <!-- Картинка взята отсюда - https://ru.wordpress.org/plugins/easy-under-construction/ -->
         <img class="body__image_type_project" src="common.blocks/body/__image/_type/body__image_type_project_three.webp"
-          alt="under construction's image" type="image/webp">
+          alt="under construction's image" type="image/webp" loading="lazy">
       </a>
       <a class="anchor">
         <h3 class="heading3 heading3_theme_light">In development</h3>
         <!-- Картинка взята отсюда - https://ru.wordpress.org/plugins/easy-under-construction/ -->
         <img class="body__image_type_project" src="common.blocks/body/__image/_type/body__image_type_project_four.webp"
-          alt="under construction's image" type="image/webp">
+          alt="under construction's image" type="image/webp" loading="lazy">
       </a>
     </section>
   </main>
@@ -223,7 +221,7 @@
     <div class="body__contact-info">
       <div class="map body__map" id="map">
         <noscript>
-          <img src="common.blocks/map/map.webp" type="image/webp">
+          <img src="common.blocks/map/map.webp" type="image/webp" loading="lazy">
         </noscript>
       </div>
       <address class="contact-links">
@@ -238,9 +236,12 @@
     </div>
   </footer>
 
-  <!-- Стили -->
+  <!-- Шрифт разработан Christian Robertson - https://fonts.google.com/specimen/Merriweather -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap">
 
+  <!-- Стили -->
   <link rel="stylesheet" type="text/css" href="common.blocks/abbreviation/abbreviation.css">
 
   <link rel="stylesheet" type="text/css" href="common.blocks/anchor/__image/_icon/anchor__image_icon_github.css">

@@ -1,5 +1,3 @@
-fetch("https://api.npoint.io/9fcd745a10b1bc1e9730").then((response) => response.json()).then((data) => buildTable(data));
-
 function buildTable(data) {
   let table = document.querySelector(".table-body");
   for (let i = 0; i < data.length; i++) {
@@ -14,3 +12,5 @@ function buildTable(data) {
     table.innerHTML += row;
   }
 }
+
+fetch("https://api.npoint.io/b9a76eb039af690e0492").then((response) => response.json()).then((data) => buildTable(data));

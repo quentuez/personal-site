@@ -880,5 +880,41 @@
     "developer": "Naughty Dog",
     "inProgress": "Нет",
     "isComplete": "Да"
+  },
+  {
+    "id": 98,
+    "title": "Uncharted: The Lost Legacy",
+    "myScore": "X",
+    "release": "2022",
+    "developer": "Naughty Dog",
+    "inProgress": "Да",
+    "isComplete": "Нет"
+  },
+  {
+    "id": 99,
+    "title": "Spider-Man",
+    "myScore": "X",
+    "release": "2022",
+    "developer": "Insomniac Games",
+    "inProgress": "Да",
+    "isComplete": "Нет"
+  },
+  {
+    "id": 100,
+    "title": "God of War",
+    "myScore": "X",
+    "release": "2022",
+    "developer": "Santa Monica Studio",
+    "inProgress": "Да",
+    "isComplete": "Нет"
+  },
+  {
+    "id": 101,
+    "title": "Darkwood",
+    "myScore": "X",
+    "release": "2017",
+    "developer": "Acid Wizard Studio",
+    "inProgress": "Да",
+    "isComplete": "Нет"
   }
 ]

@@ -2,6 +2,6 @@
   background-color: rgb(237, 238, 242);
 }
 
-tbody>tr:first-of-type {
+tbody>tr {
   text-align: left;
 }

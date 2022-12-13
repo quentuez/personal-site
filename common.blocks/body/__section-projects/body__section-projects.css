@@ -4,15 +4,14 @@
     align-content: center;
     display: grid;
     grid-template-columns: 600px 600px;
-    grid-template-rows: auto 400px 400px;
-    gap: 175px;
+    grid-template-rows: auto 300px 300px;
+    gap: 125px;
     grid-template-areas:
       "A A"
       "B B"
       "B B";
     justify-content: center;
     justify-items: center;
-    margin-bottom: 100px;
   }
 }
 

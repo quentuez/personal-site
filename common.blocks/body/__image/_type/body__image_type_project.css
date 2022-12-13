@@ -1,5 +1,6 @@
 .body__image_type_project {
   border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   display: block;
   margin: 0 auto;
   filter: blur(3px);

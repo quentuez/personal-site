@@ -1,5 +1,6 @@
 .body__image {
   border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Large desktops and laptops */
@@ -7,7 +8,7 @@
   .body__image {
     display: block;
     height: calc(961px - 300px);
-    margin: 100px;
+    margin: 100px 100px 0 100px;
     width: calc(826px - 300px);
   }
 }

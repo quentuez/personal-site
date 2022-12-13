@@ -1,3 +1,4 @@
 .navigation__unordered-list {
   padding-left: 22px;
+  list-style-type: none;
 }
