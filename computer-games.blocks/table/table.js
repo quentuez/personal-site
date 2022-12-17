@@ -13,4 +13,4 @@ function buildTable(data) {
   }
 }
 
-fetch("https://api.npoint.io/b9a76eb039af690e0492").then((response) => response.json()).then((data) => buildTable(data));
+fetch("https://api.npoint.io/025c63acd337f818511e").then((response) => response.json()).then((data) => buildTable(data));

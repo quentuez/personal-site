@@ -873,7 +873,7 @@
     "isComplete": "Да"
   },
   {
-    "id": 97,
+    "id": 98,
     "title": "Uncharted 4: A Thief's End",
     "myScore": "5",
     "release": "2022",
@@ -882,16 +882,16 @@
     "isComplete": "Да"
   },
   {
-    "id": 98,
+    "id": 99,
     "title": "Uncharted: The Lost Legacy",
-    "myScore": "X",
+    "myScore": "5",
     "release": "2022",
     "developer": "Naughty Dog",
-    "inProgress": "Да",
-    "isComplete": "Нет"
+    "inProgress": "Нет",
+    "isComplete": "Да"
   },
   {
-    "id": 99,
+    "id": 100,
     "title": "Spider-Man",
     "myScore": "X",
     "release": "2022",
@@ -900,7 +900,7 @@
     "isComplete": "Нет"
   },
   {
-    "id": 100,
+    "id": 101,
     "title": "God of War",
     "myScore": "X",
     "release": "2022",
@@ -909,12 +909,21 @@
     "isComplete": "Нет"
   },
   {
-    "id": 101,
+    "id": 102,
     "title": "Darkwood",
     "myScore": "X",
     "release": "2017",
     "developer": "Acid Wizard Studio",
     "inProgress": "Да",
     "isComplete": "Нет"
+  },
+  {
+    "id": 103,
+    "title": "Soma",
+    "myScore": "5",
+    "release": "2015",
+    "developer": "Frictional Games",
+    "inProgress": "Нет",
+    "isComplete": "Да"
   }
 ]
