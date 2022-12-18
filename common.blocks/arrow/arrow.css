@@ -2,6 +2,10 @@
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }

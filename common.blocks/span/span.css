@@ -2,6 +2,7 @@
   background-color: #bbb;
   border-radius: 50%;
   cursor: pointer;
+  -webkit-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
 }
 

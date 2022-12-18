@@ -1,4 +1,6 @@
 .anchor_theme_light {
-  filter: invert(0%);
+  -webkit-filter: invert(0%);
+          filter: invert(0%);
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }

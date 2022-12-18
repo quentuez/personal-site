@@ -1,3 +1,4 @@
 .underline {
-    text-decoration: red wavy underline;
+    -webkit-text-decoration: red wavy underline;
+            text-decoration: red wavy underline;
 }

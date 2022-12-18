@@ -8,6 +8,7 @@
 .change-bg {
   height: 775px;
   top: 50px;
-  transform: translate(-60%, -30%);
+  -webkit-transform: translate(-60%, -30%);
+          transform: translate(-60%, -30%);
   width: 775px;
 }

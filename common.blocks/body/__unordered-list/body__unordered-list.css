@@ -1,4 +1,6 @@
 .body__unordered-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 

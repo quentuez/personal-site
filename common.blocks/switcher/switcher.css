@@ -1,8 +1,12 @@
 .switcher {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background: #eeeeee;
   border-radius: 20px;
-  box-shadow: inset 0 0 5px #00000033;
+  -webkit-box-shadow: inset 0 0 5px #00000033;
+          box-shadow: inset 0 0 5px #00000033;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -11,8 +15,11 @@
   content: "";
   cursor: pointer;
   border-radius: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  transform: scale(1.1);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 

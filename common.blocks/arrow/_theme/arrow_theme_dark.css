@@ -5,5 +5,6 @@
 .arrow_theme_dark:hover {
   background-color: rgba(255, 255, 255, 0.8);
   color: #161417;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }

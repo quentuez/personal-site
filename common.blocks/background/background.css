@@ -1,5 +1,6 @@
 .background {
   background-color: #161417;
   border-radius: 50%;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }

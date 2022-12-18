@@ -1,6 +1,18 @@
 .slide_faded {
-  animation-duration: 1.5s;
-  animation-name: faded;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-name: faded;
+          animation-name: faded;
+}
+
+@-webkit-keyframes faded {
+  from {
+    opacity: 0.3;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes faded {

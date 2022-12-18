@@ -1,7 +1,9 @@
 .bar_position_top {
-  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
 }
 
 .change .bar_position_top {
-  transform: translateY(4px) rotateZ(-45deg);
+  -webkit-transform: translateY(4px) rotateZ(-45deg);
+          transform: translateY(4px) rotateZ(-45deg);
 }

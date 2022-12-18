@@ -1,5 +1,6 @@
 .bar {
   background-color: #161417;
   border-radius: 20px;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }

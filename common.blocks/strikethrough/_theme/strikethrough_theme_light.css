@@ -1,4 +1,5 @@
 .strikethrough_theme_light {
   color: #161417;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }

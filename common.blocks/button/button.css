@@ -3,18 +3,22 @@
   color: #161417;
   font-size: 1.5em;
   border-radius: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   text-decoration: none;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .button:active {
   background: #1e88e5;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .button:hover {
   background: #64b5f6;
   cursor: pointer;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
