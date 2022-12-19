@@ -6,7 +6,7 @@
 
 .anchor__image_icon_github:hover {
   -webkit-filter: invert(33%) sepia(82%) saturate(358%) hue-rotate(222deg) brightness(88%) contrast(83%);
-          filter: invert(33%) sepia(82%) saturate(358%) hue-rotate(222deg) brightness(88%) contrast(83%);
- 
+  filter: invert(33%) sepia(82%) saturate(358%) hue-rotate(222deg) brightness(88%) contrast(83%);
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }

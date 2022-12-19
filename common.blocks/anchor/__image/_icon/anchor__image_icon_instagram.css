@@ -6,7 +6,7 @@
 
 .anchor__image_icon_instagram:hover {
   -webkit-filter: invert(29%) sepia(61%) saturate(4729%) hue-rotate(324deg) brightness(94%) contrast(87%);
-          filter: invert(29%) sepia(61%) saturate(4729%) hue-rotate(324deg) brightness(94%) contrast(87%);
+  filter: invert(29%) sepia(61%) saturate(4729%) hue-rotate(324deg) brightness(94%) contrast(87%);
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }

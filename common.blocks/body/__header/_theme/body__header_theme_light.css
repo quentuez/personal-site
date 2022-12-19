@@ -1,7 +1,7 @@
 .body__header_theme_light {
   background-color: #f5f5f5;
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   color: #161417;
   -webkit-transition: 0.3s;
   transition: 0.3s;

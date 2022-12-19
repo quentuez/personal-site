@@ -1,6 +1,6 @@
 .anchor_theme_dark {
   -webkit-filter: invert(100%);
-          filter: invert(100%);
+  filter: invert(100%);
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
